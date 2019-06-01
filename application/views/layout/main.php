@@ -14,7 +14,7 @@
 	 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<title>Sistem Sirkulasi Pengawas Ujian</title>
 </head>
-<body style="background-color: #5F9EA0;">
+<body style="background-color: #87CEFA;">
 	<?php 
 	$this->load->view('layout/navbar');
 	if ($page=='userview/home') {
