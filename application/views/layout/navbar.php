@@ -11,12 +11,12 @@
 }
 </style>
 
-<div id="navbar" style="margin-top:">
-  <nav class="navbar navbar-expand navbar-dark navbar-toggleable-sm py-3" style="background-color:#ffff;border-style: solid;border-color: black;border-width: 0px; height: 130px;">
+<div id="navbar" style="background-color:#ffff;border-style: solid;border-color: black;border-width: 0px; height: 90px; padding-top: -1px;">
+  <nav class="navbar navbar-expand navbar-dark navbar-toggleable-sm py-3" >
     <table>
       <tr>
         <td>
-          <img src="<?php echo base_url()?>img/logo1.png" style="height: 80px"><a href="<?php base_url()?>Home"></a>
+          <img src="<?php echo base_url()?>img/logo1.png" style="height: 80px; margin-top: -10px; margin-left: 50px;"><a href="<?php base_url()?>Home"></a>
         </td>
       </tr>
     </table>
