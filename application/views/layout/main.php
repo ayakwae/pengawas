@@ -20,6 +20,36 @@
 	if ($page=='userview/home') {
 			$menu['home'] = 'active';
 		 }
+	else if ($page=='userview/loginadmin') {
+			$menu['loginadmin'] = 'active';
+		 }
+	else if ($page=='userview/daftarkoordinator') {
+			$menu['daftarkoordinator'] = 'active';
+		 }
+	else if ($page=='userview/daftarpengawas') {
+			$menu['daftarpengawas'] = 'active';
+		 }
+	else if ($page=='userview/edittambahkoordinator') {
+			$menu['edittambahkoordinator'] = 'active';
+		 }
+	else if ($page=='userview/edittambahpengawas') {
+			$menu['edittambahpengawas'] = 'active';
+		 }
+	else if ($page=='userview/halamanprofil') {
+			$menu['halamanprofil'] = 'active';
+		 }
+	else if ($page=='userview/halamanreport') {
+			$menu['halamanreport'] = 'active';
+		 }
+	else if ($page=='userview/lihathonor') {
+			$menu['lihathonor'] = 'active';
+		 }
+	else if ($page=='userview/lihatjadwal') {
+			$menu['lihatjadwal'] = 'active';
+		 }
+	else if ($page=='userview/lihatpresensi') {
+			$menu['lihatpresensi'] = 'active';
+		 }
 	?>
 	<div class="container" style="border-color: <?php echo $border?>;border-style: solid;">
 		<?php $this->load->view($page)?>
