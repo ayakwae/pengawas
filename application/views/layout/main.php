@@ -19,36 +19,43 @@
 	$this->load->view('layout/navbar');
 	if ($page=='userview/home') {
 			$menu['home'] = 'active';
-		 }
-	else if ($page=='userview/loginadmin') {
-			$menu['loginadmin'] = 'active';
-		 }
-	else if ($page=='userview/daftarkoordinator') {
-			$menu['daftarkoordinator'] = 'active';
+			$menu['daftarpengawas'] = '';
+			$menu['daftarkoordinator'] = '';
+			$menu['halamanreport'] = '';
+			$menu['loginadmin'] = '';
+			$this->load->view('layout/menu',$menu);
 		 }
 	else if ($page=='userview/daftarpengawas') {
+			$menu['home'] = '';
 			$menu['daftarpengawas'] = 'active';
+			$menu['daftarkoordinator'] = '';
+			$menu['halamanreport'] = '';
+			$menu['loginadmin'] = '';
+			$this->load->view('layout/menu',$menu);
 		 }
-	else if ($page=='userview/edittambahkoordinator') {
-			$menu['edittambahkoordinator'] = 'active';
-		 }
-	else if ($page=='userview/edittambahpengawas') {
-			$menu['edittambahpengawas'] = 'active';
-		 }
-	else if ($page=='userview/halamanprofil') {
-			$menu['halamanprofil'] = 'active';
+	else if ($page=='userview/daftarkoordinator') {
+			$menu['home'] = '';
+			$menu['daftarpengawas'] = '';
+			$menu['daftarkoordinator'] = 'active';
+			$menu['halamanreport'] = '';
+			$menu['loginadmin'] = '';
+			$this->load->view('layout/menu',$menu);
 		 }
 	else if ($page=='userview/halamanreport') {
+			$menu['home'] = '';
+			$menu['daftarpengawas'] = '';
+			$menu['daftarkoordinator'] = '';
 			$menu['halamanreport'] = 'active';
+			$menu['loginadmin'] = '';
+			$this->load->view('layout/menu',$menu);
 		 }
-	else if ($page=='userview/lihathonor') {
-			$menu['lihathonor'] = 'active';
-		 }
-	else if ($page=='userview/lihatjadwal') {
-			$menu['lihatjadwal'] = 'active';
-		 }
-	else if ($page=='userview/lihatpresensi') {
-			$menu['lihatpresensi'] = 'active';
+	else if ($page=='userview/loginadmin') {
+			$menu['home'] = '';
+			$menu['daftarpengawas'] = '';
+			$menu['daftarkoordinator'] = '';
+			$menu['halamanreport'] = '';
+			$menu['loginadmin'] = 'active';
+			$this->load->view('layout/menu',$menu);
 		 }
 	?>
 	<div class="container" style="border-color: <?php echo $border?>;border-style: solid;">
