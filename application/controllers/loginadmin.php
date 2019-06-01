@@ -8,7 +8,7 @@ class LoginAdmin extends CI_Controller
 	{
 		$data['border']='transparent';
 		$data['page']='userview/loginadmin';
-		$this->load->view('layout/main1', $data);
+		$this->load->view('layout/main', $data);
 	}
 
 }
