@@ -35,9 +35,7 @@ button {
     float: right;
     width: calc(100% - 200px);
 }
-
 </style>
-
 <div class="row">
   <div class="col-md-12">
     <div class="container" style="background: white;font-color:blue;border-width: 1px;border-color: #d6d6c2;padding-top: 1em;padding-bottom: 1em;margin-top: 2.5em; border:solid 1px;margin-bottom: 10px;">
