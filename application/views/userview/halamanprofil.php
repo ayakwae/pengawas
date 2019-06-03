@@ -53,7 +53,9 @@
           <div class="container" style="background-color:#0e5fa4; border-width: 0px; height:250px;  width: 250px; margin-top: 100px; margin-left: 200px;">
             <img src="<?php echo base_url()?>img/icon/pegawai_2.png" style="margin-top:0px;margin-left:60px;max-width: 100px; max-height: 100px;">
             <center style="font-family: calibri;font-size: 34px;margin-top: 10px;">namauser</center>
+             <a href="<?php base_url() ?>editprofil">
              <center><div id="box6" center style="font-family: calibri;font-size: 16px; margin-top:30px;">EDIT PROFIL</div></center>
+           </a>
           </div>
         </div>
         <div class="col-md-6">
@@ -74,7 +76,9 @@
             <tr>
               <b><div id="box5">JABATAN</div></b>
             </tr>
+            <a href="<?php base_url() ?>keluar">
             <img src="<?php echo base_url()?>img/icon/keluar.png" style="margin-top:20px;margin-left:450px;max-width: 30px; max-height: 60px;">
+          </a>
           </div>
           </div>
         </div>
