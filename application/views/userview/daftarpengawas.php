@@ -6,7 +6,7 @@ table, th, td {
   background-color: white;
 }
 th, td {
-  padding-right: 100px;
+  padding-right: 110px;
   font-family: calibri;
   font-size: 24px;
 
@@ -35,6 +35,7 @@ button {
     float: right;
     width: calc(100% - 200px);
 }
+
 </style>
 <div class="row">
   <div class="col-md-12">
@@ -125,5 +126,4 @@ button {
     <td><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></td>
   </tr>
 </table>
-
         
