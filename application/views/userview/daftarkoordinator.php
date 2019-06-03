@@ -43,10 +43,10 @@ button {
       <div class="row" style="margin-left: 10px; margin-right: 100px;">
         <table id="myTable">
             <form>
-    <label for="hari&tanggal" class="hari-tanggal">Hari/Tanggal</label>
-    <input id="hari&tanggal" type="text">
+    <label for="hari_tanggal" class="hari-tanggal">Hari/Tanggal</label>
+    <input id="hari_anggal" type="text">
  
-    <label for="jam" class="Jam">Jam</label>
+    <label for="jam" class="jam">Jam</label>
     <input id="jam" type="text">
 
     <label for="tgl" class="tanggal">Tanggal</label>
