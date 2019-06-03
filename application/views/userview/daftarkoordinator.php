@@ -53,11 +53,6 @@ button {
     <input id="tgl" type="text">
  
 </form>
-    <a href="<?php base_url() ?>search">
-      <div class="container" style="background-color:#8dcff4; border-width: 0px; border-radius: 10px; height:40px;  width: 150px; margin-left: 900px;">
- <img src="<?php echo base_url()?>img/icon/search.png" style="margin-top:5px;margin-left:1px;max-width: 30px; max-height: 100px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cari
-      </div>
-    </a>
       </table>
       </div>  
     </div>
