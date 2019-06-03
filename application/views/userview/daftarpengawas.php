@@ -1,5 +1,17 @@
 <style> 
 
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: white;
+}
+th, td {
+  padding-right: 100px;
+  font-family: calibri;
+  font-size: 24px;
+
+}
+
 form {
     overflow: hidden;
 }
@@ -8,6 +20,7 @@ label {
     float: left;
     width: 120px;
     padding-right: 24px;
+    font-family: calibri; 
 
 }
  
@@ -52,12 +65,67 @@ button {
   </div>
 </div>
 <a href="<?php base_url() ?>tambah">
-<div class="container" style="background-color:#b4b4b4; border-width: 0px; border-radius: 10px; height:40px;  width: 150px; margin-left: 0px;">
+<div class="container" style="background-color:#b4b4b4; border-width: 0px; border-radius: 10px; height:40px;  width: 150px; margin-left: 0px;margin-bottom: 10px;">
 <img src="<?php echo base_url()?>img/icon/tambah.png" style="margin-top:5px;margin-bottom:10px;margin-left:5px;max-width: 30px; max-height: 100px;">&nbsp;&nbsp;&nbsp;Tambah
 </div>
 </a>
 <table>
- 
+  <tr>
+    <th>No</th>
+    <th>NPU/NIP</th>
+    <th>Nama Pengawas</th>
+    <th>Institusi</th>
+    <th>Jabatan</th>
+    <th>Aksi</th>
+  </tr>
+  <tr>
+    <td>test</td>
+    <td>test</td>
+    <td>test</td>
+    <td>test</td>
+    <td>test</td>
+    <td><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></td>
+  </tr>
+  <tr>
+    <td>test</td>
+    <td>test</td>
+    <td>test</td>
+    <td>test</td>
+    <td>test</td>
+    <td><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height:30px;"></td>
+  </tr>
+  <tr>
+    <td>test</td>
+    <td>test</td>
+    <td>test</td>
+    <td>test</td>
+    <td>test</td>
+    <td><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></td>
+  </tr>
+  <tr>
+    <td>test</td>
+    <td>test</td>
+    <td>test</td>
+    <td>test</td>
+    <td>test</td>
+    <td><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></td>
+  </tr>
+  <tr>
+    <td>test</td>
+    <td>test</td>
+    <td>test</td>
+    <td>test</td>
+    <td>test</td>
+    <td><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></td>
+  </tr>
+  <tr>
+    <td>test</td>
+    <td>test</td>
+    <td>test</td>
+    <td>test</td>
+    <td>test</td>
+    <td><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></td>
+  </tr>
 </table>
 
         
