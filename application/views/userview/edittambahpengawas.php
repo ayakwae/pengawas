@@ -4,8 +4,6 @@ table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
   background-color: white;
-}
-th, td {
   padding-right: 55px;
   font-family: calibri;
   font-size: 24px;
