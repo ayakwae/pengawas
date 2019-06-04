@@ -77,7 +77,7 @@ button {
     <td>test</td>
     <td>test</td>
     <td>test</td>
-    <td><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></td>
+    <td><a href="<?php base_url() ?>edittambahpengawas"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
   </tr>
   <tr>
     <td>test</td>
@@ -85,7 +85,7 @@ button {
     <td>test</td>
     <td>test</td>
     <td>test</td>
-    <td><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height:30px;"></td>
+    <td><a href="<?php base_url() ?>edittambahpengawas"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height:30px;"></a></td>
   </tr>
   <tr>
     <td>test</td>
@@ -93,7 +93,7 @@ button {
     <td>test</td>
     <td>test</td>
     <td>test</td>
-    <td><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></td>
+    <td><a href="<?php base_url() ?>edittambahpengawas"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
   </tr>
   <tr>
     <td>test</td>
@@ -101,7 +101,7 @@ button {
     <td>test</td>
     <td>test</td>
     <td>test</td>
-    <td><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></td>
+    <td><a href="<?php base_url() ?>edittambahpengawas"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
   </tr>
   <tr>
     <td>test</td>
@@ -109,7 +109,7 @@ button {
     <td>test</td>
     <td>test</td>
     <td>test</td>
-    <td><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></td>
+    <td><a href="<?php base_url() ?>edittambahpengawas"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
   </tr>
   <tr>
     <td>test</td>
@@ -117,7 +117,7 @@ button {
     <td>test</td>
     <td>test</td>
     <td>test</td>
-    <td><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></td>
+    <td><a href="<?php base_url() ?>edittambahpengawas"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
   </tr>
 </table>
         
