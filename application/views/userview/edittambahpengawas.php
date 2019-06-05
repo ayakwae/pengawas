@@ -1,163 +1,178 @@
-<style> 
-
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  background-color: white;
-  padding-right: 55px;
-  font-family: calibri;
-  font-size: 24px;
-
-}
-
-form {
-    overflow: hidden;
-}
- 
-label {
-    float: left;
-    width: 120px;
-    padding-right: 24px;
-    font-family: calibri; 
-
-}
- 
-input {
-    float: left;
-    width: calc(100% - 200px);
-    margin-bottom: 10px;
-    border:solid 1px;
-}
- 
-button {
-    float: right;
-    width: calc(100% - 200px);
-}
-
-</style>
 <div class="row">
   <div class="col-md-12">
-    <div class="container" style="background: white;font-color:blue;border-width: 1px;border-color: #d6d6c2;padding-top: 1em;padding-bottom: 1em;margin-top: 2.5em; border:solid 1px;margin-bottom: 10px;">
-      <div class="row" style="margin-left: 10px; margin-right: 300px;">
-        <table id="myTable">
-            <form>
-    <label for="npu_nip_nim" class="npu-nip-nim">NPU/NIP/NIM</label>
-    <input id="npu_nip_nim" type="text">
-
-    <label for="nama_pengawas" class="nama-pengawas">Nama Pengawas</label>
-    <input id="nama_pengawas" type="text">
-
-    <label for="nama_unit" class="nama-unit">Nama Unit</label>
-    <input id="nama_unit" type="text">
-
-    <label for="status_pengawas" class="status-pengawas">Status Pengawas</label>
-    <input id="status_pengawas" type="text">
-
-    <label for="lokasi_pengawas" class="lokasi-pengawas">Lokasi Pengawas</label>
-    <input id="lokasi_pengawas" type="text">
-
-    <label for="tugas_jabatan" class="tugas-jabatan">Tugas/Jabatan</label>
-    <input id="tugas_jabatan" type="text">
-
-    <label for="klmpk" class="kelompok">Kelompok</label>
-    <input id="klmpk" type="text">
- 
-</form>
-      </table>
+    <div class="container" style="background: white;font-color:blue;border-width: 1px;border-color: #d6d6c2;padding-top: 1em;padding-bottom: 1em;margin-top: 2.5em">
+      <div class="row" style="margin-left: 5px;">
+        <span style="background-color: #2F669F; height: 25px; width: 15px; margin-top: 7px; margin-left: 5px;"></span>
+        <span style="background-color: #2F669F; height: 25px; width: 5px; margin-top: 7px; margin-left: 5px;"></span> &nbsp;&nbsp;
+        <h3 style="color: #2F669F;"><b>Daftar Pengawas</b></h3>  
       </div>  
     </div>
   </div>
 </div>
-<table>
-  <tr>
-    <th>No</th>
-    <th>NIP/NIK/NIM</th>
-    <th>Nama Pengawas</th>
-    <th>Nama Unit</th>
-    <th>Status</th>
-    <th>Lokasi</th>
-    <th>Jabatan</th>
-    <th>Kelompok</th>
-  </tr>
-  <tr>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-  </tr>
-  <tr>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-  </tr>
-  <tr>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-  </tr>
-  <tr>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-  </tr>
-  <tr>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-  </tr>
-  <tr>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-  </tr>
-  <tr>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-  </tr>
-  <tr>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-    <td>test</td>
-  </tr>
-</table>
-        
+<div class="row">
+  <div class="col-md-12">
+    <div class="container" style="background: white;border-width: 1px;border-color: #d6d6c2;padding-bottom: 20px; margin-top: 25px; padding-top: 25px;">
+      <table>
+        <tr>
+          <td style="font-family: calibri; font-size: 20px;">NIP/NIK/NIM</td>
+          <td><input class="form-control" placeholder="Ketik Tempat" type="text" name="tempat" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
+        </tr>
+        <tr>
+          <td style="font-family: calibri; font-size: 20px;">Nama Pengawas</td>
+          <td><input class="form-control" placeholder="Ketik Tempat" type="text" name="tempat" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
+        </tr>
+        <tr>
+          <td style="font-family: calibri; font-size: 20px;">Nama Unit</td>
+          <td><input class="form-control" placeholder="Ketik Tempat" type="text" name="tempat" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
+        </tr>
+        <tr>
+          <td style="font-family: calibri; font-size: 20px;">Status Pengawas</td>
+          <td><input class="form-control" placeholder="Ketik Tempat" type="text" name="tempat" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
+        </tr>
+        <tr>
+          <td style="font-family: calibri; font-size: 20px;">Lokasi Mengawas</td>
+          <td><input class="form-control" placeholder="Ketik Tempat" type="text" name="tempat" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
+        </tr>
+        <tr>
+          <td style="font-family: calibri; font-size: 20px;">Tugas/Jabatan</td>
+          <td><input class="form-control" placeholder="Ketik Tempat" type="text" name="tempat" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
+        </tr>
+        <tr>
+          <td style="font-family: calibri; font-size: 20px;">Kelompok</td>
+          <td><input class="form-control" placeholder="Ketik Tempat" type="text" name="tempat" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="container" style="background: white;border-width: 1px;border-color: #d6d6c2;padding-bottom: 10px; margin-top: 10px; padding-top: 25px;">
+      <form><center>
+        <table border="2" style="width:1000px; text-align: center; margin-bottom: 20px;">
+          <tr>
+            <th style="font-size: 25px; font-family: calibri;">No</th>
+            <th style="font-size: 25px; font-family: calibri;">NIP/NIK/NIM</th>
+            <th style="font-size: 25px; font-family: calibri;">Nama Pengawas</th>
+            <th style="font-size: 25px; font-family: calibri;">Nama Unit</th>
+            <th style="font-size: 25px; font-family: calibri;">Status</th>
+            <th style="font-size: 25px; font-family: calibri;">Lokasi</th>
+            <th style="font-size: 25px; font-family: calibri;">Jabatan</th>
+            <th style="font-size: 25px; font-family: calibri;">Kelompok</th>
+          </tr>
+          <tr>
+            <td>1.</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+          </tr>
+          <tr>
+            <td>2.</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+          </tr>
+          <tr>
+            <td>3.</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+          </tr>
+          <tr>
+            <td>4.</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+          </tr>
+          <tr>
+            <td>5.</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+          </tr>
+          <tr>
+            <td>6.</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+          </tr>
+          <tr>
+            <td>7.</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+          </tr>
+          <tr>
+            <td>8.</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+          </tr>
+          <tr>
+            <td>9.</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+          </tr>
+          <tr>
+            <td>10.</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+          </tr>
+          <tr>
+            <td>11.</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+          </tr>
+        </table>
+      </center></form>
+    </div>
+  </div>
+</div>
