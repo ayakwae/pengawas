@@ -4,7 +4,7 @@
       <div class="row" style="margin-left: 5px;">
         <span style="background-color: #2F669F; height: 25px; width: 15px; margin-top: 7px; margin-left: 5px;"></span>
         <span style="background-color: #2F669F; height: 25px; width: 5px; margin-top: 7px; margin-left: 5px;"></span> &nbsp;&nbsp;
-        <h3 style="color: #2F669F;"><b>Daftar Koordinator</b></h3>  
+        <h3 style="color: #2F669F;"><b>Edit Koordinator</b></h3>  
       </div>  
     </div>
   </div>
@@ -15,35 +15,31 @@
       <table>
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Nomor Ruangan</td>
-          <td><input class="form-control" placeholder="Ketik Tempat" type="text" name="tempat" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
+          <td><input class="form-control" placeholder="Ketik Nomor Ruangan" type="text" name="nomor_ruangan" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
         </tr>
         <tr>
           <td style="font-family: calibri; font-size: 20px;">NPU/NIP</td>
-          <td><input class="form-control" placeholder="Ketik Tempat" type="text" name="tempat" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
+          <td><input class="form-control" placeholder="Ketik NPU/NIP" type="text" name="npu_nip" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
         </tr>
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Nama Pengawas</td>
-          <td><input class="form-control" placeholder="Ketik Tempat" type="text" name="tempat" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
+          <td><input class="form-control" placeholder="Ketik Nama Pengawas" type="text" name="nama_pengawas" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
         </tr>
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Jabatan</td>
-          <td><input class="form-control" placeholder="Ketik Tempat" type="text" name="tempat" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
+          <td><input class="form-control" placeholder="Ketik Jabatan" type="text" name="jabatan" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
         </tr>
         <tr>
-          <td style="font-family: calibri; font-size: 20px;">Hari Coaching</td>
-          <td><input class="form-control" placeholder="Ketik Tempat" type="text" name="tempat" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
-        </tr>
-        <tr>
-          <td style="font-family: calibri; font-size: 20px;">Tanggal Coaching</td>
-          <td><input class="form-control" placeholder="Ketik Tempat" type="text" name="tempat" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
+          <td style="font-family: calibri; font-size: 20px;">Hari/Tanggal Coaching</td>
+          <td><input class="form-control" type="date" name="date" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
         </tr>
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Jam Coaching</td>
-          <td><input class="form-control" placeholder="Ketik Tempat" type="text" name="tempat" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
+          <td><input class="form-control" type="time" name="jam_coaching" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
         </tr>
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Tempat Coaching</td>
-          <td><input class="form-control" placeholder="Ketik Tempat" type="text" name="tempat" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
+          <td><input class="form-control" placeholder="Ketik Tempat Coaching" type="text" name="tempat_coaching" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
         </tr>
       </table>
     </div>
@@ -60,8 +56,9 @@
             <th style="font-size: 25px; font-family: calibri;">NPU/NIP</th>
             <th style="font-size: 25px; font-family: calibri;">Nama Pengawas</th>
             <th style="font-size: 25px; font-family: calibri;">Jabatan</th>
+            <th style="font-size: 25px; font-family: calibri;">Hari/Tanggal</th>
+            <th style="font-size: 25px; font-family: calibri;">Jam</th>
             <th style="font-size: 25px; font-family: calibri;">Tempat</th>
-            <th style="font-size: 25px; font-family: calibri;">Aksi</th>
           </tr>
           <tr>
             <td>1.</td>
@@ -69,7 +66,8 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
-            <td><a href="<?php base_url() ?>edittambahpengawas"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
+            <td>test</td>
+            <td>test</td>
           </tr>
           <tr>
             <td>2.</td>
@@ -77,7 +75,8 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
-            <td><a href="<?php base_url() ?>edittambahpengawas"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height:30px;"></a></td>
+            <td>test</td>
+            <td>test</td>
           </tr>
           <tr>
             <td>3.</td>
@@ -85,7 +84,8 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
-            <td><a href="<?php base_url() ?>edittambahpengawas"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
+            <td>test</td>
+            <td>test</td>
           </tr>
           <tr>
             <td>4.</td>
@@ -93,7 +93,8 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
-            <td><a href="<?php base_url() ?>edittambahpengawas"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
+            <td>test</td>
+            <td>test</td>
           </tr>
           <tr>
             <td>5.</td>
@@ -101,7 +102,8 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
-            <td><a href="<?php base_url() ?>edittambahpengawas"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
+            <td>test</td>
+            <td>test</td>
           </tr>
           <tr>
             <td>6.</td>
@@ -109,7 +111,8 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
-            <td><a href="<?php base_url() ?>edittambahpengawas"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
+            <td>test</td>
+            <td>test</td>
           </tr>
           <tr>
             <td>7.</td>
@@ -117,7 +120,8 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
-            <td><a href="<?php base_url() ?>edittambahpengawas"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
+            <td>test</td>
+            <td>test</td>
           </tr>
           <tr>
             <td>8.</td>
@@ -125,7 +129,8 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
-            <td><a href="<?php base_url() ?>edittambahpengawas"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
+            <td>test</td>
+            <td>test</td>
           </tr>
           <tr>
             <td>9.</td>
@@ -133,7 +138,8 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
-            <td><a href="<?php base_url() ?>edittambahpengawas"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
+            <td>test</td>
+            <td>test</td>
           </tr>
           <tr>
             <td>10.</td>
@@ -141,7 +147,8 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
-            <td><a href="<?php base_url() ?>edittambahpengawas"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
+            <td>test</td>
+            <td>test</td>
           </tr>
           <tr>
             <td>11.</td>
@@ -149,7 +156,8 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
-            <td><a href="<?php base_url() ?>edittambahpengawas"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
+            <td>test</td>
+            <td>test</td>
           </tr>
         </table>
       </center></form>

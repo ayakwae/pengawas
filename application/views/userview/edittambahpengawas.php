@@ -4,7 +4,7 @@
       <div class="row" style="margin-left: 5px;">
         <span style="background-color: #2F669F; height: 25px; width: 15px; margin-top: 7px; margin-left: 5px;"></span>
         <span style="background-color: #2F669F; height: 25px; width: 5px; margin-top: 7px; margin-left: 5px;"></span> &nbsp;&nbsp;
-        <h3 style="color: #2F669F;"><b>Daftar Pengawas</b></h3>  
+        <h3 style="color: #2F669F;"><b>Edit Pengawas</b></h3>  
       </div>  
     </div>
   </div>
@@ -15,31 +15,31 @@
       <table>
         <tr>
           <td style="font-family: calibri; font-size: 20px;">NIP/NIK/NIM</td>
-          <td><input class="form-control" placeholder="Ketik Tempat" type="text" name="tempat" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
+          <td><input class="form-control" placeholder="Ketik NIP/NIK/NIM" type="text" name="nip_nik_nim" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
         </tr>
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Nama Pengawas</td>
-          <td><input class="form-control" placeholder="Ketik Tempat" type="text" name="tempat" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
+          <td><input class="form-control" placeholder="Ketik Nama Pengawas" type="text" name="nama_pengawas" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
         </tr>
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Nama Unit</td>
-          <td><input class="form-control" placeholder="Ketik Tempat" type="text" name="tempat" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
+          <td><input class="form-control" placeholder="Ketik Nama Unit" type="text" name="nama_unit" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
         </tr>
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Status Pengawas</td>
-          <td><input class="form-control" placeholder="Ketik Tempat" type="text" name="tempat" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
+          <td><input class="form-control" placeholder="Ketik Status Pengawas" type="text" name="status_pengawas" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
         </tr>
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Lokasi Mengawas</td>
-          <td><input class="form-control" placeholder="Ketik Tempat" type="text" name="tempat" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
+          <td><input class="form-control" placeholder="Ketik Lokasi Mengawas" type="text" name="lokasi_mengawas" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
         </tr>
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Tugas/Jabatan</td>
-          <td><input class="form-control" placeholder="Ketik Tempat" type="text" name="tempat" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
+          <td><input class="form-control" placeholder="Ketik Tugas/Jabatan" type="text" name="tugas_jabatan" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
         </tr>
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Kelompok</td>
-          <td><input class="form-control" placeholder="Ketik Tempat" type="text" name="tempat" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
+          <td><input class="form-control" placeholder="Ketik Kelompok" type="text" name="kelompok" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
         </tr>
       </table>
     </div>
