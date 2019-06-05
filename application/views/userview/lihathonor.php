@@ -15,19 +15,8 @@
       <div class="row" style="margin-left: 60px;" >
 
         <!-- isi disini tampilan honor -->
-        <div class="row">
-  <div class="col-md-12">
-    <div class="container" style="background: white;border-width: 1px;padding-bottom: 10px; margin-top: 10px; padding-top: 25px;margin-left: 150px;">
-      <form><center>
-        <table border="0" style="width:500px; margin-bottom: 20px;margin-left: 0px;background-color: #999999">
-          <tr> 
-            <td style="font-size: 25px; font-family: calibri;">NIP</td>
-          </tr>
-        </table>
-      </center></form>
-    </div>
-  </div>
-</div>
+
+
         <div class="row">
   <div class="col-md-12">
     <div class="container" style="background: white;border-width: 1px;border-color: #d6d6c2;padding-bottom: 10px; margin-top: 10px; padding-top: 25px;">
