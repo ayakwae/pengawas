@@ -12,7 +12,7 @@
 <div class="row">
   <div class="col-md-12">
     <div class="container" style="background: white;border-width: 1px;border-color: #d6d6c2;padding-bottom: 50px;">
-      <div class="row" style="margin-left: 60px;" >
+      <div class="row" style="margin-left: 0px;" >
 
         <!-- isi disini tampilan honor -->
 
@@ -24,11 +24,10 @@
         <table border="2" style="width:930px; text-align: center; margin-bottom: 20px;">
           <tr>
             <th style="font-size: 25px; font-family: calibri;">No</th>
-            <th style="font-size: 25px; font-family: calibri;">Hari/Tanggal</th>
-            <th style="font-size: 25px; font-family: calibri;">Jam</th>
-            <th style="font-size: 25px; font-family: calibri;">Mapel</th>
-            <th style="font-size: 25px; font-family: calibri;">Pengawas Ruang
-            </th>
+            <th style="font-size: 25px; font-family: calibri;">&nbsp;&nbsp;&nbsp;&nbsp;Hari/Tanggal&nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <th style="font-size: 25px; font-family: calibri;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jam&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <th style="font-size: 25px; font-family: calibri;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mapel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <th style="font-size: 25px; font-family: calibri;">Pengawas Ruang</th>
           </tr>
 
           <tr>
@@ -38,7 +37,7 @@
             <td>test</td>
             <td>
 
-              <table border="0" style="width:700px; text-align: center;">
+              <table border="0" style="width:500px; text-align: center;">
           <tr>
             <th style="font-size: 25px; font-family: calibri;">1</th>
             <th style="font-size: 25px; font-family: calibri;">2</th>
@@ -58,7 +57,7 @@
             <td>test</td>
             <td>test</td>
             <td>
-              <table border="0" style="width:700px; text-align: center;">
+              <table border="0" style="width:500px; text-align: center;">
           <tr>
             <th style="font-size: 25px; font-family: calibri;">1</th>
             <th style="font-size: 25px; font-family: calibri;">2</th>
@@ -78,7 +77,7 @@
             <td>test</td>
             <td>test</td>
             <td>
-              <table border="0" style="width:700px; text-align: center;">
+              <table border="0" style="width:500px; text-align: center;">
           <tr>
             <th style="font-size: 25px; font-family: calibri;">1</th>
             <th style="font-size: 25px; font-family: calibri;">2</th>
@@ -98,7 +97,7 @@
             <td>test</td>
             <td>test</td>
             <td>
-              <table border="0" style="width:700px; text-align: center;">
+              <table border="0" style="width:500px; text-align: center;">
           <tr>
             <th style="font-size: 25px; font-family: calibri;">1</th>
             <th style="font-size: 25px; font-family: calibri;">2</th>
@@ -118,7 +117,7 @@
             <td>test</td>
             <td>test</td>
             <td>
-              <table border="0" style="width:700px; text-align: center;">
+              <table border="0" style="width:500px; text-align: center;">
           <tr>
             <th style="font-size: 25px; font-family: calibri;">1</th>
             <th style="font-size: 25px; font-family: calibri;">2</th>
@@ -138,7 +137,7 @@
             <td>test</td>
             <td>test</td>
             <td>
-              <table border="0" style="width:700px; text-align: center;">
+              <table border="0" style="width:500px; text-align: center;">
           <tr>
             <th style="font-size: 25px; font-family: calibri;">1</th>
             <th style="font-size: 25px; font-family: calibri;">2</th>
@@ -158,7 +157,7 @@
             <td>test</td>
             <td>test</td>
             <td>
-              <table border="0" style="width:700px; text-align: center;">
+              <table border="0" style="width:500px; text-align: center;">
           <tr>
             <th style="font-size: 25px; font-family: calibri;">1</th>
             <th style="font-size: 25px; font-family: calibri;">2</th>
@@ -178,7 +177,7 @@
             <td>test</td>
             <td>test</td>
             <td>
-              <table border="0" style="width:700px; text-align: center;">
+              <table border="0" style="width:500px; text-align: center;">
           <tr>
             <th style="font-size: 25px; font-family: calibri;">1</th>
             <th style="font-size: 25px; font-family: calibri;">2</th>
@@ -198,7 +197,7 @@
             <td>test</td>
             <td>test</td>
             <td>
-              <table border="0" style="width:700px; text-align: center;">
+              <table border="0" style="width:500px; text-align: center;">
           <tr>
             <th style="font-size: 25px; font-family: calibri;">1</th>
             <th style="font-size: 25px; font-family: calibri;">2</th>
@@ -218,7 +217,7 @@
             <td>test</td>
             <td>test</td>
             <td>
-              <table border="0" style="width:700px; text-align: center;">
+              <table border="0" style="width:500px; text-align: center;">
           <tr>
             <th style="font-size: 25px; font-family: calibri;">1</th>
             <th style="font-size: 25px; font-family: calibri;">2</th>
@@ -238,7 +237,7 @@
             <td>test</td>
             <td>test</td>
             <td>
-              <table border="0" style="width:700px; text-align: center;">
+              <table border="0" style="width:500px; text-align: center;">
           <tr>
             <th style="font-size: 25px; font-family: calibri;">1</th>
             <th style="font-size: 25px; font-family: calibri;">2</th>
