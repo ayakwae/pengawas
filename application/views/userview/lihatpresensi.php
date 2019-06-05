@@ -19,7 +19,7 @@
   <div class="col-md-12">
     <div class="container" style="background: white;border-width: 1px;border-color: #d6d6c2;padding-bottom: 10px; margin-top: 10px; padding-top: 25px;">
       <form><center>
-        <table border="2" style="width:1000px; text-align: center; margin-bottom: 20px;">
+        <table border="2" style="width:930px; text-align: center; margin-bottom: 20px;">
           <tr>
             <th style="font-size: 25px; font-family: calibri;">No</th>
             <th style="font-size: 25px; font-family: calibri;">Nama Pengawas</th>
