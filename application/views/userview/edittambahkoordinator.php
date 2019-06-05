@@ -24,6 +24,7 @@
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Nama Pengawas</td>
           <td><input class="form-control" placeholder="Ketik Nama Pengawas" type="text" name="nama_pengawas" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
+           <td style="padding-left: 230px;"><button class="btn btn-primary my-2 my-sm-0" type="submit"><img src="<?php echo base_url()?>img\icon\simpan.png" style="width: 50px; height: 50px;">&nbsp;&nbsp;Simpan</button></td>
         </tr>
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Jabatan</td>
@@ -32,6 +33,7 @@
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Hari/Tanggal Coaching</td>
           <td><input class="form-control" type="date" name="date" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
+          <td style="padding-left: 230px;"><button type="button" class="btn btn-danger"><img src="<?php echo base_url()?>img\icon\keluar.png" style="width: 60px; height: 50px;">&nbsp;&nbsp;Keluar</button></td>
         </tr>
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Jam Coaching</td>
