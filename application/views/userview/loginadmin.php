@@ -51,10 +51,9 @@
                   </td>
                 </tr>
               </table>
-              
-              
             </div>
           </div>
+          <a href="<?php base_url() ?>home"></a>
           <div class="row" style="margin-top: 30px; margin-bottom: 20px;">
             <div class="container-fluid">
                 <button class="btn btn-primary shadow" type="submit" style="width: 100px; height: 40px;">Masuk</button>
@@ -66,5 +65,4 @@
       </div>
     </div>
   </center>
-                
 </div>

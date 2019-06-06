@@ -22,7 +22,7 @@
 			$menu['daftarpengawas'] = '';
 			$menu['daftarkoordinator'] = '';
 			$menu['halamanreport'] = '';
-			$menu['loginadmin'] = '';
+			$menu['halamanprofil'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
 	else if ($page=='userview/daftarpengawas') {
@@ -30,7 +30,15 @@
 			$menu['daftarpengawas'] = 'active';
 			$menu['daftarkoordinator'] = '';
 			$menu['halamanreport'] = '';
-			$menu['loginadmin'] = '';
+			$menu['halamanprofil'] = '';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/edittambahpengawas') {
+			$menu['home'] = '';
+			$menu['daftarpengawas'] = 'active';
+			$menu['daftarkoordinator'] = '';
+			$menu['halamanreport'] = '';
+			$menu['halamanprofil'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
 	else if ($page=='userview/daftarkoordinator') {
@@ -38,7 +46,15 @@
 			$menu['daftarpengawas'] = '';
 			$menu['daftarkoordinator'] = 'active';
 			$menu['halamanreport'] = '';
-			$menu['loginadmin'] = '';
+			$menu['halamanprofil'] = '';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/edittambahkoordinator') {
+			$menu['home'] = '';
+			$menu['daftarpengawas'] = '';
+			$menu['daftarkoordinator'] = 'active';
+			$menu['halamanreport'] = '';
+			$menu['halamanprofil'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
 	else if ($page=='userview/halamanreport') {
@@ -46,15 +62,39 @@
 			$menu['daftarpengawas'] = '';
 			$menu['daftarkoordinator'] = '';
 			$menu['halamanreport'] = 'active';
-			$menu['loginadmin'] = '';
+			$menu['halamanprofil'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
-	else if ($page=='userview/loginadmin') {
+	else if ($page=='userview/lihatjadwal') {
+			$menu['home'] = '';
+			$menu['daftarpengawas'] = '';
+			$menu['daftarkoordinator'] = '';
+			$menu['halamanreport'] = 'active';
+			$menu['halamanprofil'] = '';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/lihatpresensi') {
+			$menu['home'] = '';
+			$menu['daftarpengawas'] = '';
+			$menu['daftarkoordinator'] = '';
+			$menu['halamanreport'] = 'active';
+			$menu['halamanprofil'] = '';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/lihathonor') {
+			$menu['home'] = '';
+			$menu['daftarpengawas'] = '';
+			$menu['daftarkoordinator'] = '';
+			$menu['halamanreport'] = 'active';
+			$menu['halamanprofil'] = '';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/halamanprofil') {
 			$menu['home'] = '';
 			$menu['daftarpengawas'] = '';
 			$menu['daftarkoordinator'] = '';
 			$menu['halamanreport'] = '';
-			$menu['loginadmin'] = 'active';
+			$menu['halamanprofil'] = 'active';
 			$this->load->view('layout/menu',$menu);
 		 }
 	?>
