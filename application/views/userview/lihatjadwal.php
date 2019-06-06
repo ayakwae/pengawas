@@ -256,6 +256,7 @@
     </div>
   </div>
 </div>
+<td style="padding-left: 230px;"><a href="<?php base_url() ?>halamanreport"><button type="button" class="btn btn-danger" style="margin-left: 930px;"><img src="<?php echo base_url()?>img\icon\keluar.png" style="width: 40px; height: 30px;">&nbsp;&nbsp;Keluar</button></a></td>
       </div>
     </div>
   </div>
