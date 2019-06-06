@@ -31,7 +31,7 @@
           <center>
             <div class="container" style="margin-bottom: 20px;">
               <a href="<?php base_url() ?>editprofil">
-                <button type="button" class="btn btn-primary">Edit Profil</button>
+                <button type="button" class="btn btn-primary"><img src="<?php echo base_url()?>img/icon/edit1.png" style="width: 15px; height: 15px; margin-top: -5px;">&nbsp;Edit Profil</button>
               </a>
             </div>
             <div>
