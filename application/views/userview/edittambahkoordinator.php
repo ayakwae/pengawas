@@ -33,7 +33,7 @@
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Hari/Tanggal Coaching</td>
           <td><input class="form-control" type="date" name="date" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
-          <td style="padding-left: 230px;"><button type="button" class="btn btn-danger"><img src="<?php echo base_url()?>img\icon\keluar.png" style="width: 60px; height: 50px;">&nbsp;&nbsp;Keluar</button></td>
+          <td style="padding-left: 230px;"><a href="<?php base_url() ?>daftarkoordinator"><button type="button" class="btn btn-danger"><img src="<?php echo base_url()?>img\icon\keluar.png" style="width: 60px; height: 50px;">&nbsp;&nbsp;Keluar</button></a></td>
         </tr>
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Jam Coaching</td>
