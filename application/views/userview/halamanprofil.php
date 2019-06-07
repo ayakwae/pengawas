@@ -35,7 +35,7 @@
               </a>
             </div>
             <div>
-              <a href="<?php base_url() ?>ubahsandi">
+              <a href="<?php base_url() ?>ubahkatasandi">
                 <button type="button" class="btn btn-danger">Ubah Kata Sandi</button>
               </a>
             </div>
