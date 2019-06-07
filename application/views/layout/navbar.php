@@ -15,9 +15,9 @@
   <nav class="navbar navbar-expand navbar-dark navbar-toggleable-sm py-3" >
     <table>
       <tr>
-    
-          <img src="<?php echo base_url()?>img/logo1.png" style="height: 80px; margin-top: -10px; margin-left: 50px;"><a href="<?php base_url()?>Home"></a>
-       
+        <a href="<?php base_url()?>home">
+          <img src="<?php echo base_url()?>img/logo1.png" style="height: 80px; margin-top: -10px; margin-left: 50px;">
+        </a>
       </tr>
     </table>
   </nav>
