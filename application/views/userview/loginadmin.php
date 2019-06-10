@@ -7,12 +7,14 @@
   outline: 0;
   background: transparent;
   border-bottom: 1px solid black;
-  }</style>
+  }
+  .a{color:white;}
+</style>
 <div class="col-md-12">
   <center>
     <div class="row" style="margin-top: 80px;height: 500px;">
       <div class="col-md-5 offset-md-3" style="padding-left: 100px;">
-        <form method="post" action="logpro">
+        <form method="post" action="home">
           <div class="container" style="border-color: white;border-style: solid;background-color: #127cd7;border-radius: 10px;
           ">
           <div class="row">
@@ -46,8 +48,12 @@
           </div>
           <div class="row" style="margin-top: 5px; padding-left: 10px;" align="left" >
             <div class="container-fluid" style="color: white;">
-                  <td>
-                    <span style="margin-left: 5px;">Lupa Kata Sandi?</span>
+                  <td><a  href="#" onclick="Swal(
+  'Lupa Kata Sandi?',
+  'Hubungi admin untuk penggantian password',
+  'question'
+)" style="text-decoration: none;" title="Klik disini untuk mendapatkan password Anda kembali!">
+                    <span style="margin-left: 5px;">Lupa Kata Sandi?</span></a>
                   </td>
                 </tr>
               </table>

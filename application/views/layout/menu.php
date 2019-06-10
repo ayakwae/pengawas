@@ -50,7 +50,7 @@
         <p class="navbar-nav" style="padding-top: 5px; color: gray; margin-right: 0px;">|</p>
       </li>
       <li class="nav-item text-expanded">
-        <a class="nav-link" href="<?php echo base_url()?>loginadmin" style="font-family: calibri; font-size: 15px; margin-top: -5px; margin-left: 25px; margin-right: 25px;">Profil</a>
+        <a class="nav-link" href="<?php echo base_url()?>halamanprofil" style="font-family: calibri; font-size: 15px; margin-top: -5px; margin-left: 25px; margin-right: 25px;">Profil</a>
       </li>
       <li class="nav-item">
         <p class="navbar-nav" style="padding-top: 5px; color: gray;">|</p>
