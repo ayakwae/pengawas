@@ -14,7 +14,7 @@
     <div class="container" style="background: white;border-width: 1px;border-color: #d6d6c2;padding-bottom: 50px;">
       <div class="row" style="margin-top: 25px; margin-left: 60px;" >
         <a href="<?php base_url() ?>lihatjadwal">
-          <div style="margin-left: 120px; margin-top: 70px; margin-bottom: 15px;">
+          <div style="margin-left: 230px; margin-top: 70px; margin-bottom: 15px;">
             <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
               <center><img src="<?php echo base_url()?>img\icon\jadwal.png" style="width: 180px; height: 180px; margin-top: 10px;"></center>
             </div>
@@ -24,22 +24,12 @@
           </div>
         </a>
         <a href="<?php base_url() ?>lihatpresensi">
-          <div style="margin-left: 70px; margin-top: 70px; margin-bottom: 15px;">
+          <div style="margin-left: 100px; margin-top: 70px; margin-bottom: 15px;">
             <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
               <center><img src="<?php echo base_url()?>img\icon\presensii.png" style="width: 200px; height: 200px;"></center>
             </div>
             <div style="background:#E8E8E8; height: 60px;  padding-top: 15px; width: 200px;">
               <h5 align="center"><b>Presensi</b></h5>
-            </div>
-          </div>
-        </a>
-        <a href="<?php base_url() ?>lihathonor">
-          <div style="margin-left: 70px; margin-top: 70px; margin-bottom: 15px;">
-            <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
-              <center><img src="<?php echo base_url()?>img\icon\honor.png" style="width: 200px; height: 200px;"></center>
-            </div>
-            <div style="background:#E8E8E8; height: 60px;  padding-top: 15px; width: 200px;">
-              <h5 align="center"><b>Honor</b></h5>
             </div>
           </div>
         </a>

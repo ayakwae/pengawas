@@ -39,7 +39,7 @@
               <center><img src="<?php echo base_url()?>img\icon\ruangan.png" style="width: 185px; height: 185px;margin-top: 8px;"></center>
             </div>
             <div style="background:#E8E8E8; height: 60px;  padding-top: 15px; width: 200px;">
-              <h5 align="center"><b>Rungan</b></h5>
+              <h5 align="center"><b>Ruangan</b></h5>
             </div>
           </div>
         </a>
