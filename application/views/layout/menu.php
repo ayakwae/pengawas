@@ -8,49 +8,37 @@
         <p class="navbar-nav" style="padding-top: 5px; color: gray;">|</p>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-expanded" href="<?php echo base_url()?>home" style="font-family: calibri; font-size: 15px; margin-top: -5px; margin-right: 25px; margin-left: 25px;">Beranda<span class="sr-only">(current)</span></a>
+        <a class="nav-link text-expanded" href="<?php echo base_url()?>home" style="font-family: calibri; font-size: 20px; margin-top: -5px; margin-right: 25px; margin-left: 25px;">Beranda<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <p class="navbar-nav" style="padding-top: 5px; color: gray; margin-right: 20px;">|</p>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-expanded" href="<?php echo base_url()?>daftarpengawas" style="font-family: calibri; font-size: 15px; margin-top: -5px; margin-right: 35px; margin-left: 20px;">Daftar Pengawas</a>
+        <a class="nav-link text-expanded" href="<?php echo base_url()?>daftarpengawas" style="font-family: calibri; font-size: 20px; margin-top: -5px; margin-right: 35px; margin-left: 20px;">Daftar Pengawas</a>
       </li>
       <li class="nav-item">
         <p class="navbar-nav" style="padding-top: 5px; color: gray; margin-right: 20px;">|</p>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-expanded" href="<?php echo base_url()?>daftarkoordinator" style="font-family: calibri; font-size: 15px; margin-top: -5px; margin-right: 40px; margin-left: 20px;">Daftar Koordinator</a>
+        <a class="nav-link text-expanded" href="<?php echo base_url()?>daftarkoordinator" style="font-family: calibri; font-size: 20px; margin-top: -5px; margin-right: 40px; margin-left: 20px;">Daftar Koordinator</a>
       </li>
       <li class="nav-item">
         <p class="navbar-nav" style="padding-top: 5px; color: gray; margin-right: 20px;">|</p>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-expanded" href="<?php echo base_url()?>daftarkoordinator" style="font-family: calibri; font-size: 15px; margin-top: -5px; margin-right: 40px; margin-left: 20px;">Daftar Lokasi</a>
+        <a class="nav-link text-expanded" href="<?php echo base_url()?>daftartempatujian" style="font-family: calibri; font-size: 20px; margin-top: -5px; margin-right: 40px; margin-left: 20px;">Daftar Tempat Ujian</a>
       </li>
       <li class="nav-item">
         <p class="navbar-nav" style="padding-top: 5px; color: gray; margin-right: 20px;">|</p>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-expanded" href="<?php echo base_url()?>daftarkoordinator" style="font-family: calibri; font-size: 15px; margin-top: -5px; margin-right: 40px; margin-left: 20px;">Daftar Ruangan</a>
-      </li>
-      <li class="nav-item">
-        <p class="navbar-nav" style="padding-top: 5px; color: gray; margin-right: 20px;">|</p>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-expanded" href="<?php echo base_url()?>daftarkoordinator" style="font-family: calibri; font-size: 15px; margin-top: -5px; margin-right: 40px; margin-left: 20px;">Daftar Instansi</a>
-      </li>
-      <li class="nav-item">
-        <p class="navbar-nav" style="padding-top: 5px; color: gray; margin-right: 20px;">|</p>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-expanded" href="<?php echo base_url()?>halamanreport" style="font-family: calibri; font-size: 15px; margin-top: -5px; margin-right: 50px; margin-left: 25px;">Report</a>
+        <a class="nav-link text-expanded" href="<?php echo base_url()?>halamanreport" style="font-family: calibri; font-size: 20px; margin-top: -5px; margin-right: 50px; margin-left: 25px;">Report</a>
       </li>
       <li class="nav-item">
         <p class="navbar-nav" style="padding-top: 5px; color: gray; margin-right: 0px;">|</p>
       </li>
       <li class="nav-item text-expanded">
-        <a class="nav-link" href="<?php echo base_url()?>halamanprofil" style="font-family: calibri; font-size: 15px; margin-top: -5px; margin-left: 25px; margin-right: 25px;">Profil</a>
+        <a class="nav-link" href="<?php echo base_url()?>halamanprofil" style="font-family: calibri; font-size: 20px; margin-top: -5px; margin-left: 25px; margin-right: 25px;">Profil</a>
       </li>
       <li class="nav-item">
         <p class="navbar-nav" style="padding-top: 5px; color: gray;">|</p>
