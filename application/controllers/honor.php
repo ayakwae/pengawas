@@ -2,12 +2,12 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 
-class DaftarHonor extends CI_Controller
+class Honor extends CI_Controller
 {
 	public function index()
 	{
 		$data['border']='transparent';
-		$data['page']='userview/daftarhonor';
+		$data['page']='userview/honor';
 		$this->load->view('layout/main', $data);
 	}
 
