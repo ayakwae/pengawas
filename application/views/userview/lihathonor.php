@@ -53,7 +53,7 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
-            <td><a href="<?php base_url() ?>halamanreport"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
+            <td><a href="<?php base_url() ?>halamanreport">Lihat</a></td>
           </tr>
           <tr>
             <td>2.</td>
@@ -61,7 +61,7 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
-            <td><a href="<?php base_url() ?>halamanreport"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
+            <td><a href="<?php base_url() ?>halamanreport">Lihat</a></td>
           </tr>
           <tr>
             <td>3.</td>
@@ -69,7 +69,7 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
-            <td><a href="<?php base_url() ?>halamanreport"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
+            <td><a href="<?php base_url() ?>halamanreport">Lihat</a></td>
           </tr>
           <tr>
             <td>4.</td>
@@ -77,7 +77,7 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
-            <td><a href="<?php base_url() ?>halamanreport"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
+            <td><a href="<?php base_url() ?>halamanreport">Lihat</a></td>
           </tr>
           <tr>
             <td>5.</td>
@@ -85,7 +85,7 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
-            <td><a href="<?php base_url() ?>halamanreport"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
+            <td><a href="<?php base_url() ?>halamanreport">Lihat</a></td>
           </tr>
           <tr>
             <td>6.</td>
@@ -93,7 +93,7 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
-            <td><a href="<?php base_url() ?>halamanreport"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
+            <td><a href="<?php base_url() ?>halamanreport">Lihat</a></td>
           </tr>
           <tr>
             <td>7.</td>
@@ -101,7 +101,7 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
-            <td><a href="<?php base_url() ?>halamanreport"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
+            <td><a href="<?php base_url() ?>halamanreport">Lihat</a></td>
           </tr>
           <tr>
             <td>8.</td>
@@ -109,7 +109,7 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
-            <td><a href="<?php base_url() ?>halamanreport"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
+            <td><a href="<?php base_url() ?>halamanreport">Lihat</a></td>
           </tr>
           <tr>
             <td>9.</td>
@@ -117,7 +117,7 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
-            <td><a href="<?php base_url() ?>halamanreport"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
+            <td><a href="<?php base_url() ?>halamanreport">Lihat</a></td>
           </tr>
           <tr>
             <td>10.</td>
@@ -125,7 +125,7 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
-            <td><a href="<?php base_url() ?>halamanreport"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
+            <td><a href="<?php base_url() ?>halamanreport">Lihat</a></td>
           </tr>
           <tr>
             <td>11.</td>
@@ -133,7 +133,7 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
-            <td><a href="<?php base_url() ?>halamanreport"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
+            <td><a href="<?php base_url() ?>halamanreport">Lihat</a></td>
           </tr>
         </table>
       </form></center>

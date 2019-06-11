@@ -13,7 +13,7 @@
   <div class="col-md-12">
     <div class="container" style="background: white;border-width: 1px;border-color: #d6d6c2;padding-bottom: 50px;">
       <div class="row" style="margin-top: 25px; margin-left: 60px;" >
-        <a href="<?php base_url() ?>">
+        <a href="<?php base_url() ?>daftarlokasi">
           <div style="margin-left: 120px; margin-top: 70px; margin-bottom: 15px;">
             <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
               <center><img src="<?php echo base_url()?>img\icon\lokasi.png" style="width: 200px; height: 200px;"></center>
@@ -23,7 +23,7 @@
             </div>
           </div>
         </a>
-        <a href="<?php base_url() ?>">
+        <a href="<?php base_url() ?>daftarinstansi">
           <div style="margin-left: 70px; margin-top: 70px; margin-bottom: 15px;">
             <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
               <center><img src="<?php echo base_url()?>img\icon\presensii.png" style="width: 200px; height: 200px;"></center>
@@ -33,7 +33,7 @@
             </div>
           </div>
         </a>
-        <a href="<?php base_url() ?>">
+        <a href="<?php base_url() ?>daftarruangan">
           <div style="margin-left: 70px; margin-top: 70px; margin-bottom: 15px;">
             <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
               <center><img src="<?php echo base_url()?>img\icon\ruangan.png" style="width: 185px; height: 185px;margin-top: 8px;"></center>
