@@ -14,7 +14,7 @@
   <center>
     <div class="row" style="margin-top: 80px;height: 500px;">
       <div class="col-md-5 offset-md-3" style="padding-left: 100px;">
-        <form method="post" action="home">
+        <form method="post" action="<?=site_url('auth/process')?>">
           <div class="container" style="border-color: white;border-style: solid;background-color: #127cd7;border-radius: 10px;
           ">
           <div class="row">
@@ -33,7 +33,7 @@
           </div>
           <div class="row">
             <div class="container-fluid">
-                <input style="width: 92%" type="text" name="username" placeholder="Nama Pengguna" checked>
+                <input style="width: 92%" type="text" name="username" placeholder="Nama Pengguna" required autofocus>
             </div>
           </div>
           <div class="row" style="margin-top: 20px;">
@@ -43,7 +43,7 @@
           </div>
           <div class="row">
             <div class="container-fluid">
-                <input style="width: 92%" type="password" name="password" placeholder="Kata Sandi" id="myInput">
+                <input style="width: 92%" type="password" name="password" placeholder="Kata Sandi" id="myInput" required>
             </div>
           </div>
           <div class="row" style="margin-top: 5px; padding-left: 10px;" align="left" >
@@ -62,7 +62,7 @@
           <a href="<?php base_url() ?>home"></a>
           <div class="row" style="margin-top: 30px; margin-bottom: 20px;">
             <div class="container-fluid">
-                <button class="btn btn-primary shadow" type="submit" style="width: 100px; height: 40px;">Masuk</button>
+                <button class="btn btn-primary shadow" type="submit" name="login" style="width: 100px; height: 40px;">Masuk</button>
             </div>
           </div>    
           </div>

@@ -56,7 +56,7 @@
                 <table width="300">
                   <tr>
                     <td style="width: 170px;"><b>Nama Petugas</b></td>
-                    <td style="padding-left: 10px;"><?php ?></td>
+                    <td style="padding-left: 10px;"><?php echo $v->nama;?></td>
                   </tr>
                 </table>
               </div>
@@ -85,9 +85,7 @@
                 </table>
               </div>
               <div style="margin-left: 470px; padding-top: 150px;">
-              <a href="<?php base_url() ?>home">
-                <button type="button" class="btn btn-danger"><img src="<?php echo base_url()?>img/icon/keluar.png" style="max-width: 30px; max-height: 60px;">Keluar</button>
-              </a>
+                <button type="button" class="btn btn-danger"><a href="<?php echo base_url() ?>loginadmin"><img src="<?php echo base_url()?>img/icon/keluar.png" style="max-width: 30px; max-height: 60px;">Keluar</a></button>
             </div>
           </div>
         </div>
