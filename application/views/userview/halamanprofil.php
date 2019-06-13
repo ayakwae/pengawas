@@ -56,7 +56,7 @@
                 <table width="300">
                   <tr>
                     <td style="width: 170px;"><b>Nama Petugas</b></td>
-                    <td style="padding-left: 10px;"><?php echo $v->nama;?></td>
+                    <td style="padding-left: 10px;"><?php ?></td>
                   </tr>
                 </table>
               </div>
