@@ -32,12 +32,19 @@ class Auth extends CI_Controller
 				</script>";
 			}
 		}
-
-		function logout(){
-			session_destroy();
-			redirect('auth/loginadmin', location);
-		}
 	}
+	public function logout(){ 
+		$this->session->sess_destroy();
+		redirect('loginadmin');
+	}
+
+		// function logout(){
+		// 	$this->session->sess_destroy();
+	 //        setcookie('username','', 0, "/");
+	 //        setcookie('password','', 0, "/");
+	 //        $url=base_url('');
+	 //        redirect($url);
+		// }
 }
 
 
