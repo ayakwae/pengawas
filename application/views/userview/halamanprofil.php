@@ -27,7 +27,7 @@
           <div class="circle" style="margin: 30px 20px 20px 47px;">
             <img src="<?php echo base_url()?>img/icon/pegawai_2.png" style="width: 190px; height: 190px; margin-top: -2px; margin-left: -4px;">
           </div>
-          <center style="font-family: calibri;font-size: 34px;margin-top: 10px; margin-bottom: 50px;"><b>-namauser-</b></center>
+          <center style="font-family: calibri;font-size: 34px;margin-top: 10px; margin-bottom: 50px;"><b><?= $this->fungsi->user_login()->username ?></b></center>
           <center>
             <div class="container" style="margin-bottom: 20px;">
               <a href="<?php base_url() ?>editprofil">
@@ -55,8 +55,8 @@
               <div class="container" style="background-color:#F8F8F8; border-width: 0px; font-weight: 500; margin-bottom: 20px;">
                 <table width="300">
                   <tr>
-                    <td style="width: 170px;"><b>Nama Petugas</b></td>
-                    <td style="padding-left: 10px;"><?php ?></td>
+                    <td style="width: 170px;"><b>Nama</b></td>
+                    <td style="padding-left: 10px;"><?= $this->fungsi->user_login()->nama ?></td>
                   </tr>
                 </table>
               </div>

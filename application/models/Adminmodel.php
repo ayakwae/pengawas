@@ -11,5 +11,14 @@ class Adminmodel extends CI_Model {
 		$query = $this->db->get();
 		return $query;
 	}
+
+	public function get($id = null){
+		$this->db->from('admin');
+		if ($id != null) {
+			$this->db->where('id_admine', $id);
+		}
+		$query = $this->db->get();
+		return $query;
+	}
 }
 ?>
