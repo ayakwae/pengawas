@@ -47,40 +47,24 @@
               <div class="container" style="background-color:#F8F8F8; border-width: 0px; font-weight: 500; margin-bottom: 20px; margin-top: 30px;">
                 <table width="300">
                   <tr>
-                    <td style="width: 170px;"><b>NIP</b></td>
-                    <td style="padding-left: 10px;"><?php ?></td>
+                    <td style="width: 100px;"><b>Nama</b></td>
+                    <td style=""><?= $this->fungsi->user_login()->nama ?></td>
                   </tr>
                 </table>
               </div>
               <div class="container" style="background-color:#F8F8F8; border-width: 0px; font-weight: 500; margin-bottom: 20px;">
                 <table width="300">
                   <tr>
-                    <td style="width: 170px;"><b>Nama</b></td>
-                    <td style="padding-left: 10px;"><?= $this->fungsi->user_login()->nama ?></td>
+                    <td style="width: 150px;"><b>Email</b></td>
+                    <td style=""><?= $this->fungsi->user_login()->email ?></td>
                   </tr>
                 </table>
               </div>
               <div class="container" style="background-color:#F8F8F8; border-width: 0px; font-weight: 500; margin-bottom: 20px;">
-                <table width="300">
+                <table width="400">
                   <tr>
-                    <td style="width: 170px;"><b>Nama Unit</b></td>
-                    <td style="padding-left: 10px;"><?php ?></td>
-                  </tr>
-                </table>
-              </div>
-              <div class="container" style="background-color:#F8F8F8; border-width: 0px; font-weight: 500; margin-bottom: 20px;">
-                <table width="300">
-                  <tr>
-                    <td style="width: 170px;"><b>Status</b></td>
-                    <td style="padding-left: 10px;"><?php ?></td>
-                  </tr>
-                </table>
-              </div>
-              <div class="container" style="background-color:#F8F8F8; border-width: 0px; font-weight: 500; margin-bottom: 20px;">
-                <table width="300">
-                  <tr>
-                    <td style="width: 170px;"><b>Jabatan</b></td>
-                    <td style="padding-left: 10px;"><?php ?></td>
+                    <td style="width: 100px;"><b>Alamat</b></td>
+                    <td ><?= $this->fungsi->user_login()->alamat ?></td>
                   </tr>
                 </table>
               </div>
