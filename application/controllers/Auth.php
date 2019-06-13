@@ -22,14 +22,13 @@ class Auth extends CI_Controller
 				$params = array('id_admin' => $row->id_admin);
 				$this->session->set_userdata($params);
 				echo "<script>
-					alert('Selamat, login berhasil');
 					window.location='".site_url('home')."'
 				</script>";
 			}else{
-				echo "<script>
-					alert('Login gagal, nama pengguna / kata sandi salah');
-					window.location='".site_url('loginadmin')."'
-				</script>";
+				echo "<script type='text/javascript'>
+        alert('Username & Password Anda Salah!');
+        history.back(self);
+        </script>";
 			}
 		}
 	}
