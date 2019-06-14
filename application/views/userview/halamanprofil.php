@@ -68,11 +68,11 @@
                   </tr>
                 </table>
               </div>
-              <form method="post" action="<?=site_url('auth/logout')?>">
               <div style="margin-left: 470px; padding-top: 150px;">
-                <button type="button" class="btn btn-danger" name="logout" onclick="window.location='<?php echo base_url("auth/logout")?>'"><img src="<?php echo base_url()?>img/icon/keluar.png" style="max-width: 30px; max-height: 60px;">Keluar</button>
+                <button type="button" class="btn btn-danger" name="logout" onclick="window.location='<?php echo base_url("auth/logout")?>'">
+                  <a href="<?= site_url('auth/logout') ?>">
+                  <img src="<?php echo base_url()?>img/icon/keluar.png" style="max-width: 30px; max-height: 60px;">Keluar</a></button>
             </div>
-            </form>
           </div>
         </div>
       </div>

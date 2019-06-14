@@ -8,7 +8,9 @@ class Auth extends CI_Controller
 	
 	public function loginadmin()
 	{
-		$this->load->view->userview('loginadmin');
+		$data['border']='transparent';
+		$data['page']='userview/loginadmin';
+		$this->load->view('layout/main', $data);
 	}
 
 	public function process()
@@ -33,8 +35,10 @@ class Auth extends CI_Controller
 		}
 	}
 	public function logout(){ 
-		$this->session->sess_destroy();
-		redirect('loginadmin');
+
+		$params = array('idadmin');
+		$this->session->unset_userdata($params);
+		redirect('auth/loginadmin');
 	}
 
 		// function logout(){
