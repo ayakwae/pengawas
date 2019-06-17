@@ -45,15 +45,21 @@
       <form><center>
         <table border="2" style="width:1000px; text-align: center; margin-bottom: 20px;">
           <tr>
-            <th style="font-size: 25px; font-family: calibri;">No</th>
-            <th style="font-size: 25px; font-family: calibri;">NPU/NIP</th>
-            <th style="font-size: 25px; font-family: calibri;">Nama Pengawas</th>
-            <th style="font-size: 25px; font-family: calibri;">Institusi</th>
-            <th style="font-size: 25px; font-family: calibri;">Jabatan</th>
-            <th style="font-size: 25px; font-family: calibri;">Aksi</th>
+            <th style="font-size: 20px; font-family: calibri;">No</th>
+            <th style="font-size: 20px; font-family: calibri;">NIP</th>
+            <th style="font-size: 20px; font-family: calibri;">Nama Pengawas</th>
+            <th style="font-size: 20px; font-family: calibri;">Nama Unit</th>
+            <th style="font-size: 20px; font-family: calibri;">Status Pengawas</th>
+            <th style="font-size: 20px; font-family: calibri;">Golongan</th>
+            <th style="font-size: 20px; font-family: calibri;">Lokasi Mengawas</th>
+            <th style="font-size: 20px; font-family: calibri;">Kelompok Ujian</th>
+            <th style="font-size: 20px; font-family: calibri;">Aksi</th>
           </tr>
           <tr>
             <td>1.</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
             <td>test</td>
             <td>test</td>
             <td>test</td>
@@ -66,10 +72,16 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
             <td><a href="<?php base_url() ?>editpengawas"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height:30px;"></a></td>
           </tr>
           <tr>
             <td>3.</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
             <td>test</td>
             <td>test</td>
             <td>test</td>
@@ -82,10 +94,16 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
             <td><a href="<?php base_url() ?>editpengawas"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>5.</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
             <td>test</td>
             <td>test</td>
             <td>test</td>
@@ -98,10 +116,16 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
             <td><a href="<?php base_url() ?>editpengawas"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>7.</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
             <td>test</td>
             <td>test</td>
             <td>test</td>
@@ -114,10 +138,16 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
             <td><a href="<?php base_url() ?>editpengawas"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>9.</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
             <td>test</td>
             <td>test</td>
             <td>test</td>
@@ -130,10 +160,16 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
             <td><a href="<?php base_url() ?>edittambahpengawas"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>11.</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
             <td>test</td>
             <td>test</td>
             <td>test</td>

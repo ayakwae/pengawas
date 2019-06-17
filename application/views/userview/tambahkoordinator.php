@@ -4,7 +4,7 @@
       <div class="row" style="margin-left: 5px;">
         <span style="background-color: #2F669F; height: 25px; width: 15px; margin-top: 7px; margin-left: 5px;"></span>
         <span style="background-color: #2F669F; height: 25px; width: 5px; margin-top: 7px; margin-left: 5px;"></span> &nbsp;&nbsp;
-        <h3 style="color: #2F669F;"><b>Edit Koordinator</b></h3>  
+        <h3 style="color: #2F669F;"><b>Tambah Koordinator</b></h3>  
       </div>  
     </div>
   </div>
@@ -55,7 +55,7 @@
         <table border="2" style="width:1000px; text-align: center; margin-bottom: 20px;">
           <tr>
             <th style="font-size: 25px; font-family: calibri;">No</th>
-            <th style="font-size: 25px; font-family: calibri;">NPU/NIP</th>
+            <th style="font-size: 25px; font-family: calibri;">NIP</th>
             <th style="font-size: 25px; font-family: calibri;">Nama Pengawas</th>
             <th style="font-size: 25px; font-family: calibri;">Jabatan</th>
             <th style="font-size: 25px; font-family: calibri;">Hari/Tanggal</th>
