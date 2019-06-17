@@ -2,12 +2,12 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 
-class EditTambahPengawas extends CI_Controller
+class TambahPengawas extends CI_Controller
 {
 	public function index()
 	{
 		$data['border']='transparent';
-		$data['page']='userview/edittambahpengawas';
+		$data['page']='userview/tambahpengawas';
 		$this->load->view('layout/main', $data);
 	}
 
