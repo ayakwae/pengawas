@@ -15,7 +15,7 @@
       <table>
         <tr>
           <td style="font-family: calibri; font-size: 20px;">NIP</td>
-          <td><input class="form-control" placeholder="Ketik NIP/NIK/NIM" type="text" name="nip_nik_nim" style="padding-right: 200px; margin-left: 50px; margin-bottom: 5px;"></td>
+          <td><input class="form-control" placeholder="Ketik NIP/NIK/NIM" type="text" name="nip_nik_nim" style="padding-right: 200px; margin-left: 50px; margin-bottom: 5px;margin-bottom: 15px;"></td>
         </tr>
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Nama Pengawas</td>
@@ -29,27 +29,29 @@
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Status Pengawas</td>
           <td>
-            <select name="kelas" class="form-control" style="width: 250px; margin-left: 50px;">
+            <select name="kelas" class="form-control" style="width: 250px; margin-left: 50px;margin-bottom: 15px;">
             <option value="kelas">-Pilih Status-</option>
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
             </select> 
           </td>
+          <td style="padding-left: 230px;"><a href="<?php base_url() ?>daftarpengawas"><button type="button" class="btn btn-danger"><img src="<?php echo base_url()?>img\icon\keluar.png" style="width: 60px; height: 50px;">&nbsp;&nbsp;Keluar</button></a></td>
         </tr>
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Golongan</td>
           <td>
-            <select name="kelas" class="form-control" style="width: 140px; margin-left: 50px;">
+            <select name="kelas" class="form-control" style="width: 140px; margin-left: 50px;margin-bottom: 15px;">
             <option value="kelas">-Pilih Angka-</option>
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
-            </select> 
+            </select>
           </td>
+          <td><b style="margin-left: -260px; font-size: 25px;">/</b></td>
           <td>
-            <select name="kelas" class="form-control" style="width: 140px; margin-left: -240px;">
+            <select name="kelas" class="form-control" style="width: 140px; margin-left: -615px;margin-bottom: 15px;">
             <option value="kelas">-Pilih Huruf-</option>
             <option value="1">A</option>
             <option value="2">B</option>
@@ -61,17 +63,16 @@
         </tr>
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Lokasi Mengawas</td>
-          <td><input class="form-control" placeholder="Ketik Lokasi Mengawas" type="text" name="lokasi_mengawas" style="padding-right: 200px; margin-left: 50px; margin-bottom: 5px;"></td>
-          <td style="padding-left: 230px;"><a href="<?php base_url() ?>daftarpengawas"><button type="button" class="btn btn-danger"><img src="<?php echo base_url()?>img\icon\keluar.png" style="width: 60px; height: 50px;">&nbsp;&nbsp;Keluar</button></a></td>
+          <td><input class="form-control" placeholder="Ketik Lokasi Mengawas" type="text" name="lokasi_mengawas" style="padding-right: 200px; margin-left: 50px; margin-bottom: 5px;margin-bottom: 15px;"></td>
         </tr>
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Kelompok Ujian</td>
           <td>
             <select name="kelas" class="form-control" style="width: 250px; margin-left: 50px;">
             <option value="kelas">-Pilih Tingkat-</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
+            <option value="1">SAINTEK</option>
+            <option value="2">SOSHUM</option>
+            <option value="3">CAMPURAN</option>
             </select> 
           </td>
         </tr>
@@ -86,17 +87,18 @@
       <form><center>
         <table border="2" style="width:1000px; text-align: center; margin-bottom: 20px;">
           <tr>
-            <th style="font-size: 25px; font-family: calibri;">No</th>
-            <th style="font-size: 25px; font-family: calibri;">NIP</th>
-            <th style="font-size: 25px; font-family: calibri;">Nama Pengawas</th>
-            <th style="font-size: 25px; font-family: calibri;">Nama Unit</th>
-            <th style="font-size: 25px; font-family: calibri;">Status Pengawas</th>
-            <th style="font-size: 25px; font-family: calibri;">Golongan</th>
-            <th style="font-size: 25px; font-family: calibri;">Lokasi</th>
-            <th style="font-size: 25px; font-family: calibri;">Kelompok Ujian</th>
+            <th style="font-size: 20px; font-family: calibri;">No</th>
+            <th style="font-size: 20px; font-family: calibri;">NIP</th>
+            <th style="font-size: 20px; font-family: calibri;">Nama Pengawas</th>
+            <th style="font-size: 20px; font-family: calibri;">Nama Unit</th>
+            <th style="font-size: 20px; font-family: calibri;">Status Pengawas</th>
+            <th style="font-size: 20px; font-family: calibri;">Golongan</th>
+            <th style="font-size: 20px; font-family: calibri;">Lokasi Mengawas</th>
+            <th style="font-size: 20px; font-family: calibri;">Kelompok Ujian</th>
           </tr>
           <tr>
             <td>1.</td>
+            <td>test</td>
             <td>test</td>
             <td>test</td>
             <td>test</td>
@@ -112,9 +114,11 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
+            <td>test</td>
           </tr>
           <tr>
             <td>3.</td>
+            <td>test</td>
             <td>test</td>
             <td>test</td>
             <td>test</td>
@@ -130,9 +134,11 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
+            <td>test</td>
           </tr>
           <tr>
             <td>5.</td>
+            <td>test</td>
             <td>test</td>
             <td>test</td>
             <td>test</td>
@@ -148,9 +154,11 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
+            <td>test</td>
           </tr>
           <tr>
             <td>7.</td>
+            <td>test</td>
             <td>test</td>
             <td>test</td>
             <td>test</td>
@@ -166,9 +174,11 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
+            <td>test</td>
           </tr>
           <tr>
             <td>9.</td>
+            <td>test</td>
             <td>test</td>
             <td>test</td>
             <td>test</td>
@@ -184,9 +194,11 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
+            <td>test</td>
           </tr>
           <tr>
             <td>11.</td>
+            <td>test</td>
             <td>test</td>
             <td>test</td>
             <td>test</td>
