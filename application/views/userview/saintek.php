@@ -4,7 +4,7 @@
       <div class="row" style="margin-left: 5px;">
         <span style="background-color: #2F669F; height: 25px; width: 15px; margin-top: 7px; margin-left: 5px;"></span>
         <span style="background-color: #2F669F; height: 25px; width: 5px; margin-top: 7px; margin-left: 5px;"></span> &nbsp;&nbsp;
-        <h3 style="color: #2F669F;"><b>Lokasi Ujian</b></h3>  
+        <h3 style="color: #2F669F;"><b>Saintek</b></h3>  
       </div>  
     </div>
   </div>
@@ -23,14 +23,14 @@
       <center><form>
         <table border="2" style="width:930px; text-align: center; margin-bottom: 20px;">
           <tr>
-            <th style="font-size: 20px; font-family: calibri;">No</th>
-            <th style="font-size: 20px; font-family: calibri;">ID Ujian</th>
-            <th style="font-size: 20px; font-family: calibri;">Kode Lokasi Ujian</th>
-            <th style="font-size: 20px; font-family: calibri;">Nama Lokasi Ujian</th>
-            <th style="font-size: 20px; font-family: calibri;">Singkatan</th>
-            <th style="font-size: 20px; font-family: calibri;">Alamat</th>
-            <th style="font-size: 20px; font-family: calibri;">Telepon</th>
-            <th style="font-size: 20px; font-family: calibri;">Kelompok Ujian</th>
+            <th style="font-size: 25px; font-family: calibri;">No</th>
+            <th style="font-size: 25px; font-family: calibri;">ID</th>
+            <th style="font-size: 25px; font-family: calibri;">Kode Lokasi</th>
+            <th style="font-size: 25px; font-family: calibri;">Nama Lokasi</th>
+            <th style="font-size: 25px; font-family: calibri;">Singkatan</th>
+            <th style="font-size: 25px; font-family: calibri;">Alamat</th>
+            <th style="font-size: 25px; font-family: calibri;">Telepon</th>
+            <th style="font-size: 25px; font-family: calibri;">Kelompok Ujian</th>
           </tr>
           <tr>
             <td>1.</td>

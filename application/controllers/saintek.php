@@ -2,12 +2,12 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 
-class LokasiPelatihan extends CI_Controller
+class Saintek extends CI_Controller
 {
 	public function index()
 	{
 		$data['border']='transparent';
-		$data['page']='userview/lokasipelatihan';
+		$data['page']='userview/saintek';
 		$this->load->view('layout/main', $data);
 	}
 

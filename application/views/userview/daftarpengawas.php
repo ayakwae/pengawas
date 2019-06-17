@@ -142,6 +142,7 @@
           </tr>
         </table>
       </center></form>
+      <td style="padding-left: 230px;"><a href="<?php base_url() ?>pengawas"><img src="<?php echo base_url()?>img\icon\keluar1.png" style="width: 50px; height: 40px;margin-left: 990px;"></button></a></td>
     </div>
   </div>
 </div>
