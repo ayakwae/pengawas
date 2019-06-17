@@ -16,7 +16,7 @@
         <a href="<?php base_url() ?>saintek">
           <div style="margin-left: 120px; margin-top: 70px; margin-bottom: 15px;">
             <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
-              <center><img src="<?php echo base_url()?>img\icon\lokasi.png" style="width: 200px; height: 200px;"></center>
+              <center><img src="<?php echo base_url()?>img\icon\saintek.jpeg" style="width: 200px; height: 200px;"></center>
             </div>
             <div style="background:#E8E8E8; height: 60px;  padding-top: 15px; width: 200px;">
               <h5 align="center"><b>Saintek</b></h5>
@@ -26,7 +26,7 @@
         <a href="<?php base_url() ?>soshum">
           <div style="margin-left: 70px; margin-top: 70px; margin-bottom: 15px;">
             <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
-              <center><img src="<?php echo base_url()?>img\icon\presensii.png" style="width: 200px; height: 200px;"></center>
+              <center><img src="<?php echo base_url()?>img\icon\soshum.jpeg" style="width: 200px; height: 200px;"></center>
             </div>
             <div style="background:#E8E8E8; height: 60px;  padding-top: 15px; width: 200px;">
               <h5 align="center"><b>Soshum</b></h5>
@@ -36,7 +36,7 @@
         <a href="<?php base_url() ?>campuran">
           <div style="margin-left: 70px; margin-top: 70px; margin-bottom: 15px;">
             <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
-              <center><img src="<?php echo base_url()?>img\icon\ruangan.png" style="width: 185px; height: 185px;margin-top: 8px;"></center>
+              <center><img src="<?php echo base_url()?>img\icon\campuran.png" style="width: 200px; height: 200px;"></center>
             </div>
             <div style="background:#E8E8E8; height: 60px;  padding-top: 15px; width: 200px;">
               <h5 align="center"><b>Campuran</b></h5>
