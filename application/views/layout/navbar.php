@@ -22,7 +22,7 @@
                 <img src="<?php echo base_url()?>img/SRPU1.png" style="width :110px ;height: 110px; margin-top: -22px; margin-left: 50px;">
               </td>
               <td><h4 style="margin-top: -6px;"><b style="color : #1E90FF; font-size: 25px; margin-top: -22px;">Sistem Rekapitulasi</b></h4></td></tr>
-              <tr><th style="padding-top: -10px;"><h4 style="margin-bottom: 20px;padding-top: -10px;"><b style="color : #1E90FF; font-size: 25px;">Pengawas Ujian</b></h4></th></tr>
+              <tr><th style="padding-top: -10px;"><h4 style="margin-bottom: 20px;padding-top: -10px;"><b style="color : #1E90FF; font-size: 31px;">Pengawas Ujian</b></h4></th></tr>
           </table>
         </a>
       </tr>
