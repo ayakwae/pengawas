@@ -4,7 +4,7 @@
       <div class="row" style="margin-left: 5px;">
         <span style="background-color: #2F669F; height: 20px; width: 5px; margin-top: 8px; margin-left: 5px;"></span>
         <span style="background-color: #2F669F; height: 20px; width: 3px; margin-top: 8px; margin-left: 3px;"></span> &nbsp;
-        <b style="color: #2F669F; font-size: 22px;">Tambah Ruangan</b>
+        <b style="color: #2F669F; font-size: 22px;">Tambah Ruangan Pelatihan</b>
       </div>  
     </div>
   </div>
@@ -29,7 +29,7 @@
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Nama Ruang</td>
           <td><input class="form-control" placeholder="Ketik Nama Ruang" type="text" name="nama_ruang" style="padding-right: 200px; margin-left: 50px; margin-bottom: 5px;"></td>
-          <td style="padding-left: 230px;"><a href="<?php base_url() ?>daftarruangan"><button type="button" class="btn btn-danger"><img src="<?php echo base_url()?>img\icon\keluar.png" style="width: 60px; height: 50px;">&nbsp;&nbsp;Keluar</button></a></td>
+          <td style="padding-left: 230px;"><a href="<?php base_url() ?>ruanganpelatihan"><button type="button" class="btn btn-danger"><img src="<?php echo base_url()?>img\icon\keluar.png" style="width: 60px; height: 50px;">&nbsp;&nbsp;Keluar</button></a></td>
         </tr>
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Kapasitas</td>

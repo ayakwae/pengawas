@@ -30,6 +30,7 @@
             <th style="font-size: 25px; font-family: calibri;">Nama Ruang</th>
             <th style="font-size: 25px; font-family: calibri;">Kapasitas</th>
             <th style="font-size: 25px; font-family: calibri;">Keterangan Ruang</th>
+            <th style="font-size: 20px; font-family: calibri;">Aksi</th>
           </tr>
           <tr>
             <td>1.</td>
@@ -39,6 +40,7 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
+            <td><a href="<?php base_url() ?>editruanganpelatihan"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>2.</td>
@@ -48,6 +50,7 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
+            <td><a href="<?php base_url() ?>editruanganpelatihan"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>3.</td>
@@ -57,6 +60,7 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
+            <td><a href="<?php base_url() ?>editruanganpelatihan"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>4.</td>
@@ -66,6 +70,7 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
+            <td><a href="<?php base_url() ?>editruanganpelatihan"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>5.</td>
@@ -75,6 +80,7 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
+            <td><a href="<?php base_url() ?>editruanganpelatihan"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>6.</td>
@@ -84,6 +90,7 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
+            <td><a href="<?php base_url() ?>editruanganpelatihan"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>7.</td>
@@ -93,6 +100,7 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
+            <td><a href="<?php base_url() ?>editruanganpelatihan"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>8.</td>
@@ -102,6 +110,7 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
+            <td><a href="<?php base_url() ?>editruanganpelatihan"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>9.</td>
@@ -111,6 +120,7 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
+            <td><a href="<?php base_url() ?>editruanganpelatihan"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>10.</td>
@@ -120,6 +130,7 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
+            <td><a href="<?php base_url() ?>editruanganpelatihan"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>11.</td>
@@ -129,12 +140,13 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
+            <td><a href="<?php base_url() ?>editruanganpelatihan"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
         </table>
       </form></center>
       <div class="row">
 <div class="container" style="margin-top: 10px;margin-left: 70px;">
-  <a href="<?php base_url() ?>tambahruangan">
+  <a href="<?php base_url() ?>tambahruanganpelatihan">
     <button class="btn btn-secondary my-2 my-sm-0" type="submit"><img src="<?php echo base_url()?>img\icon\tambah.png" style="width: 20px; height: 20px; padding-top: -1px;">&nbsp;&nbsp;Tambah</button>
   </a>
 </div>
