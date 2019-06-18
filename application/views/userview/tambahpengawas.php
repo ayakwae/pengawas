@@ -43,23 +43,24 @@
           <td style="font-family: calibri; font-size: 20px;">Golongan</td>
           <td>
             <select name="kelas" class="form-control" style="width: 140px; margin-left: 50px;margin-bottom: 15px;">
-            <option value="kelas">-Pilih Angka-</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
+            <option value="kelas"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Pilih-</option>
+            <option value="1">1A</option>
+            <option value="2">1B</option>
+            <option value="3">1C</option>
+            <option value="4">1D</option>
+            <option value="5">2A</option>
+            <option value="6">2B</option>
+            <option value="7">2C</option>
+            <option value="8">2D</option>
+            <option value="9">3A</option>
+            <option value="10">3B</option>
+            <option value="11">3C</option>
+            <option value="12">3D</option>
+            <option value="13">4A</option>
+            <option value="14">4B</option>
+            <option value="15">4C</option>
+            <option value="16">4D</option>
             </select>
-          </td>
-          <td><b style="margin-left: -260px; font-size: 25px;">/</b></td>
-          <td>
-            <select name="kelas" class="form-control" style="width: 140px; margin-left: -615px;margin-bottom: 15px;">
-            <option value="kelas">-Pilih Huruf-</option>
-            <option value="1">A</option>
-            <option value="2">B</option>
-            <option value="3">C</option>
-            <option value="4">D</option>
-            <option value="5">e</option>
-            </select> 
           </td>
         </tr>
         <tr>
