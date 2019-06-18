@@ -66,7 +66,7 @@
       </li>
       <div class="dropdown">
       <li class="nav-item" >
-        <u class="nav-link" href="<?php echo base_url()?>halamanprofil" style="font-family: calibri; font-size: 20px; margin-top: -5px; margin-left: 25px; margin-right: 25px;"><?= $this->fungsi->user_login()->username ?></u>
+        <u class="nav-link" href="<?php echo base_url()?>halamanprofil" style="font-family: calibri; font-size: 20px; margin-top: -5px; margin-left: 25px; margin-right: 25px;"><?= $this->fungsi->user_login()->nama_admin ?></u>
           <div class="dropdown-content">
             <a href="<?= site_url('auth/logout') ?>">Keluar</a>
           </div>

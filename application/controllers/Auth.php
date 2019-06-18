@@ -21,7 +21,7 @@ class Auth extends CI_Controller
 			$query = $this->Adminmodel->loginadmin($post);
 			if ($query->num_rows()>0) {
 				$row = $query->row();
-				$params = array('id_admin' => $row->id_admin);
+				$params = array('username' => $row->username);
 				$this->session->set_userdata($params);
 				echo "<script>
 					window.location='".site_url('home')."'
