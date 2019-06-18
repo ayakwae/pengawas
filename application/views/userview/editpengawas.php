@@ -31,9 +31,9 @@
           <td>
             <select name="kelas" class="form-control" style="width: 250px; margin-left: 50px;margin-bottom: 15px;">
             <option value="kelas">-Pilih Status-</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
+            <option value="1">Dosen</option>
+            <option value="2">Pascasarjana</option>
+            <option value="3">Mahasiswa</option>
             </select> 
           </td>
           <td style="padding-left: 230px;"><a href="<?php base_url() ?>daftarpengawas"><button type="button" class="btn btn-danger"><img src="<?php echo base_url()?>img\icon\keluar.png" style="width: 60px; height: 50px;">&nbsp;&nbsp;Keluar</button></a></td>
