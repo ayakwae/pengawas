@@ -40,8 +40,8 @@
           <td><input class="form-control" type="time" name="jam_coaching" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
         </tr>
         <tr>
-          <td style="font-family: calibri; font-size: 20px;">Tempat Coaching</td>
-          <td><input class="form-control" placeholder="Ketik Tempat Coaching" type="text" name="tempat_coaching" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
+          <td style="font-family: calibri; font-size: 20px;">Lokasi Coaching</td>
+          <td><input class="form-control" placeholder="Ketik Lokasi Coaching" type="text" name="Lokasi_coaching" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
         </tr>
       </table>
     </div>
