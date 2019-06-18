@@ -4,7 +4,7 @@
       <div class="row" style="margin-left: 5px;">
         <span style="background-color: #2F669F; height: 25px; width: 15px; margin-top: 7px; margin-left: 5px;"></span>
         <span style="background-color: #2F669F; height: 25px; width: 5px; margin-top: 7px; margin-left: 5px;"></span> &nbsp;&nbsp;
-        <h3 style="color: #2F669F;"><b>Honor</b></h3>  
+        <h3 style="color: #2F669F;"><b>Daftar Honor Bersih</b></h3>  
       </div>  
     </div>
   </div>
