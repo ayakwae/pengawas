@@ -87,7 +87,7 @@
 			$menu['halamanprofil'] = '';	
 			$this->load->view('layout/menu',$menu);
 		 }
-	else if ($page=='userview/edittambahpengawas') {
+	else if ($page=='userview/tambahpengawas') {
 			$menu['home'] = '';
 			$menu['pengawas'] = '';
 			$menu['daftarpengawas'] = 'active';
@@ -157,7 +157,7 @@
 			$menu['halamanprofil'] = '';		
 			$this->load->view('layout/menu',$menu);
 		 }
-	else if ($page=='userview/edittambahkoordinator') {
+	else if ($page=='userview/tambahkoordinator') {
 			$menu['home'] = '';
 			$menu['pengawas'] = '';
 			$menu['daftarpengawas'] = '';
@@ -383,7 +383,21 @@
 			$menu['lihathonor'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
-	else if ($page=='userview/halamanprofil') {
+	else if ($page=='userview/editpengawas') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['daftarpengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftarkoordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['daftarlokasi'] = '';
+			$menu['daftarinstansi'] = '';
+			$menu['daftarruangan'] = '';
+			$menu['halamanreport'] = '';
+			$menu['halamanprofil'] = 'active';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/editkoordinator') {
 			$menu['home'] = '';
 			$menu['pengawas'] = '';
 			$menu['daftarpengawas'] = '';
