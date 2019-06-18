@@ -199,6 +199,20 @@
 			$menu['halamanprofil'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
+	else if ($page=='userview/tambahlokasi') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['daftarpengawas'] = '';
+			$menu['daftarkoordinator'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['daftarlokasi'] = 'active';
+			$menu['daftarinstansi'] = '';
+			$menu['daftarruangan'] = '';
+			$menu['halamanreport'] = '';
+			$menu['halamanprofil'] = '';
+			$this->load->view('layout/menu',$menu);
+		 }
 	else if ($page=='userview/saintek') {
 			$menu['home'] = '';
 			$menu['pengawas'] = '';
@@ -256,6 +270,20 @@
 			$this->load->view('layout/menu',$menu);
 		 }
 	else if ($page=='userview/daftarruangan') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['daftarpengawas'] = '';
+			$menu['daftarkoordinator'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['daftarlokasi'] = '';
+			$menu['daftarinstansi'] = '';
+			$menu['daftarruangan'] = 'active';
+			$menu['halamanreport'] = '';
+			$menu['halamanprofil'] = '';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/tambahruangan') {
 			$menu['home'] = '';
 			$menu['pengawas'] = '';
 			$menu['daftarpengawas'] = '';

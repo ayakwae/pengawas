@@ -24,6 +24,7 @@
         <table border="2" style="width:930px; text-align: center; margin-bottom: 20px;">
           <tr>
             <th style="font-size: 25px; font-family: calibri;">No</th>
+            <th style="font-size: 25px; font-family: calibri;">ID Ruangan</th>
             <th style="font-size: 25px; font-family: calibri;">Lokasi</th>
             <th style="font-size: 25px; font-family: calibri;">Nomor Ruang</th>
             <th style="font-size: 25px; font-family: calibri;">Nama Ruang</th>
@@ -37,9 +38,11 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
+            <td>test</td>
           </tr>
           <tr>
             <td>2.</td>
+            <td>test</td>
             <td>test</td>
             <td>test</td>
             <td>test</td>
@@ -53,9 +56,11 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
+            <td>test</td>
           </tr>
           <tr>
             <td>4.</td>
+            <td>test</td>
             <td>test</td>
             <td>test</td>
             <td>test</td>
@@ -69,9 +74,11 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
+            <td>test</td>
           </tr>
           <tr>
             <td>6.</td>
+            <td>test</td>
             <td>test</td>
             <td>test</td>
             <td>test</td>
@@ -85,9 +92,11 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
+            <td>test</td>
           </tr>
           <tr>
             <td>8.</td>
+            <td>test</td>
             <td>test</td>
             <td>test</td>
             <td>test</td>
@@ -101,9 +110,11 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
+            <td>test</td>
           </tr>
           <tr>
             <td>10.</td>
+            <td>test</td>
             <td>test</td>
             <td>test</td>
             <td>test</td>
@@ -116,10 +127,18 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
-            <td>test</td
+            <td>test</td>
+            <td>test</td>
           </tr>
         </table>
       </form></center>
+      <div class="row">
+<div class="container" style="margin-top: 10px;margin-left: 70px;">
+  <a href="<?php base_url() ?>tambahruangan">
+    <button class="btn btn-secondary my-2 my-sm-0" type="submit"><img src="<?php echo base_url()?>img\icon\tambah.png" style="width: 20px; height: 20px; padding-top: -1px;">&nbsp;&nbsp;Tambah</button>
+  </a>
+</div>
+</div>
       <td style="padding-left: 230px;"><a href="<?php base_url() ?>daftarruangan"><img src="<?php echo base_url()?>img\icon\keluar1.png" style="width: 50px; height: 40px;margin-left: 960px;"></button></a></td>
     </div>
   </div>
