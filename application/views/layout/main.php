@@ -439,6 +439,63 @@
 			$menu['halamanprofil'] = 'active';
 			$this->load->view('layout/menu',$menu);
 		 }
+	else if ($page=='userview/editruanganpelatihan') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['daftarpengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftarkoordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['daftarlokasi'] = '';
+			$menu['daftarinstansi'] = '';
+			$menu['daftarruangan'] = '';
+			$menu['halamanreport'] = '';
+			$menu['halamanprofil'] = 'active';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/editruanganujian') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['daftarpengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftarkoordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['daftarlokasi'] = '';
+			$menu['daftarinstansi'] = '';
+			$menu['daftarruangan'] = '';
+			$menu['halamanreport'] = '';
+			$menu['halamanprofil'] = 'active';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/tambahruanganujian') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['daftarpengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftarkoordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['daftarlokasi'] = '';
+			$menu['daftarinstansi'] = '';
+			$menu['daftarruangan'] = '';
+			$menu['halamanreport'] = '';
+			$menu['halamanprofil'] = 'active';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/tambahruanganpelatihan') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['daftarpengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftarkoordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['daftarlokasi'] = '';
+			$menu['daftarinstansi'] = '';
+			$menu['daftarruangan'] = '';
+			$menu['halamanreport'] = '';
+			$menu['halamanprofil'] = 'active';
+			$this->load->view('layout/menu',$menu);
+		 }
+
 	?>
 	<div class="container" style="border-color: <?php echo $border?>;border-style: solid;">
 		<?php $this->load->view($page)?>

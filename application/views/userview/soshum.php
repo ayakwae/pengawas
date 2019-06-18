@@ -30,6 +30,7 @@
             <th style="font-size: 25px; font-family: calibri;">Alamat</th>
             <th style="font-size: 25px; font-family: calibri;">Telepon</th>
             <th style="font-size: 25px; font-family: calibri;">Kelompok Ujian</th>
+            <th style="font-size: 20px; font-family: calibri;">Aksi</th>
           </tr>
           <tr>
             <td>1.</td>
@@ -39,6 +40,7 @@
             <td>  </td>
             <td>  </td>
             <td>  </td>
+            <td><a href="<?php base_url() ?>editlokasi"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>2.</td>
@@ -48,6 +50,7 @@
             <td>  </td>
             <td>  </td>
             <td>  </td>
+            <td><a href="<?php base_url() ?>editlokasi"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>3.</td>
@@ -57,6 +60,7 @@
             <td>  </td>
             <td>  </td>
             <td>  </td>
+            <td><a href="<?php base_url() ?>editlokasi"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>4.</td>
@@ -65,7 +69,8 @@
             <td>  </td>
             <td>  </td>
             <td>  </td>
-            <td>  
+            <td>  </td>
+            <td><a href="<?php base_url() ?>editlokasi"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td> 
           </tr>
           <tr>
             <td>5.</td>
@@ -75,6 +80,7 @@
             <td>  </td>
             <td>  </td>
             <td>  </td>
+            <td><a href="<?php base_url() ?>editlokasi"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>6.</td>
@@ -84,6 +90,7 @@
             <td>  </td>
             <td>  </td>
             <td>  </td>
+            <td><a href="<?php base_url() ?>editlokasi"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>7.</td>
@@ -93,6 +100,7 @@
             <td>  </td>
             <td>  </td>
             <td>  </td>
+            <td><a href="<?php base_url() ?>editlokasi"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>8.</td>
@@ -102,6 +110,7 @@
             <td>  </td>
             <td>  </td>
             <td>  </td>
+            <td><a href="<?php base_url() ?>editlokasi"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>9.</td>
@@ -111,6 +120,7 @@
             <td>  </td>
             <td>  </td>
             <td>  </td>
+            <td><a href="<?php base_url() ?>editlokasi"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>10.</td>
@@ -120,6 +130,7 @@
             <td>  </td>
             <td>  </td>
             <td>  </td>
+            <td><a href="<?php base_url() ?>editlokasi"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>11.</td>
@@ -129,6 +140,7 @@
             <td>  </td>
             <td>  </td>
             <td>  </td>
+            <td><a href="<?php base_url() ?>editlokasi"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
         </table>
       </form></center>
