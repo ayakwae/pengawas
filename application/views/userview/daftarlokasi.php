@@ -1,20 +1,21 @@
 <div class="row">
   <div class="col-md-12">
-    <div class="container" style="background: white;font-color:blue;border-width: 1px;border-color: #d6d6c2;padding-top: 1em;padding-bottom: 1em;margin-top: 2.5em">
+    <div class="container" style="background: white;font-color:blue;border-width: 1px;border-color: #d6d6c2;padding-top: 8px;padding-bottom: -1px;margin-top: 2.5em">
       <div class="row" style="margin-left: 5px;">
-        <span style="background-color: #2F669F; height: 25px; width: 15px; margin-top: 7px; margin-left: 5px;"></span>
-        <span style="background-color: #2F669F; height: 25px; width: 5px; margin-top: 7px; margin-left: 5px;"></span> &nbsp;&nbsp;
-        <h3 style="color: #2F669F;"><b>Daftar Lokasi</b></h3>  
+        <span style="background-color: #2F669F; height: 18px; width: 7px; margin-top: 7px; margin-left: 5px;"></span>
+        <span style="background-color: #2F669F; height: 18px; width: 3px; margin-top: 7px; margin-left: 3px;"></span> &nbsp;
+        <h4 style="color: #2F669F;"><b>Lokasi</b></h4>  
       </div>  
     </div>
   </div>
 </div>
+
 <div class="row">
   <div class="col-md-12">
-    <div class="container" style="background: white;border-width: 1px;border-color: #d6d6c2;padding-bottom: 50px;">
-      <div class="row" style="margin-top: 25px; margin-left: 60px;" >
+    <div class="container" style="background: white;border-width: 1px;border-color: #d6d6c2;padding-bottom: 10px; margin-top: 10px; padding-top: 25px;">
+      <div class="row" style="margin-top: -10px; margin-left: 60px;" >
         <a href="<?php base_url() ?>saintek">
-          <div style="margin-left: 90px; margin-top: 70px; margin-bottom: 15px;">
+          <div style="margin-left: 90px; margin-top: 30px; margin-bottom: 15px;">
             <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
               <center><img src="<?php echo base_url()?>img\icon\saintek.jpeg" style="width: 200px; height: 200px;"></center>
             </div>
@@ -24,7 +25,7 @@
           </div>
         </a>
         <a href="<?php base_url() ?>soshum">
-          <div style="margin-left: 70px; margin-top: 70px; margin-bottom: 15px;">
+          <div style="margin-left: 70px; margin-top: 30px; margin-bottom: 15px;">
             <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
               <center><img src="<?php echo base_url()?>img\icon\soshum.jpeg" style="width: 200px; height: 200px;"></center>
             </div>
@@ -34,7 +35,7 @@
           </div>
         </a>
         <a href="<?php base_url() ?>campuran">
-          <div style="margin-left: 70px; margin-top: 70px; margin-bottom: 15px;">
+          <div style="margin-left: 70px; margin-top: 30px; margin-bottom: 15px;">
             <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
               <center><img src="<?php echo base_url()?>img\icon\campuran1.png" style="width: 230px; height: 200px;"></center>
             </div>

@@ -1,10 +1,10 @@
 <div class="row">
   <div class="col-md-12">
-    <div class="container" style="background: white;font-color:blue;border-width: 1px;border-color: #d6d6c2;padding-top: 1em;padding-bottom: 1em;margin-top: 2.5em">
+    <div class="container" style="background: white;font-color:blue;border-width: 1px;border-color: #d6d6c2;padding-top: 8px;padding-bottom: -1px;margin-top: 2.5em">
       <div class="row" style="margin-left: 5px;">
-        <span style="background-color: #2F669F; height: 25px; width: 15px; margin-top: 7px; margin-left: 5px;"></span>
-        <span style="background-color: #2F669F; height: 25px; width: 5px; margin-top: 7px; margin-left: 5px;"></span> &nbsp;&nbsp;
-        <h3 style="color: #2F669F;"><b>Daftar Koordinator</b></h3>  
+        <span style="background-color: #2F669F; height: 18px; width: 7px; margin-top: 7px; margin-left: 5px;"></span>
+        <span style="background-color: #2F669F; height: 18px; width: 3px; margin-top: 7px; margin-left: 3px;"></span> &nbsp;
+        <h4 style="color: #2F669F;"><b>Daftar Koordinator</b></h4>  
       </div>  
     </div>
   </div>
@@ -14,17 +14,9 @@
     <div class="container" style="background: white;border-width: 1px;border-color: #d6d6c2;padding-bottom: 20px; margin-top: 25px; padding-top: 25px;">
       <center><table>
         <tr>
-          <td style="font-family: calibri; font-size: 20px;">Hari/Tanggal</td>
-          <td><input class="form-control" type="date" name="date" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
-        </tr>
-        <tr>
-          <td style="font-family: calibri; font-size: 20px;">Jam</td>
-          <td><input class="form-control" type="time" name="jam" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
+          <td style="font-family: calibri; font-size: 20px;">Cari</td>
+          <td><input class="form-control" placeholder="Ketik" type="text" name="cari" style="padding-right: 100px; margin-left: 30px; margin-bottom: 5px;"></td>
           <td style="padding-left: 100px;"><button class="btn btn-primary my-2 my-sm-0" type="submit"><img src="<?php echo base_url()?>img\icon\search.png" style="width: 20px; height: 20px;">&nbsp;&nbsp;Cari</button></td>
-        </tr>
-        <tr>
-          <td style="font-family: calibri; font-size: 20px;">Tempat</td>
-          <td><input class="form-control" placeholder="Ketik Tempat" type="text" name="tempat" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
         </tr>
       </table></center>
     </div>
