@@ -4,7 +4,7 @@
       <div class="row" style="margin-left: 5px;">
         <span style="background-color: #2F669F; height: 18px; width: 7px; margin-top: 7px; margin-left: 5px;"></span>
         <span style="background-color: #2F669F; height: 18px; width: 3px; margin-top: 7px; margin-left: 3px;"></span> &nbsp;
-        <h4 style="color: #2F669F;"><b>Distribusi Koordinator</b></h4>  
+        <h4 style="color: #2F669F;"><b>Distribusi Koordinator Pelatihan</b></h4>  
       </div>  
     </div>
   </div>
@@ -24,7 +24,7 @@
         <table border="2" style="width:930px; text-align: center; margin-bottom: 20px;">
           <tr>
             <th style="font-size: 20px; font-family: calibri;">No</th>
-            <th style="font-size: 20px; font-family: calibri;">Kode Distribusi Koordinator</th>
+            <th style="font-size: 20px; font-family: calibri;">Kode Distribusi Koordinator Pelatihan</th>
             <th style="font-size: 20px; font-family: calibri;">Kode Lokasi</th>
             <th style="font-size: 20px; font-family: calibri;">Nomor Ruang</th>
             <th style="font-size: 20px; font-family: calibri;">NPU</th>
@@ -188,12 +188,12 @@
       <table>
         <tr>
           <td>
-            <a href="<?php base_url() ?>tambahpengawas">
+            <a href="<?php base_url() ?>tambahdistribusikoordinator">
               <button class="btn btn-secondary my-2 my-sm-0" type="submit"><img src="<?php echo base_url()?>img\icon\tambah.png" style="width: 20px; height: 20px; padding-top: -1px;">&nbsp;&nbsp;Tambah</button>
             </a>
           </td>
           <td>
-            <a href="<?php base_url() ?>pengawas"><img src="<?php echo base_url()?>img\icon\keluar1.png" style="width: 50px; height: 40px;margin-left: 910px;"></button>
+            <a href="<?php base_url() ?>koordinator"><img src="<?php echo base_url()?>img\icon\keluar1.png" style="width: 50px; height: 40px;margin-left: 910px;"></button>
             </a>
           </td>
         </tr>
