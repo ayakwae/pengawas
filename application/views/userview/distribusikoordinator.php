@@ -185,7 +185,19 @@
 
         </table>
       </form></center>
-      <td style="padding-left: 230px;"><a href="<?php base_url() ?>koordinator"><img src="<?php echo base_url()?>img\icon\keluar1.png" style="width: 50px; height: 40px;margin-left: 960px;"></button></a></td>
+      <table>
+        <tr>
+          <td>
+            <a href="<?php base_url() ?>tambahpengawas">
+              <button class="btn btn-secondary my-2 my-sm-0" type="submit"><img src="<?php echo base_url()?>img\icon\tambah.png" style="width: 20px; height: 20px; padding-top: -1px;">&nbsp;&nbsp;Tambah</button>
+            </a>
+          </td>
+          <td>
+            <a href="<?php base_url() ?>pengawas"><img src="<?php echo base_url()?>img\icon\keluar1.png" style="width: 50px; height: 40px;margin-left: 910px;"></button>
+            </a>
+          </td>
+        </tr>
+      </table>
     </div>
   </div>
 </div>
