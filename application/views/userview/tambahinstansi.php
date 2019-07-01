@@ -13,10 +13,10 @@
   <div class="col-md-12">
     <div class="container" style="background: white;border-width: 1px;border-color: #d6d6c2;padding-bottom: 20px; margin-top: 25px; padding-top: 25px;">
       <table>
-        <tr>
+        <!-- <tr>
           <td style="font-family: calibri; font-size: 20px;">ID</td>
           <td><input class="form-control" placeholder="Ketik ID" type="text" name="id" style="padding-right: 200px; margin-left: 50px; margin-bottom: 5px;margin-bottom: 15px;"></td>
-        </tr>
+        </tr> -->
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Kode Instansi</td>
           <td><input class="form-control" placeholder="Ketik Kode Instansi" type="text" name="kode_instansi" style="padding-right: 200px; margin-left: 50px; margin-bottom: 5px;"></td>

@@ -13,10 +13,10 @@
   <div class="col-md-12">
     <div class="container" style="background: white;border-width: 1px;border-color: #d6d6c2;padding-bottom: 20px; margin-top: 25px; padding-top: 25px;">
       <table>
-        <tr>
+        <!-- <tr>
           <td style="font-family: calibri; font-size: 20px;">ID</td>
           <td><input class="form-control" placeholder="Ketik ID" type="text" name="id" style="padding-right: 200px; margin-left: 50px; margin-bottom: 5px;margin-bottom: 15px;"></td>
-        </tr>
+        </tr> -->
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Kode Lokasi</td>
           <td><input class="form-control" placeholder="Ketik Kode Lokasi" type="text" name="kode_lokasi" style="padding-right: 200px; margin-left: 50px; margin-bottom: 5px;"></td>
@@ -51,7 +51,7 @@
   </div>
 </div>
 
-<div class="row">
+<!-- <div class="row">
   <div class="col-md-12">
     <div class="container" style="background: white;border-width: 1px;border-color: #d6d6c2;padding-bottom: 10px; margin-top: 10px; padding-top: 25px;">
       <form><center>
@@ -168,4 +168,4 @@
       </center></form>
     </div>
   </div>
-</div>
+</div> -->

@@ -17,7 +17,6 @@
         <table border="2" style="width:930px; text-align: center; margin-bottom: 20px;">
           <tr>
             <th style="font-size: 25px; font-family: calibri;">No</th>
-            <th style="font-size: 25px; font-family: calibri;">ID</th>
             <th style="font-size: 25px; font-family: calibri;">Kode Instansi</th>
             <th style="font-size: 25px; font-family: calibri;">Nama Instansi</th>
             <th style="font-size: 25px; font-family: calibri;">Singkatan</th>
@@ -31,11 +30,9 @@
             <td>  </td>
             <td>  </td>
             <td>  </td>
-            <td>  </td>
           </tr>
           <tr>
             <td>2.</td>
-            <td>  </td>
             <td>  </td>
             <td>  </td>
             <td>  </td>
@@ -49,11 +46,9 @@
             <td>  </td>
             <td>  </td>
             <td>  </td>
-            <td>  </td>
           </tr>
           <tr>
             <td>4.</td>
-            <td>  </td>
             <td>  </td>
             <td>  </td>
             <td>  </td>
@@ -67,11 +62,9 @@
             <td>  </td>
             <td>  </td>
             <td>  </td>
-            <td>  </td>
           </tr>
           <tr>
             <td>6.</td>
-            <td>  </td>
             <td>  </td>
             <td>  </td>
             <td>  </td>
@@ -85,11 +78,9 @@
             <td>  </td>
             <td>  </td>
             <td>  </td>
-            <td>  </td>
           </tr>
           <tr>
             <td>8.</td>
-            <td>  </td>
             <td>  </td>
             <td>  </td>
             <td>  </td>
@@ -103,11 +94,9 @@
             <td>  </td>
             <td>  </td>
             <td>  </td>
-            <td>  </td>
           </tr>
           <tr>
             <td>10.</td>
-            <td>  </td>
             <td>  </td>
             <td>  </td>
             <td>  </td>
@@ -121,11 +110,9 @@
             <td>  </td>
             <td>  </td>
             <td>  </td>
-            <td>  </td>
           </tr>
           <tr>
             <td>12.</td>
-            <td>  </td>
             <td>  </td>
             <td>  </td>
             <td>  </td>
@@ -139,11 +126,9 @@
             <td>  </td>
             <td>  </td>
             <td>  </td>
-            <td>  </td>
           </tr>
           <tr>
             <td>14.</td>
-            <td>  </td>
             <td>  </td>
             <td>  </td>
             <td>  </td>

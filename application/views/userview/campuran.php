@@ -17,7 +17,6 @@
         <table border="2" style="width:930px; text-align: center; margin-bottom: 20px;">
           <tr>
             <th style="font-size: 25px; font-family: calibri;">No</th>
-            <th style="font-size: 25px; font-family: calibri;">ID</th>
             <th style="font-size: 25px; font-family: calibri;">Kode Lokasi</th>
             <th style="font-size: 25px; font-family: calibri;">Nama Lokasi</th>
             <th style="font-size: 25px; font-family: calibri;">Alamat</th>
@@ -32,12 +31,10 @@
             <td>  </td>
             <td>  </td>
             <td>  </td>
-            <td>  </td>
             <td><a href="<?php base_url() ?>editlokasi"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>2.</td>
-            <td>  </td>
             <td>  </td>
             <td>  </td>
             <td>  </td>
@@ -52,12 +49,10 @@
             <td>  </td>
             <td>  </td>
             <td>  </td>
-            <td>  </td>
             <td><a href="<?php base_url() ?>editlokasi"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>4.</td>
-            <td>  </td>
             <td>  </td>
             <td>  </td>
             <td>  </td>
@@ -73,12 +68,10 @@
             <td>  </td>
             <td>  </td>
             <td>  </td>
-            <td>  </td>
             <td><a href="<?php base_url() ?>editlokasi"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>6.</td>
-            <td>  </td>
             <td>  </td>
             <td>  </td>
             <td>  </td>
@@ -93,12 +86,10 @@
             <td>  </td>
             <td>  </td>
             <td>  </td>
-            <td>  </td>
             <td><a href="<?php base_url() ?>editlokasi"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>8.</td>
-            <td>  </td>
             <td>  </td>
             <td>  </td>
             <td>  </td>
@@ -113,7 +104,6 @@
             <td>  </td>
             <td>  </td>
             <td>  </td>
-            <td>  </td>
             <td><a href="<?php base_url() ?>editlokasi"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
@@ -123,12 +113,10 @@
             <td>  </td>
             <td>  </td>
             <td>  </td>
-            <td>  </td>
             <td><a href="<?php base_url() ?>editlokasi"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>11.</td>
-            <td>  </td>
             <td>  </td>
             <td>  </td>
             <td>  </td>
