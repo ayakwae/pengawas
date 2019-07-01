@@ -21,16 +21,16 @@
   <div class="col-md-12">
     <div class="container" style="background: white;border-width: 1px;border-color: #d6d6c2;padding-bottom: 10px; margin-top: 10px; padding-top: 25px;">
       <center><form>
-        <table border="2" style="width:930px; text-align: center; margin-bottom: 20px;">
+        <table border="2" style="width:1050px; text-align: center; margin-bottom: 20px;">
           <tr>
             <th style="font-size: 20px; font-family: calibri;">No</th>
-            <th style="font-size: 20px; font-family: calibri;">Kode Distribusi Koordinator Pelatihan</th>
-            <th style="font-size: 20px; font-family: calibri;">Kode Lokasi</th>
-            <th style="font-size: 20px; font-family: calibri;">Nomor Ruang</th>
-            <th style="font-size: 20px; font-family: calibri;">NPU</th>
-            <th style="font-size: 20px; font-family: calibri;">Jabatan</th>
-            <th style="font-size: 20px; font-family: calibri;">Tanggal Coaching</th>
-            <th style="font-size: 20px; font-family: calibri;">Waktu Coaching</th>
+            <th style="font-size: 20px; font-family: calibri;">Kode Distribusi Pengawas Pelatihan</th>
+            <th style="font-size: 20px; font-family: calibri; padding-left: 20px; padding-right: 20px;">Kode Lokasi</th>
+            <th style="font-size: 20px; font-family: calibri; padding-left: 20px; padding-right: 20px;">Nomor Ruang</th>
+            <th style="font-size: 20px; font-family: calibri; padding-left: 40px; padding-right: 40px;">NPU</th>
+            <th style="font-size: 20px; font-family: calibri; padding-left: 50px; padding-right: 50px;">Jabatan</th>
+            <th style="font-size: 20px; font-family: calibri; padding-left: 30px; padding-right: 30px;">Tanggal Coaching</th>
+            <th style="font-size: 20px; font-family: calibri; padding-left: 20px; padding-right: 20px;">Waktu Coaching</th>
           </tr>
           <tr>
             <td>1.</td>
@@ -162,7 +162,7 @@
             <td> </td>
             <td> </td>
           </tr>
-          <tr>
+           <tr>
             <td>14.</td>
             <td> </td>
             <td> </td>
@@ -172,7 +172,7 @@
             <td> </td>
             <td> </td>
           </tr>
-          <tr>
+           <tr>
             <td>15.</td>
             <td> </td>
             <td> </td>
@@ -182,7 +182,36 @@
             <td> </td>
             <td> </td>
           </tr>
-
+           <tr>
+            <td>16.</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+          </tr>
+           <tr>
+            <td>17.</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+          </tr>
+           <tr>
+            <td>18.</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+          </tr>
         </table>
       </form></center>
       <table>

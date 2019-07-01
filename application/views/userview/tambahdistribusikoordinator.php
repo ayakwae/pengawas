@@ -42,7 +42,7 @@
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Jabatan</td>
           <td><input class="form-control" placeholder="Ketik Gelar Belakang" type="text" name="gelar_belakang" style="padding-right: 200px; margin-left: 50px; margin-bottom: 5px;"></td>
-          <td style="padding-left: 230px;"><a href="<?php base_url() ?>distribusikoordinator"><button type="button" class="btn btn-danger"><img src="<?php echo base_url()?>img\icon\keluar.png" style="width: 60px; height: 50px;">&nbsp;&nbsp;Keluar</button></a></td>
+          <td style="padding-left: 230px;"><a href="<?php base_url() ?>distribusikoordinator"><button type="button" class="btn btn-danger"><img src="<?php echo base_url()?>img\icon\keluar.png" style="width: 56px; height: 50px;">Kembali</button></a></td>
         </tr>
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Tanggal Coaching</td>
@@ -53,127 +53,6 @@
           <td><input class="form-control" placeholder="Ketik NPWP" type="text" name="npwp" style="padding-right: 200px; margin-left: 50px; margin-bottom: 5px;margin-bottom: 15px;"></td>
         </tr>
       </table>
-    </div>
-  </div>
-</div>
-
-<div class="row">
-  <div class="col-md-12">
-    <div class="container" style="background: white;border-width: 1px;border-color: #d6d6c2;padding-bottom: 10px; margin-top: 10px; padding-top: 25px;">
-      <form><center>
-        <table border="2" style="width:930px; text-align: center; margin-bottom: 20px;">
-          <tr>
-            <th style="font-size: 20px; font-family: calibri;">No</th>
-            <th style="font-size: 20px; font-family: calibri;">Kode Distribusi Koordinator Pelatihan</th>
-            <th style="font-size: 20px; font-family: calibri;">Kode Lokasi</th>
-            <th style="font-size: 20px; font-family: calibri;">Nomor Ruang</th>
-            <th style="font-size: 20px; font-family: calibri;">NPU</th>
-            <th style="font-size: 20px; font-family: calibri;">Jabatan</th>
-            <th style="font-size: 20px; font-family: calibri;">Tanggal Coaching</th>
-            <th style="font-size: 20px; font-family: calibri;">Waktu Coaching</th>
-          </tr>
-          <tr>
-            <td>1.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-          <tr>
-            <td>2.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-          <tr>
-            <td>3.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-          <tr>
-            <td>4.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-          <tr>
-            <td>5.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-          <tr>
-            <td>6.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-          <tr>
-            <td>7.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-          <tr>
-            <td>8.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-          <tr>
-            <td>9.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-          <tr>
-            <td>10.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-        </table>
-      </center></form>
     </div>
   </div>
 </div>
