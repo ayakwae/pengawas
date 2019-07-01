@@ -29,7 +29,7 @@
               <center><img src="<?php echo base_url()?>img\icon\badge.png" style="width: 200px; height: 200px;"></center>
             </div>
             <div style="background:#E8E8E8; height: 60px;  padding-top: 15px; width: 200px;">
-              <h5 align="center"><b>Badge</b></h5>
+              <h5 align="center"><b>Lencana</b></h5>
             </div>
           </div>
         </a> 
