@@ -33,16 +33,16 @@
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Nomor Ruangan</td>
           <td>
-            <select name="kode_lokasi" class="form-control" style="width: 140px; margin-left: 50px;margin-bottom: 15px;">
-            <option value="kode_lokasi">&nbsp;&nbsp;&nbsp;&nbsp;-Pilih-</option>
-            <option value="1">L001</option>
-            <option value="2">L002</option>
-            <option value="3">L003</option>
-            <option value="4">L004</option>
-            <option value="5">L005</option>
+            <select name="nomor_ruangan" class="form-control" style="width: 140px; margin-left: 50px;margin-bottom: 15px;">
+            <option value="nomor_ruangan">&nbsp;&nbsp;&nbsp;&nbsp;-Pilih-</option>
+            <option value="1">R001</option>
+            <option value="2">R002</option>
+            <option value="3">R003</option>
+            <option value="4">R004</option>
+            <option value="5">R005</option>
             </select>
           </td>
-          <td style="padding-left: 230px;"><button class="btn btn-primary my-2 my-sm-0" type="submit"><img src="<?php echo base_url()?>img\icon\simpan.png" style="width: 50px; height: 50px;">&nbsp;&nbsp;&nbsp;Simpan</button></td>
+          <td style="padding-left: 200px;"><button class="btn btn-primary my-2 my-sm-0" type="submit"><img src="<?php echo base_url()?>img\icon\simpan.png" style="width: 50px; height: 50px;">&nbsp;&nbsp;&nbsp;Simpan</button></td>
         </tr>
         <tr>
           <td style="font-family: calibri; font-size: 20px;">NPU</td>
@@ -51,11 +51,11 @@
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Jabatan</td>
           <td><input class="form-control" placeholder="Ketik Jabatan" type="text" name="jabatan" style="padding-right: 200px; margin-left: 50px; margin-bottom: 5px;"></td>
-          <td style="padding-left: 230px;"><a href="<?php base_url() ?>distribusipengawas"><button type="button" class="btn btn-danger"><img src="<?php echo base_url()?>img\icon\keluar.png" style="width: 60px; height: 50px;">&nbsp;Kembali</button></a></td>
+          <td style="padding-left: 200px;"><a href="<?php base_url() ?>distribusipengawas"><button type="button" class="btn btn-danger"><img src="<?php echo base_url()?>img\icon\keluar.png" style="width: 60px; height: 50px;">&nbsp;Kembali</button></a></td>
         </tr>
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Tanggal Coaching</td>
-          <td><input class="form-control" placeholder="Ketik Kode Instansi" type="date" name="date" style="padding-right: 200px; margin-left: 50px; margin-bottom: 5px;"></td>
+          <td><input class="form-control" placeholder="Ketik Tanggal Coaching" type="date" name="date" style="padding-right: 200px; margin-left: 50px; margin-bottom: 5px;"></td>
         </tr>
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Waktu Coaching</td>

@@ -35,7 +35,7 @@
   <div class="col-md-12">
     <div class="container" style="background: white;border-width: 1px;border-color: #d6d6c2;padding-bottom: 10px; margin-top: 10px; padding-top: 25px;">
       <form><center>
-        <table border="2" style="width:1000px; text-align: center; margin-bottom: 20px;">
+        <table border="2" style="width:1050px; text-align: center; margin-bottom: 20px;">
           <tr>
             <th style="font-size: 20px; font-family: calibri;">No</th>
             <th style="font-size: 20px; font-family: calibri;">NPU</th>
@@ -53,172 +53,175 @@
           </tr>
           <tr>
             <td>1.</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
             <td><a href="<?php base_url() ?>editpengawas"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>2.</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
             <td><a href="<?php base_url() ?>editpengawas"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height:30px;"></a></td>
           </tr>
           <tr>
             <td>3.</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
             <td><a href="<?php base_url() ?>editpengawas"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>4.</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
             <td><a href="<?php base_url() ?>editpengawas"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>5.</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
             <td><a href="<?php base_url() ?>editpengawas"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>6.</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
             <td><a href="<?php base_url() ?>editpengawas"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>7.</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
             <td><a href="<?php base_url() ?>editpengawas"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>8.</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
             <td><a href="<?php base_url() ?>editpengawas"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>9.</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
             <td><a href="<?php base_url() ?>edittambahpengawas"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>10.</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
             <td><a href="<?php base_url() ?>edittambahpengawas"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
             <td>11.</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
             <td><a href="<?php base_url() ?>edittambahpengawas"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
         </table>
       </center></form>
-      <td style="padding-left: 230px;"><a href="<?php base_url() ?>pengawas"><img src="<?php echo base_url()?>img\icon\keluar1.png" style="width: 50px; height: 40px;margin-left: 990px;"></button></a></td>
+        <td>
+            <a href="<?php base_url() ?>pengawas"><img src="<?php echo base_url()?>img\icon\keluar1.png" style="width: 50px; height: 40px;margin-left: 1020px;"></button>
+            </a>
+          </td>
     </div>
   </div>
 </div>

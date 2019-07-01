@@ -25,12 +25,12 @@
           <tr>
             <th style="font-size: 20px; font-family: calibri;">No</th>
             <th style="font-size: 20px; font-family: calibri;">Kode Distribusi Pengawas Pelatihan</th>
-            <th style="font-size: 20px; font-family: calibri; padding-left: 20px; padding-right: 20px;">Kode Lokasi</th>
-            <th style="font-size: 20px; font-family: calibri; padding-left: 20px; padding-right: 20px;">Nomor Ruang</th>
-            <th style="font-size: 20px; font-family: calibri; padding-left: 40px; padding-right: 40px;">NPU</th>
-            <th style="font-size: 20px; font-family: calibri; padding-left: 50px; padding-right: 50px;">Jabatan</th>
-            <th style="font-size: 20px; font-family: calibri; padding-left: 30px; padding-right: 30px;">Tanggal Coaching</th>
-            <th style="font-size: 20px; font-family: calibri; padding-left: 20px; padding-right: 20px;">Waktu Coaching</th>
+            <th style="font-size: 20px; font-family: calibri;">Kode Lokasi</th>
+            <th style="font-size: 20px; font-family: calibri;">Nomor Ruang</th>
+            <th style="font-size: 20px; font-family: calibri;">NPU</th>
+            <th style="font-size: 20px; font-family: calibri;">Jabatan</th>
+            <th style="font-size: 20px; font-family: calibri;">Tanggal Coaching</th>
+            <th style="font-size: 20px; font-family: calibri;">Waktu Coaching</th>
           </tr>
           <tr>
             <td>1.</td>
