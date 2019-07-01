@@ -17,484 +17,322 @@
 <body style="background-color: #87CEFA;">
 	<?php 
 	$this->load->view('layout/navbar');
-	if ($page=='userview/home') {
+	if ($page=='userview/home') {						//menu1
 			$menu['home'] = 'active';
 			$menu['pengawas'] = '';
-			$menu['daftarpengawas'] = '';
 			$menu['koordinator'] = '';
-			$menu['daftarkoordinator'] = '';
 			$menu['daftartempatujian'] = '';
-			$menu['daftarlokasi'] = '';
-			$menu['daftarinstansi'] = '';
-			$menu['daftarruangan'] = '';
 			$menu['halamanreport'] = '';
-			$menu['halamanprofil'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
-	else if ($page=='userview/pengawas') {
+	else if ($page=='userview/pengawas') {				//menu2
 			$menu['home'] = '';
 			$menu['pengawas'] = 'active';
-			$menu['daftarpengawas'] = '';
 			$menu['koordinator'] = '';
-			$menu['daftarkoordinator'] = '';
 			$menu['daftartempatujian'] = '';
-			$menu['daftarlokasi'] = '';
-			$menu['daftarinstansi'] = '';
-			$menu['daftarruangan'] = '';
 			$menu['halamanreport'] = '';
-			$menu['halamanprofil'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
 	else if ($page=='userview/distribusipengawas') {
-			$menu['home'] = '';
-			$menu['pengawas'] = 'active';
-			$menu['daftarpengawas'] = '';
+			$menu['home'] = 'active';
+			$menu['pengawas'] = '';
 			$menu['koordinator'] = '';
-			$menu['daftarkoordinator'] = '';
 			$menu['daftartempatujian'] = '';
-			$menu['daftarlokasi'] = '';
-			$menu['daftarinstansi'] = '';
-			$menu['daftarruangan'] = '';
 			$menu['halamanreport'] = '';
-			$menu['halamanprofil'] = '';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/tambahdistribusipengawas') {
+			$menu['home'] = 'active';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
 	else if ($page=='userview/distribusipengawasujian') {
-			$menu['home'] = '';
-			$menu['pengawas'] = 'active';
-			$menu['daftarpengawas'] = '';
+			$menu['home'] = 'active';
+			$menu['pengawas'] = '';
 			$menu['koordinator'] = '';
-			$menu['daftarkoordinator'] = '';
 			$menu['daftartempatujian'] = '';
-			$menu['daftarlokasi'] = '';
-			$menu['daftarinstansi'] = '';
-			$menu['daftarruangan'] = '';
 			$menu['halamanreport'] = '';
-			$menu['halamanprofil'] = '';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/tambahdistribusipengawasujian') {
+			$menu['home'] = 'active';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
 	else if ($page=='userview/daftarpengawas') {
-			$menu['home'] = '';
+			$menu['home'] = 'active';
 			$menu['pengawas'] = '';
-			$menu['daftarpengawas'] = 'active';
 			$menu['koordinator'] = '';
-			$menu['daftarkoordinator'] = '';
 			$menu['daftartempatujian'] = '';
-			$menu['daftarlokasi'] = '';
-			$menu['daftarinstansi'] = '';
-			$menu['daftarruangan'] = '';
 			$menu['halamanreport'] = '';
-			$menu['halamanprofil'] = '';	
 			$this->load->view('layout/menu',$menu);
 		 }
+
 	else if ($page=='userview/tambahpengawas') {
-			$menu['home'] = '';
+			$menu['home'] = 'active';
 			$menu['pengawas'] = '';
-			$menu['daftarpengawas'] = 'active';
 			$menu['koordinator'] = '';
-			$menu['daftarkoordinator'] = '';
 			$menu['daftartempatujian'] = '';
-			$menu['daftarlokasi'] = '';
-			$menu['daftarinstansi'] = '';
-			$menu['daftarruangan'] = '';
 			$menu['halamanreport'] = '';
-			$menu['halamanprofil'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
-	else if ($page=='userview/koordinator') {
+	else if ($page=='userview/editpengawas') {
+			$menu['home'] = 'active';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = '';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/koordinator') {			//menu3
 			$menu['home'] = '';
 			$menu['pengawas'] = '';
-			$menu['daftarpengawas'] = '';
 			$menu['koordinator'] = 'active';
-			$menu['daftarkoordinator'] = '';
 			$menu['daftartempatujian'] = '';
-			$menu['daftarlokasi'] = '';
-			$menu['daftarinstansi'] = '';
-			$menu['daftarruangan'] = '';
 			$menu['halamanreport'] = '';
-			$menu['halamanprofil'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
 	else if ($page=='userview/distribusikoordinator') {
-			$menu['home'] = '';
+			$menu['home'] = 'active';
 			$menu['pengawas'] = '';
-			$menu['daftarpengawas'] = '';
-			$menu['koordinator'] = 'active';
-			$menu['daftarkoordinator'] = '';
+			$menu['koordinator'] = '';
 			$menu['daftartempatujian'] = '';
-			$menu['daftarlokasi'] = '';
-			$menu['daftarinstansi'] = '';
-			$menu['daftarruangan'] = '';
 			$menu['halamanreport'] = '';
-			$menu['halamanprofil'] = '';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/tambahdistribusikoordinator') {
+			$menu['home'] = 'active';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = '';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/tambahdistribusikoordinatorujian') {
+			$menu['home'] = 'active';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
 	else if ($page=='userview/distribusikoordinatorujian') {
-			$menu['home'] = '';
+			$menu['home'] = 'active';
 			$menu['pengawas'] = '';
-			$menu['daftarpengawas'] = '';
-			$menu['koordinator'] = 'active';
-			$menu['daftarkoordinator'] = '';
+			$menu['koordinator'] = '';
 			$menu['daftartempatujian'] = '';
-			$menu['daftarlokasi'] = '';
-			$menu['daftarinstansi'] = '';
-			$menu['daftarruangan'] = '';
 			$menu['halamanreport'] = '';
-			$menu['halamanprofil'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
 	else if ($page=='userview/daftarkoordinator') {
-			$menu['home'] = '';
+			$menu['home'] = 'active';
 			$menu['pengawas'] = '';
-			$menu['daftarpengawas'] = '';
 			$menu['koordinator'] = '';
-			$menu['daftarkoordinator'] = 'active';
 			$menu['daftartempatujian'] = '';
-			$menu['daftarlokasi'] = '';
-			$menu['daftarinstansi'] = '';
-			$menu['daftarruangan'] = '';
 			$menu['halamanreport'] = '';
-			$menu['halamanprofil'] = '';		
 			$this->load->view('layout/menu',$menu);
 		 }
 	else if ($page=='userview/tambahkoordinator') {
-			$menu['home'] = '';
+			$menu['home'] = 'active';
 			$menu['pengawas'] = '';
-			$menu['daftarpengawas'] = '';
 			$menu['koordinator'] = '';
-			$menu['daftarkoordinator'] = 'active';
 			$menu['daftartempatujian'] = '';
-			$menu['daftarlokasi'] = '';
-			$menu['daftarinstansi'] = '';
-			$menu['daftarruangan'] = '';
 			$menu['halamanreport'] = '';
-			$menu['halamanprofil'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
-	else if ($page=='userview/daftartempatujian') {
+else if ($page=='userview/editkoordinator') {
+			$menu['home'] = 'active';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = '';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/daftartempatujian') {		//menu4
 			$menu['home'] = '';
 			$menu['pengawas'] = '';
-			$menu['daftarpengawas'] = '';
 			$menu['koordinator'] = '';
-			$menu['daftarkoordinator'] = '';
 			$menu['daftartempatujian'] = 'active';
-			$menu['daftarlokasi'] = '';
-			$menu['daftarinstansi'] = '';
-			$menu['daftarruangan'] = '';
 			$menu['halamanreport'] = '';
-			$menu['halamanprofil'] = '';	
 			$this->load->view('layout/menu',$menu);
 		 }
 	else if ($page=='userview/daftarlokasi') {
-			$menu['home'] = '';
+			$menu['home'] = 'active';
 			$menu['pengawas'] = '';
-			$menu['daftarpengawas'] = '';
-			$menu['daftarkoordinator'] = '';
 			$menu['koordinator'] = '';
 			$menu['daftartempatujian'] = '';
-			$menu['daftarlokasi'] = 'active';
-			$menu['daftarinstansi'] = '';
-			$menu['daftarruangan'] = '';
 			$menu['halamanreport'] = '';
-			$menu['halamanprofil'] = '';
-			$this->load->view('layout/menu',$menu);
-		 }
-	else if ($page=='userview/tambahlokasi') {
-			$menu['home'] = '';
-			$menu['pengawas'] = '';
-			$menu['daftarpengawas'] = '';
-			$menu['daftarkoordinator'] = '';
-			$menu['koordinator'] = '';
-			$menu['daftartempatujian'] = '';
-			$menu['daftarlokasi'] = 'active';
-			$menu['daftarinstansi'] = '';
-			$menu['daftarruangan'] = '';
-			$menu['halamanreport'] = '';
-			$menu['halamanprofil'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
 	else if ($page=='userview/saintek') {
-			$menu['home'] = '';
+			$menu['home'] = 'active';
 			$menu['pengawas'] = '';
-			$menu['daftarpengawas'] = '';
-			$menu['daftarkoordinator'] = '';
 			$menu['koordinator'] = '';
 			$menu['daftartempatujian'] = '';
-			$menu['daftarlokasi'] = 'active';
-			$menu['daftarinstansi'] = '';
-			$menu['daftarruangan'] = '';
 			$menu['halamanreport'] = '';
-			$menu['halamanprofil'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
 	else if ($page=='userview/soshum') {
-			$menu['home'] = '';
+			$menu['home'] = 'active';
 			$menu['pengawas'] = '';
-			$menu['daftarpengawas'] = '';
-			$menu['daftarkoordinator'] = '';
 			$menu['koordinator'] = '';
 			$menu['daftartempatujian'] = '';
-			$menu['daftarlokasi'] = 'active';
-			$menu['daftarinstansi'] = '';
-			$menu['daftarruangan'] = '';
 			$menu['halamanreport'] = '';
-			$menu['halamanprofil'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
 	else if ($page=='userview/campuran') {
-			$menu['home'] = '';
+			$menu['home'] = 'active';
 			$menu['pengawas'] = '';
-			$menu['daftarpengawas'] = '';
-			$menu['daftarkoordinator'] = '';
 			$menu['koordinator'] = '';
 			$menu['daftartempatujian'] = '';
-			$menu['daftarlokasi'] = 'active';
-			$menu['daftarinstansi'] = '';
-			$menu['daftarruangan'] = '';
 			$menu['halamanreport'] = '';
-			$menu['halamanprofil'] = '';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/tambahlokasi') {
+			$menu['home'] = 'active';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
 	else if ($page=='userview/daftarinstansi') {
-			$menu['home'] = '';
+			$menu['home'] = 'active';
 			$menu['pengawas'] = '';
-			$menu['daftarpengawas'] = '';
-			$menu['daftarkoordinator'] = '';
 			$menu['koordinator'] = '';
 			$menu['daftartempatujian'] = '';
-			$menu['daftarlokasi'] = '';
-			$menu['daftarinstansi'] = 'active';
-			$menu['daftarruangan'] = '';
 			$menu['halamanreport'] = '';
-			$menu['halamanprofil'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
 	else if ($page=='userview/daftarruangan') {
-			$menu['home'] = '';
+			$menu['home'] = 'active';
 			$menu['pengawas'] = '';
-			$menu['daftarpengawas'] = '';
-			$menu['daftarkoordinator'] = '';
 			$menu['koordinator'] = '';
 			$menu['daftartempatujian'] = '';
-			$menu['daftarlokasi'] = '';
-			$menu['daftarinstansi'] = '';
-			$menu['daftarruangan'] = 'active';
 			$menu['halamanreport'] = '';
-			$menu['halamanprofil'] = '';
-			$this->load->view('layout/menu',$menu);
-		 }
-	else if ($page=='userview/tambahruangan') {
-			$menu['home'] = '';
-			$menu['pengawas'] = '';
-			$menu['daftarpengawas'] = '';
-			$menu['daftarkoordinator'] = '';
-			$menu['koordinator'] = '';
-			$menu['daftartempatujian'] = '';
-			$menu['daftarlokasi'] = '';
-			$menu['daftarinstansi'] = '';
-			$menu['daftarruangan'] = 'active';
-			$menu['halamanreport'] = '';
-			$menu['halamanprofil'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
 	else if ($page=='userview/ruanganpelatihan') {
-			$menu['home'] = '';
+			$menu['home'] = 'active';
 			$menu['pengawas'] = '';
-			$menu['daftarpengawas'] = '';
-			$menu['daftarkoordinator'] = '';
 			$menu['koordinator'] = '';
 			$menu['daftartempatujian'] = '';
-			$menu['daftarlokasi'] = '';
-			$menu['daftarinstansi'] = '';
-			$menu['daftarruangan'] = 'active';
 			$menu['halamanreport'] = '';
-			$menu['halamanprofil'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
 	else if ($page=='userview/ruanganujian') {
-			$menu['home'] = '';
+			$menu['home'] = 'active';
 			$menu['pengawas'] = '';
-			$menu['daftarpengawas'] = '';
-			$menu['daftarkoordinator'] = '';
 			$menu['koordinator'] = '';
 			$menu['daftartempatujian'] = '';
-			$menu['daftarlokasi'] = '';
-			$menu['daftarinstansi'] = '';
-			$menu['daftarruangan'] = 'active';
 			$menu['halamanreport'] = '';
-			$menu['halamanprofil'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
-	else if ($page=='userview/halamanreport') {
-			$menu['home'] = '';
+	else if ($page=='userview/tambahruanganujian') {
+			$menu['home'] = 'active';
 			$menu['pengawas'] = '';
-			$menu['daftarpengawas'] = '';
 			$menu['koordinator'] = '';
-			$menu['daftarkoordinator'] = '';
 			$menu['daftartempatujian'] = '';
-			$menu['daftarlokasi'] = '';
-			$menu['daftarinstansi'] = '';
-			$menu['daftarruangan'] = '';
-			$menu['halamanreport'] = 'active';
-			$menu['halamanprofil'] = '';
+			$menu['halamanreport'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
-	else if ($page=='userview/lihatjadwal') {
-			$menu['home'] = '';
+	else if ($page=='userview/tambahruanganpelatihan') {
+			$menu['home'] = 'active';
 			$menu['pengawas'] = '';
-			$menu['daftarpengawas'] = '';
 			$menu['koordinator'] = '';
-			$menu['daftarkoordinator'] = '';
 			$menu['daftartempatujian'] = '';
-			$menu['daftarlokasi'] = '';
-			$menu['daftarinstansi'] = '';
-			$menu['daftarruangan'] = '';
-			$menu['halamanreport'] = 'active';
-			$menu['halamanprofil'] = '';
+			$menu['halamanreport'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
-	else if ($page=='userview/lihatpresensi') {
-			$menu['home'] = '';
+	else if ($page=='userview/editruanganpelatihan') {
+			$menu['home'] = 'active';
 			$menu['pengawas'] = '';
-			$menu['daftarpengawas'] = '';
 			$menu['koordinator'] = '';
-			$menu['daftarkoordinator'] = '';
 			$menu['daftartempatujian'] = '';
-			$menu['daftarlokasi'] = '';
-			$menu['daftarinstansi'] = '';
-			$menu['daftarruangan'] = '';
-			$menu['halamanreport'] = 'active';
-			$menu['halamanprofil'] = '';
+			$menu['halamanreport'] = '';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/editruanganujian') {
+			$menu['home'] = 'active';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = '';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/halamanreport') {			//menu5	
+			$menu['home'] = 'active';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = '';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/lihatalbum') {
+			$menu['home'] = 'active';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = '';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/lihatbadge') {
+			$menu['home'] = 'active';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
 	else if ($page=='userview/lihathonor') {
-			$menu['home'] = '';
+			$menu['home'] = 'active';
 			$menu['pengawas'] = '';
-			$menu['daftarpengawas'] = '';
 			$menu['koordinator'] = '';
-			$menu['daftarkoordinator'] = '';
 			$menu['daftartempatujian'] = '';
-			$menu['daftarlokasi'] = '';
-			$menu['daftarinstansi'] = '';
-			$menu['daftarruangan'] = '';
-			$menu['halamanreport'] = 'active';
-			$menu['halamanprofil'] = '';
+			$menu['halamanreport'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
 	else if ($page=='userview/honor') {
 			$menu['home'] = '';
+			$menu['home'] = 'active';
 			$menu['pengawas'] = '';
-			$menu['daftarpengawas'] = '';
 			$menu['koordinator'] = '';
-			$menu['daftarkoordinator'] = '';
 			$menu['daftartempatujian'] = '';
-			$menu['daftarlokasi'] = '';
-			$menu['daftarinstansi'] = '';
-			$menu['daftarruangan'] = '';
 			$menu['halamanreport'] = '';
-			$menu['halamanprofil'] = '';
-			$menu['lihathonor'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
 	else if ($page=='userview/honorbersih') {
 			$menu['home'] = '';
+			$menu['home'] = 'active';
 			$menu['pengawas'] = '';
-			$menu['daftarpengawas'] = '';
 			$menu['koordinator'] = '';
-			$menu['daftarkoordinator'] = '';
 			$menu['daftartempatujian'] = '';
-			$menu['daftarlokasi'] = '';
-			$menu['daftarinstansi'] = '';
-			$menu['daftarruangan'] = '';
 			$menu['halamanreport'] = '';
-			$menu['halamanprofil'] = '';
-			$menu['lihathonor'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
-	else if ($page=='userview/editpengawas') {
-			$menu['home'] = '';
+	else if ($page=='userview/lihatjadwal') {
+			$menu['home'] = 'active';
 			$menu['pengawas'] = '';
-			$menu['daftarpengawas'] = '';
 			$menu['koordinator'] = '';
-			$menu['daftarkoordinator'] = '';
 			$menu['daftartempatujian'] = '';
-			$menu['daftarlokasi'] = '';
-			$menu['daftarinstansi'] = '';
-			$menu['daftarruangan'] = '';
 			$menu['halamanreport'] = '';
-			$menu['halamanprofil'] = 'active';
 			$this->load->view('layout/menu',$menu);
 		 }
-	else if ($page=='userview/editkoordinator') {
-			$menu['home'] = '';
+	else if ($page=='userview/lihatpresensi') {
+			$menu['home'] = 'active';
 			$menu['pengawas'] = '';
-			$menu['daftarpengawas'] = '';
 			$menu['koordinator'] = '';
-			$menu['daftarkoordinator'] = '';
 			$menu['daftartempatujian'] = '';
-			$menu['daftarlokasi'] = '';
-			$menu['daftarinstansi'] = '';
-			$menu['daftarruangan'] = '';
 			$menu['halamanreport'] = '';
-			$menu['halamanprofil'] = 'active';
 			$this->load->view('layout/menu',$menu);
 		 }
-	else if ($page=='userview/editruanganpelatihan') {
-			$menu['home'] = '';
-			$menu['pengawas'] = '';
-			$menu['daftarpengawas'] = '';
-			$menu['koordinator'] = '';
-			$menu['daftarkoordinator'] = '';
-			$menu['daftartempatujian'] = '';
-			$menu['daftarlokasi'] = '';
-			$menu['daftarinstansi'] = '';
-			$menu['daftarruangan'] = '';
-			$menu['halamanreport'] = '';
-			$menu['halamanprofil'] = 'active';
-			$this->load->view('layout/menu',$menu);
-		 }
-	else if ($page=='userview/editruanganujian') {
-			$menu['home'] = '';
-			$menu['pengawas'] = '';
-			$menu['daftarpengawas'] = '';
-			$menu['koordinator'] = '';
-			$menu['daftarkoordinator'] = '';
-			$menu['daftartempatujian'] = '';
-			$menu['daftarlokasi'] = '';
-			$menu['daftarinstansi'] = '';
-			$menu['daftarruangan'] = '';
-			$menu['halamanreport'] = '';
-			$menu['halamanprofil'] = 'active';
-			$this->load->view('layout/menu',$menu);
-		 }
-	else if ($page=='userview/tambahruanganujian') {
-			$menu['home'] = '';
-			$menu['pengawas'] = '';
-			$menu['daftarpengawas'] = '';
-			$menu['koordinator'] = '';
-			$menu['daftarkoordinator'] = '';
-			$menu['daftartempatujian'] = '';
-			$menu['daftarlokasi'] = '';
-			$menu['daftarinstansi'] = '';
-			$menu['daftarruangan'] = '';
-			$menu['halamanreport'] = '';
-			$menu['halamanprofil'] = 'active';
-			$this->load->view('layout/menu',$menu);
-		 }
-	else if ($page=='userview/tambahruanganpelatihan') {
-			$menu['home'] = '';
-			$menu['pengawas'] = '';
-			$menu['daftarpengawas'] = '';
-			$menu['koordinator'] = '';
-			$menu['daftarkoordinator'] = '';
-			$menu['daftartempatujian'] = '';
-			$menu['daftarlokasi'] = '';
-			$menu['daftarinstansi'] = '';
-			$menu['daftarruangan'] = '';
-			$menu['halamanreport'] = '';
-			$menu['halamanprofil'] = 'active';
-			$this->load->view('layout/menu',$menu);
-		 }
+	
 
 	?>
 	<div class="container" style="border-color: <?php echo $border?>;border-style: solid;">
