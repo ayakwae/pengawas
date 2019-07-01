@@ -210,6 +210,14 @@ else if ($page=='userview/editkoordinator') {
 			$menu['halamanreport'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
+	else if ($page=='userview/tambahinstansi') {
+			$menu['home'] = 'active';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = '';
+			$this->load->view('layout/menu',$menu);
+		 }
 	else if ($page=='userview/daftarruangan') {
 			$menu['home'] = 'active';
 			$menu['pengawas'] = '';
