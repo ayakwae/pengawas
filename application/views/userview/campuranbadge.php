@@ -14,7 +14,7 @@
   <div class="col-md-12">
     <div class="container" style="background: white;border-width: 1px;border-color: #d6d6c2;padding-bottom: 10px; margin-top: 10px; padding-top: 25px;">
       <div class="row" style="margin-top: -10px; margin-left: 60px;" >
-        <a href="<?php base_url() ?>#">
+        <a href="<?php base_url() ?>pengawasbadge">
           <div style="margin-left: 250px; margin-top: 30px; margin-bottom: 15px;">
             <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
               <center><img src="<?php echo base_url()?>img\icon\" style="width: 200px; height: 200px;"></center>
@@ -24,7 +24,7 @@
             </div>
           </div>
         </a>
-        <a href="<?php base_url() ?>#">
+        <a href="<?php base_url() ?>pengawassiagabadge">
           <div style="margin-left: 70px; margin-top: 30px; margin-bottom: 15px;">
             <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
               <center><img src="<?php echo base_url()?>img\icon\" style="width: 200px; height: 200px;"></center>
@@ -34,7 +34,7 @@
             </div>
           </div>
         </a>
-        <a href="<?php base_url() ?>#">
+        <a href="<?php base_url() ?>koordinatorbadge">
           <div style="margin-left: 90px; margin-top: 30px; margin-bottom: 15px;">
             <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
               <center><img src="<?php echo base_url()?>img\icon\" style="width: 230px; height: 200px;"></center>
@@ -44,7 +44,7 @@
             </div>
           </div>
         </a>
-        <a href="<?php base_url() ?>#">
+        <a href="<?php base_url() ?>koordinatorutamabadge">
           <div style="margin-left: 70px; margin-top: 30px; margin-bottom: 15px;">
             <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
               <center><img src="<?php echo base_url()?>img\icon\" style="width: 200px; height: 200px;"></center>
@@ -54,7 +54,7 @@
             </div>
           </div>
         </a>
-        <a href="<?php base_url() ?>#">
+        <a href="<?php base_url() ?>penanggungjawabruanganbadge">
           <div style="margin-left: 70px; margin-top: 30px; margin-bottom: 15px;">
             <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
               <center><img src="<?php echo base_url()?>img\icon\" style="width: 230px; height: 200px;"></center>
