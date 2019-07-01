@@ -4,7 +4,7 @@
       <div class="row" style="margin-left: 5px;">
         <span style="background-color: #2F669F; height: 25px; width: 15px; margin-top: 7px; margin-left: 5px;"></span>
         <span style="background-color: #2F669F; height: 25px; width: 5px; margin-top: 7px; margin-left: 5px;"></span> &nbsp;&nbsp;
-        <h3 style="color: #2F669F;"><b>Report</b></h3>  
+        <h3 style="color: #2F669F;"><b>Laporan</b></h3>  
       </div>  
     </div>
   </div>
@@ -29,7 +29,7 @@
               <center><img src="<?php echo base_url()?>img\icon\badge.png" style="width: 200px; height: 200px;"></center>
             </div>
             <div style="background:#E8E8E8; height: 60px;  padding-top: 15px; width: 200px;">
-              <h5 align="center"><b>Badge</b></h5>
+              <h5 align="center"><b>Lencana</b></h5>
             </div>
           </div>
         </a> 

@@ -59,7 +59,7 @@
         <p class="navbar-nav" style="padding-top: 5px; color: gray; margin-right: 20px;">|</p>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-expanded" href="<?php echo base_url()?>halamanreport" style="font-family: calibri; font-size: 20px; margin-top: -5px; margin-right: 50px; margin-left: 25px;">Report</a>
+        <a class="nav-link text-expanded" href="<?php echo base_url()?>halamanreport" style="font-family: calibri; font-size: 20px; margin-top: -5px; margin-right: 50px; margin-left: 25px;">Laporan</a>
       </li>
       <li class="nav-item">
         <p class="navbar-nav" style="padding-top: 5px; color: gray; margin-right: 0px;">|</p>
