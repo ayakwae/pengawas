@@ -13,7 +13,7 @@
   <div class="col-md-12">
     <div class="container" style="background: white;border-width: 1px;border-color: #d6d6c2;padding-bottom: 50px;">
       <div class="row" style="margin-top: 25px; margin-left: 60px;" >
-        <a href="<?php base_url() ?>distribusipengawas">
+        <a href="<?php base_url() ?>lihatdistribusipengawas">
           <div style="margin-left: 80px; margin-top: 70px; margin-bottom: 15px;">
             <div style="background-color: white; width: 200px; height: 200px;">
               <img src="<?php echo base_url()?>img\icon\pengawas.jpg" style="width: 220px; height: 200px; margin-top: 10px;">
@@ -23,7 +23,7 @@
             </div>
           </div>
         </a>
-        <a href="<?php base_url() ?>distribusipengawasujian">
+        <a href="<?php base_url() ?>lihatdistribusipengawasujian">
           <div style="margin-left: 100px; margin-top: 70px; margin-bottom: 15px;">
             <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
               <center><img src="<?php echo base_url()?>img\icon\pengawas.jpg" style="width: 220px; height: 200px;"></center>
@@ -33,7 +33,7 @@
             </div>
           </div>
         </a>
-        <a href="<?php base_url() ?>daftarpengawas">
+        <a href="<?php base_url() ?>lihatdaftarpengawas">
           <div style="margin-left: 100px; margin-top: 70px; margin-bottom: 15px;">
             <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
               <center><img src="<?php echo base_url()?>img\icon\pengawas.jpg" style="width: 220px; height: 200px;"></center>

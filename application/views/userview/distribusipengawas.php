@@ -222,7 +222,7 @@
             </a>
           </td>
           <td>
-            <a href="<?php base_url() ?>pengawas"><img src="<?php echo base_url()?>img\icon\keluar1.png" style="width: 50px; height: 40px;margin-left: 900px;"></button>
+            <a href="<?php base_url() ?>distribusipengawas"><img src="<?php echo base_url()?>img\icon\keluar1.png" style="width: 50px; height: 40px;margin-left: 900px;"></button>
             </a>
           </td>
         </tr>

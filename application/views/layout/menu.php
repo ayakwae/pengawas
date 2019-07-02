@@ -53,7 +53,7 @@
         <p class="navbar-nav" style="padding-top: 5px; color: gray; margin-right: 20px;">|</p>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-expanded" href="<?php echo base_url()?>daftartempatujian" style="font-family: calibri; font-size: 20px; margin-top: -5px; margin-right: 40px; margin-left: 20px;">Daftar Tempat Ujian</a>
+        <a class="nav-link text-expanded" href="<?php echo base_url()?>daftartempatujian" style="font-family: calibri; font-size: 20px; margin-top: -5px; margin-right: 40px; margin-left: 20px;">Lokasi</a>
       </li>
       <li class="nav-item">
         <p class="navbar-nav" style="padding-top: 5px; color: gray; margin-right: 20px;">|</p>
