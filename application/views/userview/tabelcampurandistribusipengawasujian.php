@@ -4,7 +4,7 @@
       <div class="row" style="margin-left: 5px;">
         <span style="background-color: #2F669F; height: 18px; width: 7px; margin-top: 7px; margin-left: 5px;"></span>
         <span style="background-color: #2F669F; height: 18px; width: 3px; margin-top: 7px; margin-left: 3px;"></span> &nbsp;
-        <h4 style="color: #2F669F;"><b>Distribusi Pengawas Ujian Pelatihan</b></h4>  
+        <h4 style="color: #2F669F;"><b>Distribusi Pengawas Ujian</b></h4>  
       </div>  
     </div>
   </div>
@@ -24,13 +24,13 @@
         <table border="2" style="width:1050px; text-align: center; margin-bottom: 20px;">
           <tr>
             <th style="font-size: 20px; font-family: calibri;">No</th>
-            <th style="font-size: 20px; font-family: calibri;">Kode Distribusi Pengawas Pelatihan</th>
+            <th style="font-size: 20px; font-family: calibri;">Kode Distribusi Pengawas Ujian</th>
             <th style="font-size: 20px; font-family: calibri;">Kode Lokasi</th>
             <th style="font-size: 20px; font-family: calibri;">Nomor Ruang</th>
             <th style="font-size: 20px; font-family: calibri;">NPU</th>
             <th style="font-size: 20px; font-family: calibri;">Jabatan</th>
-            <th style="font-size: 20px; font-family: calibri;">Tanggal Coaching</th>
-            <th style="font-size: 20px; font-family: calibri;">Waktu Coaching</th>
+            <th style="font-size: 20px; font-family: calibri;">Tanggal Ujian</th>
+            <th style="font-size: 20px; font-family: calibri;">Waktu Ujian</th>
           </tr>
           <tr>
             <td>1.</td>
@@ -162,48 +162,8 @@
             <td> </td>
             <td> </td>
           </tr>
-           <tr>
+          <tr>
             <td>14.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-           <tr>
-            <td>15.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-           <tr>
-            <td>16.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-           <tr>
-            <td>17.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-           <tr>
-            <td>18.</td>
             <td> </td>
             <td> </td>
             <td> </td>
