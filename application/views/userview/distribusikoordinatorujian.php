@@ -9,184 +9,43 @@
     </div>
   </div>
 </div>
-<div class="row">
-  <div class="col-md-12">
-    <div class="container" style="background: white;border-width: 1px;border-color: #d6d6c2;padding-bottom: 7px;">
-      <div class="row" style="margin-left: 60px;" >
-        </div>
-      </div>
-    </div>
-  </div>
+
 <div class="row">
   <div class="col-md-12">
     <div class="container" style="background: white;border-width: 1px;border-color: #d6d6c2;padding-bottom: 10px; margin-top: 10px; padding-top: 25px;">
-      <center><form>
-        <table border="2" style="width:930px; text-align: center; margin-bottom: 20px;">
-          <tr>
-            <th style="font-size: 20px; font-family: calibri;">No</th>
-            <th style="font-size: 20px; font-family: calibri;">Kode Distribusi Koordinator Ujian</th>
-            <th style="font-size: 20px; font-family: calibri;">Kode Lokasi</th>
-            <th style="font-size: 20px; font-family: calibri;">Nomor Ruang</th>
-            <th style="font-size: 20px; font-family: calibri;">NPU</th>
-            <th style="font-size: 20px; font-family: calibri;">Jabatan</th>
-            <th style="font-size: 20px; font-family: calibri;">Tanggal Ujian</th>
-            <th style="font-size: 20px; font-family: calibri;">Waktu Ujian</th>
-          </tr>
-          <tr>
-            <td>1.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-          <tr>
-            <td>2.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-          <tr>
-            <td>3.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-          <tr>
-            <td>4.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-          <tr>
-            <td>5.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-          <tr>
-            <td>6.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-          <tr>
-            <td>7.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-          <tr>
-            <td>8.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-          <tr>
-            <td>9.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-          <tr>
-            <td>10.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-          <tr>
-            <td>11.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-          <tr>
-            <td>12.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-          <tr>
-            <td>13.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-          <tr>
-            <td>14.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-        </table>
-      </form></center>
-      <table>
-        <tr>
-          <td>
-            <a href="<?php base_url() ?>tambahdistribusipengawasujian">
-              <button class="btn btn-secondary my-2 my-sm-0" type="submit"><img src="<?php echo base_url()?>img\icon\tambah.png" style="width: 20px; height: 20px; padding-top: -1px;">&nbsp;&nbsp;Tambah</button>
-            </a>
-          </td>
-          <td>
-            <a href="<?php base_url() ?>koordinator"><img src="<?php echo base_url()?>img\icon\keluar1.png" style="width: 50px; height: 40px;margin-left: 910px;"></button>
-            </a>
-          </td>
-        </tr>
-      </table>
+      <div class="row" style="margin-top: -10px; margin-left: 60px;" >
+        <a href="<?php base_url() ?>saintekdistribusikoordinatorujian">
+          <div style="margin-left: 90px; margin-top: 30px; margin-bottom: 15px;">
+            <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
+              <center><img src="<?php echo base_url()?>img\icon\saintek.jpeg" style="width: 200px; height: 200px;"></center>
+            </div>
+            <div style="background:#E8E8E8; height: 60px;  padding-top: 15px; width: 200px;">
+              <h5 align="center"><b>Saintek</b></h5>
+            </div>
+          </div>
+        </a>
+        <a href="<?php base_url() ?>soshumdistribusikoordinatorujian">
+          <div style="margin-left: 70px; margin-top: 30px; margin-bottom: 15px;">
+            <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
+              <center><img src="<?php echo base_url()?>img\icon\soshum.jpeg" style="width: 200px; height: 200px;"></center>
+            </div>
+            <div style="background:#E8E8E8; height: 60px;  padding-top: 15px; width: 200px;">
+              <h5 align="center"><b>Soshum</b></h5>
+            </div>
+          </div>
+        </a>
+        <a href="<?php base_url() ?>campurandistribusikoordinatorujian">
+          <div style="margin-left: 70px; margin-top: 30px; margin-bottom: 15px;">
+            <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
+              <center><img src="<?php echo base_url()?>img\icon\campuran1.png" style="width: 230px; height: 200px;"></center>
+            </div>
+            <div style="background:#E8E8E8; height: 60px;  padding-top: 15px; width: 230px;">
+              <h5 align="center"><b>Campuran</b></h5>
+            </div>
+          </div>
+        </a>
+        <td style="padding-left: 230px;"><a href="<?php base_url() ?>koordinator"><img src="<?php echo base_url()?>img\icon\keluar1.png" style="width: 50px; height: 40px;margin-left: 960px;"></button></a></td>
+      </div>
     </div>
   </div>
 </div>
