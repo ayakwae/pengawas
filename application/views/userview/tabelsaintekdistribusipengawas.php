@@ -217,7 +217,7 @@
       <table>
         <tr>
           <td style="padding-left: 10px;">
-            <a href="<?php base_url() ?>tambahdistribusipengawas">
+            <a href="<?php base_url() ?>tambahsaintekdistribusipengawas">
               <button class="btn btn-secondary my-2 my-sm-0" type="submit"><img src="<?php echo base_url()?>img\icon\tambah.png" style="width: 20px; height: 20px; padding-top: -1px;">&nbsp;&nbsp;Tambah</button>
             </a>
           </td>
