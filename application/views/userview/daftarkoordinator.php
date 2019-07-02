@@ -14,7 +14,7 @@
   <div class="col-md-12">
     <div class="container" style="background: white;border-width: 1px;border-color: #d6d6c2;padding-bottom: 10px; margin-top: 10px; padding-top: 25px;">
       <div class="row" style="margin-top: -10px; margin-left: 60px;" >
-        <a href="<?php base_url() ?>saintekdaftarkoordinatorujian">
+        <a href="<?php base_url() ?>saintekdaftarkoordinator">
           <div style="margin-left: 90px; margin-top: 30px; margin-bottom: 15px;">
             <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
               <center><img src="<?php echo base_url()?>img\icon\saintek.jpeg" style="width: 200px; height: 200px;"></center>
@@ -24,7 +24,7 @@
             </div>
           </div>
         </a>
-        <a href="<?php base_url() ?>soshumcampurankoordinatorujian">
+        <a href="<?php base_url() ?>soshumdaftarkoordinator">
           <div style="margin-left: 70px; margin-top: 30px; margin-bottom: 15px;">
             <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
               <center><img src="<?php echo base_url()?>img\icon\soshum.jpeg" style="width: 200px; height: 200px;"></center>
