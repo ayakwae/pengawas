@@ -39,11 +39,11 @@
           <tr>
             <th style="font-size: 20px; font-family: calibri;">No</th>
             <th style="font-size: 20px; font-family: calibri;">NIP</th>
-            <th style="font-size: 20px; font-family: calibri;">Nama Pengawas</th>
+            <th style="font-size: 20px; font-family: calibri;">Nama Koordinator Utama</th>
+            <th style="font-size: 20px; font-family: calibri;">Nama Instansi</th>
+            <th style="font-size: 20px; font-family: calibri;">Telepon</th>
             <th style="font-size: 20px; font-family: calibri;">Jabatan</th>
-            <th style="font-size: 20px; font-family: calibri;">Hari/Tanggal</th>
-            <th style="font-size: 20px; font-family: calibri;">Jam</th>
-            <th style="font-size: 20px; font-family: calibri;">Lokasi Coaching</th>
+            <th style="font-size: 20px; font-family: calibri;">Status</th>
             <th style="font-size: 20px; font-family: calibri;">Aksi</th>
           </tr>
           <tr>
