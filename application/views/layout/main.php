@@ -1019,6 +1019,30 @@
 			$menu['halamanreport'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
+	else if ($page=='userview/saintekjadwal') {
+			$menu['home'] = 'active';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = '';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/soshumjadwal') {
+			$menu['home'] = 'active';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = '';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/campuranjadwal') {
+			$menu['home'] = 'active';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = '';
+			$this->load->view('layout/menu',$menu);
+		 }
 	else if ($page=='userview/lihatjadwal') {
 			$menu['home'] = 'active';
 			$menu['pengawas'] = '';

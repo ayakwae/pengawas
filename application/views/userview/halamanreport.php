@@ -14,7 +14,7 @@
     <div class="container" style="background: white;border-width: 1px;border-color: #d6d6c2;padding-bottom: 50px;">
       <div class="row" style="margin-top: 25px; justify-content: center" >
         <a href="<?php base_url() ?>lihatalbum">
-          <div style="margin-left: 0px; margin-top: 70px; margin-bottom: 15px;">
+          <div style="margin-left: 280px; margin-top: 70px; margin-bottom: 15px;">
             <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
               <center><img src="<?php echo base_url()?>img\icon\album.png" style="width: 200px; height: 200px;"></center>
             </div>
@@ -24,7 +24,7 @@
           </div>
         </a>
         <a href="<?php base_url() ?>lihatbadge">
-          <div style="margin-left: 40px; margin-top: 70px; margin-bottom: 15px;">
+          <div style="margin-left: 40px; margin-top: 70px; margin-bottom: 15px;margin-right: 250px;">
             <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
               <center><img src="<?php echo base_url()?>img\icon\badge.png" style="width: 200px; height: 200px;"></center>
             </div>
@@ -34,7 +34,7 @@
           </div>
         </a> 
         <a href="<?php base_url() ?>lihathonor">
-          <div style="margin-left: 40px; margin-top: 70px; margin-bottom: 15px;">
+          <div style="margin-left: 200px; margin-top: 70px; margin-bottom: 15px;">
             <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
               <center><img src="<?php echo base_url()?>img\icon\honor1.png" style="width: 200px; height: 200px;"></center>
             </div>
@@ -50,6 +50,16 @@
             </div>
             <div style="background:#E8E8E8; height: 60px;  padding-top: 15px; width: 200px;">
               <h5 align="center"><b>Presensi</b></h5>
+            </div>
+          </div>
+        </a>
+        <a href="<?php base_url() ?>lihatjadwal">
+          <div style="margin-left: 40px; margin-top: 70px; margin-bottom: 15px;margin-right: 180px;">
+            <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
+              <center><img src="<?php echo base_url()?>img\icon\jadwal.png" style="width: 200px; height: 200px;"></center>
+            </div>
+            <div style="background:#E8E8E8; height: 60px;  padding-top: 15px; width: 200px;">
+              <h5 align="center"><b>Jadwal</b></h5>
             </div>
           </div>
         </a>
