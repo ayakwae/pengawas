@@ -433,6 +433,22 @@
 			$menu['halamanreport'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
+	else if ($page=='userview/tabelcampurandistribusipengawassiagaujian') {
+			$menu['home'] = '';
+			$menu['pengawas'] = 'active';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = '';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/tabelcampurandistribusipenanggungujian') {
+			$menu['home'] = '';
+			$menu['pengawas'] = 'active';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = '';
+			$this->load->view('layout/menu',$menu);
+		 }
 	else if ($page=='userview/koordinator') {			//menu3
 			$menu['home'] = '';
 			$menu['pengawas'] = '';
