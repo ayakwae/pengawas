@@ -17,7 +17,7 @@
         <a href="<?php base_url() ?>#">
           <div style="margin-left: 250px; margin-top: 30px; margin-bottom: 15px;">
             <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
-              <center><img src="<?php echo base_url()?>img\icon\" style="width: 200px; height: 200px;"></center>
+              <center><img src="<?php echo base_url()?>img\icon\pengawas.jpg" style="width: 200px; height: 200px;"></center>
             </div>
             <div style="background:#E8E8E8; height: 60px;  padding-top: 15px; width: 200px;">
               <h5 align="center"><b>Pengawas</b></h5>
@@ -27,17 +27,18 @@
         <a href="<?php base_url() ?>#">
           <div style="margin-left: 70px; margin-top: 30px; margin-bottom: 15px;">
             <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
-              <center><img src="<?php echo base_url()?>img\icon\" style="width: 200px; height: 200px;"></center>
+              <center><img src="<?php echo base_url()?>img\icon\pengawas.jpg" style="width: 200px; height: 200px;"></center>
             </div>
             <div style="background:#E8E8E8; height: 60px;  padding-top: 15px; width: 200px;">
               <h5 align="center"><b>Pengawas Siaga</b></h5>
             </div>
           </div>
         </a>
+        <div class="row" style="margin-top: -10px; margin-left: 0px;">
         <a href="<?php base_url() ?>#">
           <div style="margin-left: 90px; margin-top: 30px; margin-bottom: 15px;">
             <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
-              <center><img src="<?php echo base_url()?>img\icon\" style="width: 230px; height: 200px;"></center>
+              <center><img src="<?php echo base_url()?>img\icon\koordinator.png" style="width: 230px; height: 200px;"></center>
             </div>
             <div style="background:#E8E8E8; height: 60px;  padding-top: 15px; width: 230px;">
               <h5 align="center"><b>Koordinator</b></h5>
@@ -47,13 +48,14 @@
         <a href="<?php base_url() ?>#">
           <div style="margin-left: 70px; margin-top: 30px; margin-bottom: 15px;">
             <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
-              <center><img src="<?php echo base_url()?>img\icon\" style="width: 200px; height: 200px;"></center>
+              <center><img src="<?php echo base_url()?>img\icon\koordinatorutama.png" style="width: 200px; height: 200px;"></center>
             </div>
             <div style="background:#E8E8E8; height: 60px;  padding-top: 15px; width: 200px;">
               <h5 align="center"><b>Koordinator Utama</b></h5>
             </div>
           </div>
         </a>
+        </div> 
         <a href="<?php base_url() ?>#">
           <div style="margin-left: 70px; margin-top: 30px; margin-bottom: 15px;">
             <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
