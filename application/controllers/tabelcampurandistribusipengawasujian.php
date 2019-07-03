@@ -8,6 +8,8 @@ class TabelCampuranDistribusiPengawasUjian extends CI_Controller
 	{
 		$data['border']='transparent';
 		$data['page']='userview/tabelcampurandistribusipengawasujian';
+		$this->load->model('Adminmodel');
+		$data['result'] = $this->Adminmodel->ambil36();
 		$this->load->view('layout/main', $data);
 	}
 

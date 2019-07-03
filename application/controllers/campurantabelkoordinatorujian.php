@@ -8,6 +8,8 @@ class CampuranTabelKoordinatorUjian extends CI_Controller
 	{
 		$data['border']='transparent';
 		$data['page']='userview/campurantabelkoordinatorujian';
+		$this->load->model('Adminmodel');
+		$data['result'] = $this->Adminmodel->ambil32();
 		$this->load->view('layout/main', $data);
 	}
 

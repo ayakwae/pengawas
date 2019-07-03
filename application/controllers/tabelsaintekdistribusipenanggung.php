@@ -8,6 +8,8 @@ class TabelSaintekDistribusiPenanggung extends CI_Controller
 	{
 		$data['border']='transparent';
 		$data['page']='userview/tabelsaintekdistribusipenanggung';
+		$this->load->model('Adminmodel');
+		$data['result'] = $this->Adminmodel->ambil15();
 		$this->load->view('layout/main', $data);
 	}
 

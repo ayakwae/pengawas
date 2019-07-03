@@ -41,19 +41,19 @@ class Adminmodel extends CI_Model {
 
 	public function ambil3()
 	{
-		$query = $this->db->get('daftar_pengawas_siaga');
+		$query = $this->db->get('daftar_pengawassiaga');
 		return $query->result();
 	}
 
 	public function ambil4()
 	{
-		$query = $this->db->get('daftar_pengawas_siaga_soshum');
+		$query = $this->db->get('daftar_pengawassiaga_soshum');
 		return $query->result();
 	}
 
 	public function ambil5()
 	{
-		$query = $this->db->get('daftar_pengawas_siaga_campuran');
+		$query = $this->db->get('daftar_pengawassiaga_campuran');
 		return $query->result();
 	}
 
@@ -74,5 +74,185 @@ class Adminmodel extends CI_Model {
 		$query = $this->db->get('daftar_lokasi_campuran');
 		return $query->result();
 	}
+
+	public function ambil9()
+	{
+		$query = $this->db->get('daftar_distribusi_koordinator_saintek');
+		return $query->result();
+	}
+
+	public function ambil10()
+	{
+		$query = $this->db->get('daftar_distribusi_koordinator_utama_saintek');
+		return $query->result();
+	}
+
+	public function ambil11()
+	{
+		$query = $this->db->get('daftar_distribusi_koordinator_utama_ujian_saintek');
+		return $query->result();
+	}
+
+	public function ambil12()
+	{
+		$query = $this->db->get('daftar_distribusi_koordinator_ujian_saintek');
+		return $query->result();
+	}
+
+	public function ambil13()
+	{
+		$query = $this->db->get('daftar_distribusi_pengawas_saintek');
+		return $query->result();
+	}
+
+	public function ambil14()
+	{
+		$query = $this->db->get('daftar_distribusi_pengawas_siaga_saintek');
+		return $query->result();
+	}
+
+	public function ambil15()
+	{
+		$query = $this->db->get('daftar_distribusi_pj_ruang_saintek');
+		return $query->result();
+	}
+
+	public function ambil16()
+	{
+		$query = $this->db->get('daftar_distribusi_pengawas_ujian_saintek');
+		return $query->result();
+	}
+
+	public function ambil17()
+	{
+		$query = $this->db->get('daftar_distribusi_pengawas_siaga_ujian_saintek');
+		return $query->result();
+	}
+
+	public function ambil18()
+	{
+		$query = $this->db->get('daftar_distribusi_pj_ruang_ujian_saintek');
+		return $query->result();
+	}
+	public function ambil19()
+	{
+		$query = $this->db->get('daftar_distribusi_koordinator_soshum');
+		return $query->result();
+	}
+
+	public function ambil20()
+	{
+		$query = $this->db->get('daftar_distribusi_koordinator_utama_soshum');
+		return $query->result();
+	}
+
+	public function ambil21()
+	{
+		$query = $this->db->get('daftar_distribusi_koordinator_utama_ujian_soshum');
+		return $query->result();
+	}
+
+	public function ambil22()
+	{
+		$query = $this->db->get('daftar_distribusi_koordinator_ujian_soshum');
+		return $query->result();
+	}
+
+	public function ambil23()
+	{
+		$query = $this->db->get('daftar_distribusi_pengawas_soshum');
+		return $query->result();
+	}
+
+	public function ambil24()
+	{
+		$query = $this->db->get('daftar_distribusi_pengawas_siaga_soshum');
+		return $query->result();
+	}
+
+	public function ambil25()
+	{
+		$query = $this->db->get('daftar_distribusi_pj_ruang_soshum');
+		return $query->result();
+	}
+
+	public function ambil26()
+	{
+		$query = $this->db->get('daftar_distribusi_pengawas_ujian_soshum');
+		return $query->result();
+	}
+
+	public function ambil27()
+	{
+		$query = $this->db->get('daftar_distribusi_pengawas_siaga_ujian_soshum');
+		return $query->result();
+	}
+
+	public function ambil28()
+	{
+		$query = $this->db->get('daftar_distribusi_pj_ruang_ujian_soshum');
+		return $query->result();
+	}
+	public function ambi29()
+	{
+		$query = $this->db->get('daftar_distribusi_koordinator_campuran');
+		return $query->result();
+	}
+
+	public function ambil30()
+	{
+		$query = $this->db->get('daftar_distribusi_koordinator_utama_campuran');
+		return $query->result();
+	}
+
+	public function ambil31()
+	{
+		$query = $this->db->get('daftar_distribusi_koordinator_utama_ujian_campuran');
+		return $query->result();
+	}
+
+	public function ambil32()
+	{
+		$query = $this->db->get('daftar_distribusi_koordinator_ujian_campuran');
+		return $query->result();
+	}
+
+	public function ambil33()
+	{
+		$query = $this->db->get('daftar_distribusi_pengawas_campuran');
+		return $query->result();
+	}
+
+	public function ambil34()
+	{
+		$query = $this->db->get('daftar_distribusi_pengawas_siaga_campuran');
+		return $query->result();
+	}
+
+	public function ambil35()
+	{
+		$query = $this->db->get('daftar_distribusi_pj_ruang_campuran');
+		return $query->result();
+	}
+
+	public function ambil36()
+	{
+		$query = $this->db->get('daftar_distribusi_pengawas_ujian_campuran');
+		return $query->result();
+	}
+
+	public function ambil37()
+	{
+		$query = $this->db->get('daftar_distribusi_pengawas_siaga_ujian_campuran');
+		return $query->result();
+	}
+
+	public function ambil38()
+	{
+		$query = $this->db->get('daftar_distribusi_pj_ruang_ujian_campuran');
+		return $query->result();
+	}
+
+
 }
 ?>

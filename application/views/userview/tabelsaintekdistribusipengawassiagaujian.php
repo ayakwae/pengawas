@@ -21,160 +21,31 @@
   <div class="col-md-12">
     <div class="container" style="background: white;border-width: 1px;border-color: #d6d6c2;padding-bottom: 10px; margin-top: 10px; padding-top: 25px;">
       <center><form>
-        <table border="2" style="width:1050px; text-align: center; margin-bottom: 20px;">
-          <tr>
-            <th style="font-size: 20px; font-family: calibri;">No</th>
-            <th style="font-size: 20px; font-family: calibri;">Kode Distribusi Pengawas Siaga Ujian</th>
-            <th style="font-size: 20px; font-family: calibri;">Kode Lokasi</th>
-            <th style="font-size: 20px; font-family: calibri;">Nomor Ruang</th>
-            <th style="font-size: 20px; font-family: calibri;">NPU</th>
-            <th style="font-size: 20px; font-family: calibri;">Jabatan</th>
-            <th style="font-size: 20px; font-family: calibri;">Tanggal Ujian</th>
-            <th style="font-size: 20px; font-family: calibri;">Waktu Ujian</th>
-          </tr>
-          <tr>
-            <td>1.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-          <tr>
-            <td>2.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-          <tr>
-            <td>3.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-          <tr>
-            <td>4.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-          <tr>
-            <td>5.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-          <tr>
-            <td>6.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-          <tr>
-            <td>7.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-          <tr>
-            <td>8.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-          <tr>
-            <td>9.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-          <tr>
-            <td>10.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-          <tr>
-            <td>11.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-          <tr>
-            <td>12.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-          <tr>
-            <td>13.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
-          <tr>
-            <td>14.</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-          </tr>
+        <table border="2" style="width:1050px; margin-bottom: 20px;">
+            <tr>
+              <th style="font-size: 20px; font-family: Arial;text-align: justify;">No</th>
+              <th style="font-size: 20px; font-family: Arial;text-align: center;">Nama Lokasi</th>
+              <th style="font-size: 20px; font-family: Arial;text-align: center;">Ruangan</th>
+              <th style="font-size: 20px; font-family: Arial;text-align: center;">Nama</th>
+              <th style="font-size: 20px; font-family: Arial;text-align: center;">Tanggal</th>
+              <th style="font-size: 20px; font-family: Arial;text-align: center;">Waktu</th>
+              <th style="font-size: 20px; font-family: Arial;text-align: center;">Jabatan</th>
+            </tr>
+            <?php 
+              $batas = 1;
+            foreach ($result as $data => $v) {
+            
+            echo "<tr>
+              <td style='text-align: center;'>".$batas++ ."</td>
+              <td style='text-align: center;'>".$v->NamaLokasi."</td>
+              <td style='padding-left: 0.5em;padding-right:0.5em'>".$v->Ruangan."</td>
+              <td style='padding-left: 0.5em;padding-right:0.5em'>".$v->Nama."</td>
+              <td style='text-align: center;padding-left: 0.5em;padding-right:0.5em'>".$v->Tanggal."</td>
+              <td style='text-align: center;padding-left: 0.5em'>".$v->Waktu."</td>
+              <td style='text-align: center;padding-left: 0.5em'>".$v->Jabatan."</td>
+            </tr>";
+            } ?>
         </table>
-      </form></center>
-      <table>
         <tr>
           <td style="padding-left: 10px;">
             <a href="<?php base_url() ?>tambahsaintekdistribusipengawasujian">

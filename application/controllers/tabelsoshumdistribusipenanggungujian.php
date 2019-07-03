@@ -8,6 +8,8 @@ class TabelSoshumDistribusiPenanggungUjian extends CI_Controller
 	{
 		$data['border']='transparent';
 		$data['page']='userview/tabelsoshumdistribusipenanggungujian';
+		$this->load->model('Adminmodel');
+		$data['result'] = $this->Adminmodel->ambil28();
 		$this->load->view('layout/main', $data);
 	}
 

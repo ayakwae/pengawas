@@ -8,6 +8,8 @@ class SoshumTabelKoordinatorUjian extends CI_Controller
 	{
 		$data['border']='transparent';
 		$data['page']='userview/soshumtabelkoordinatorujian';
+		$this->load->model('Adminmodel');
+		$data['result'] = $this->Adminmodel->ambil22();
 		$this->load->view('layout/main', $data);
 	}
 
