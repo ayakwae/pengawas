@@ -24,7 +24,7 @@
             </div>
           </div>
         </a>
-        <a href="<?php base_url() ?>tabelsoshumdaftarpengawas">
+        <a href="<?php base_url() ?>tabelsoshumdaftarpengawassiaga">
           <div style="margin-left: 70px; margin-top: 30px; margin-bottom: 15px;">
             <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
               <center><img src="<?php echo base_url()?>img\icon\" style="width: 200px; height: 200px;"></center>
@@ -34,7 +34,7 @@
             </div>
           </div>
         </a>
-        <a href="<?php base_url() ?>tabelsoshumdaftarpengawas">
+        <a href="<?php base_url() ?>tabelsoshumdaftarpenanggung">
           <div style="margin-left: 70px; margin-top: 30px; margin-bottom: 15px;">
             <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
               <center><img src="<?php echo base_url()?>img\icon\" style="width: 230px; height: 200px;"></center>

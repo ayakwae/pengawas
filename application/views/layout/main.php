@@ -465,6 +465,38 @@
 			$menu['halamanreport'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
+	else if ($page=='userview/tabelsoshumdaftarpengawassiaga') {
+			$menu['home'] = '';
+			$menu['pengawas'] = 'active';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = '';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/tabelsoshumdaftarpenanggung') {
+			$menu['home'] = '';
+			$menu['pengawas'] = 'active';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = '';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/tabelcampurandaftarpengawassiaga') {
+			$menu['home'] = '';
+			$menu['pengawas'] = 'active';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = '';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/tabelcampurandaftarpenanggung') {
+			$menu['home'] = '';
+			$menu['pengawas'] = 'active';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = '';
+			$this->load->view('layout/menu',$menu);
+		 }
 	else if ($page=='userview/koordinator') {			//menu3
 			$menu['home'] = '';
 			$menu['pengawas'] = '';
