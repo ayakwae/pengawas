@@ -8,6 +8,8 @@ class Saintek extends CI_Controller
 	{
 		$data['border']='transparent';
 		$data['page']='userview/saintek';
+		$this->load->model('Adminmodel');
+		$data['result'] = $this->Adminmodel->ambil6();
 		$this->load->view('layout/main', $data);
 	}
 

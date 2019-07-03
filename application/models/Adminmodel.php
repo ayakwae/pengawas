@@ -56,5 +56,23 @@ class Adminmodel extends CI_Model {
 		$query = $this->db->get('daftar_pengawas_siaga_campuran');
 		return $query->result();
 	}
+
+	public function ambil6()
+	{
+		$query = $this->db->get('daftar_lokasi_saintek');
+		return $query->result();
+	}
+
+	public function ambil7()
+	{
+		$query = $this->db->get('daftar_lokasi_soshum');
+		return $query->result();
+	}
+
+	public function ambil8()
+	{
+		$query = $this->db->get('daftar_lokasi_campuran');
+		return $query->result();
+	}
 }
 ?>
