@@ -8,6 +8,8 @@ class Campuran extends CI_Controller
 	{
 		$data['border']='transparent';
 		$data['page']='userview/campuran';
+		$this->load->model('Adminmodel');
+		$data['result'] = $this->Adminmodel->ambil8();
 		$this->load->view('layout/main', $data);
 	}
 

@@ -8,6 +8,8 @@ class Soshum extends CI_Controller
 	{
 		$data['border']='transparent';
 		$data['page']='userview/soshum';
+		$this->load->model('Adminmodel');
+		$data['result'] = $this->Adminmodel->ambil7();
 		$this->load->view('layout/main', $data);
 	}
 
