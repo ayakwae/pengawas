@@ -37,7 +37,7 @@
             echo "<tr>
               <td style='text-align: center;'>".$batas++ ."</td>
               <td style='text-align: center;'>".$v->NamaLokasi."</td>
-              <td style='padding-left: 0.5em;padding-right:0.5em'>".$v->nama."</td>
+              <td style='padding-left: 0.5em;padding-right:0.5em'>".$v->Nama."</td>
               <td style='text-align: center;padding-left: 0.5em;padding-right:0.5em'>".$v->Tanggal."</td>
               <td style='text-align: center;padding-left: 0.5em'>".$v->Waktu."</td>
               <td style='text-align: center;padding-left: 0.5em'>".$v->Jabatan."</td>

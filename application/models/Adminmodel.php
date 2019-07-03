@@ -253,6 +253,12 @@ class Adminmodel extends CI_Model {
 		return $query->result();
 	}
 
+	public function ambil39()
+	{
+		$query = $this->db->get('daftar_instansi');
+		return $query->result();
+	}
+
 
 }
 ?>
