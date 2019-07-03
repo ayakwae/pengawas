@@ -20,5 +20,41 @@ class Adminmodel extends CI_Model {
 		$query = $this->db->get();
 		return $query;
 	}
+
+	public function ambil()
+	{
+		$query = $this->db->get('daftar_pengawas_saintek');
+		return $query->result();
+	}
+
+	public function ambil1()
+	{
+		$query = $this->db->get('daftar_pengawas_soshum');
+		return $query->result();
+	}
+
+	public function ambil2()
+	{
+		$query = $this->db->get('daftar_pengawas_campuran');
+		return $query->result();
+	}
+
+	public function ambil3()
+	{
+		$query = $this->db->get('daftar_pengawas_siaga');
+		return $query->result();
+	}
+
+	public function ambil4()
+	{
+		$query = $this->db->get('daftar_pengawas_siaga_soshum');
+		return $query->result();
+	}
+
+	public function ambil5()
+	{
+		$query = $this->db->get('daftar_pengawas_siaga_campuran');
+		return $query->result();
+	}
 }
 ?>

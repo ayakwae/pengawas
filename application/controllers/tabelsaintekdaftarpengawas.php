@@ -8,6 +8,8 @@ class TabelSaintekDaftarPengawas extends CI_Controller
 	{
 		$data['border']='transparent';
 		$data['page']='userview/tabelsaintekdaftarpengawas';
+		$this->load->model('Adminmodel');
+		$data['result'] = $this->Adminmodel->ambil();
 		$this->load->view('layout/main', $data);
 	}
 

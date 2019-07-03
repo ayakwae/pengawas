@@ -8,6 +8,8 @@ class TabelCampuranDaftarPengawas extends CI_Controller
 	{
 		$data['border']='transparent';
 		$data['page']='userview/tabelcampurandaftarpengawas';
+		$this->load->model('Adminmodel');
+		$data['result'] = $this->Adminmodel->ambil2();
 		$this->load->view('layout/main', $data);
 	}
 
