@@ -4,7 +4,7 @@
       <div class="row" style="margin-left: 5px;">
         <span style="background-color: #2F669F; height: 18px; width: 7px; margin-top: 7px; margin-left: 5px;"></span>
         <span style="background-color: #2F669F; height: 18px; width: 3px; margin-top: 7px; margin-left: 3px;"></span> &nbsp;
-        <h4 style="color: #2F669F;"><b>Daftar Pengawas</b></h4>  
+        <h4 style="color: #2F669F;"><b>Daftar Pengawas (SOSHUM)</b></h4>  
       </div>  
     </div>
   </div>

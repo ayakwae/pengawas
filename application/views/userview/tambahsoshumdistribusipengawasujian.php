@@ -4,7 +4,7 @@
       <div class="row" style="margin-left: 5px;">
         <span style="background-color: #2F669F; height: 20px; width: 5px; margin-top: 8px; margin-left: 5px;"></span>
         <span style="background-color: #2F669F; height: 20px; width: 3px; margin-top: 8px; margin-left: 3px;"></span> &nbsp;
-        <b style="color: #2F669F; font-size: 22px;">Tambah Distribusi Pengawas Ujian</b>
+        <b style="color: #2F669F; font-size: 22px;">Tambah Distribusi Pengawas Ujian (SOSHUM)</b>
       </div>  
     </div>
   </div>
@@ -15,7 +15,7 @@
       <table>
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Kode Distribusi Pengawas Ujian</td>
-          <td><input class="form-control" placeholder="Ketik NPU" type="text" name="npu" style="padding-right: 200px; margin-left: 50px; margin-bottom: 5px;margin-bottom: 15px;"></td>
+          <td><input class="form-control" placeholder="Ketik Kode Distribusi Pengawas Ujian" type="text" name="npu" style="padding-right: 200px; margin-left: 50px; margin-bottom: 5px;margin-bottom: 15px;"></td>
         </tr>
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Kode Lokasi</td>
