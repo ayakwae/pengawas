@@ -401,6 +401,22 @@
 			$menu['halamanreport'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
+	else if ($page=='userview/tabelsaintekdistribusipengawassiagaujian') {
+			$menu['home'] = '';
+			$menu['pengawas'] = 'active';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = '';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/tabelsaintekdistribusipenanggungujian') {
+			$menu['home'] = '';
+			$menu['pengawas'] = 'active';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = '';
+			$this->load->view('layout/menu',$menu);
+		 }
 	else if ($page=='userview/koordinator') {			//menu3
 			$menu['home'] = '';
 			$menu['pengawas'] = '';
