@@ -577,7 +577,7 @@
 			$menu['halamanreport'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
-	else if ($page=='userview/saintektabeldaftarkoordinator') {
+	else if ($page=='userview/saintektabeldaftarkoordinatorutama') {
 			$menu['home'] = '';
 			$menu['pengawas'] = '';
 			$menu['koordinator'] = 'active';
