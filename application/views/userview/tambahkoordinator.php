@@ -48,7 +48,7 @@
   </div>
 </div>
 
-<div class="row">
+<!-- <div class="row">
   <div class="col-md-12">
     <div class="container" style="background: white;border-width: 1px;border-color: #d6d6c2;padding-bottom: 10px; margin-top: 10px; padding-top: 25px;">
       <form><center>
@@ -165,4 +165,4 @@
       </center></form>
     </div>
   </div>
-</div>
+</div> -->
