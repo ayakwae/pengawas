@@ -2,12 +2,12 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 
-class PengawasBadge extends CI_Controller
+class KoordinatorUtamaBadgeSaintek extends CI_Controller
 {
 	public function index()
 	{
 		$data['border']='transparent';
-		$data['page']='userview/pengawasbadge';
+		$data['page']='userview/koordinatorutamabadgesaintek';
 		$this->load->view('layout/main', $data);
 	}
 

@@ -946,11 +946,43 @@
 			$this->load->view('layout/menu',$menu);
 		 }
 	else if ($page=='userview/saintekbadge') {
-			$menu['home'] = 'active';
+			$menu['home'] = '';
 			$menu['pengawas'] = '';
 			$menu['koordinator'] = '';
 			$menu['daftartempatujian'] = '';
-			$menu['halamanreport'] = '';
+			$menu['halamanreport'] = 'active';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/pengawasbadgesaintek') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = 'active';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/pengawassiagabadgesaintek') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = 'active';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/koordinatorbadgesaintek') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = 'active';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/koordinatorutamabadgesaintek') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = 'active';
 			$this->load->view('layout/menu',$menu);
 		 }
 	else if ($page=='userview/soshumbadge') {

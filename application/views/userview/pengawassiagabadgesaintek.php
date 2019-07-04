@@ -4,7 +4,7 @@
       <div class="row" style="margin-left: 5px;">
         <span style="background-color: #2F669F; height: 18px; width: 7px; margin-top: 7px; margin-left: 5px;"></span>
         <span style="background-color: #2F669F; height: 18px; width: 3px; margin-top: 7px; margin-left: 3px;"></span> &nbsp;
-        <h4 style="color: #2F669F;"><b>Lencana</b></h4>  
+        <h4 style="color: #2F669F;"><b>Lencana Pengawas Siaga (SAINTEK)</b></h4>  
       </div>  
     </div>
   </div>
@@ -17,7 +17,7 @@
         <table border="2" style="width:1000px; text-align: center; margin-bottom: 20px;">
           <tr>
             <th style="font-size: 20px; font-family: calibri;">No</th>
-            <th style="font-size: 20px; font-family: calibri;">Nama Pengawas</th>
+            <th style="font-size: 20px; font-family: calibri;">Nama Pengawas Siaga</th>
             <th style="font-size: 20px; font-family: calibri;">Lokasi Ujian</th>
             <th style="font-size: 20px; font-family: calibri;">Ruangan Ujian</th>
             <th style="font-size: 20px; font-family: calibri;">Tanggal</th>
