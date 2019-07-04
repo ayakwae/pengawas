@@ -42,7 +42,7 @@
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Jabatan</td>
           <td><input class="form-control" placeholder="Ketik Jabatan" type="text" name="jabatan" style="padding-right: 200px; margin-left: 50px; margin-bottom: 5px;"></td>
-          <td style="padding-left: 230px;"><a href="<?php base_url() ?>saintektabelkoordinator"><button type="button" class="btn btn-danger"><img src="<?php echo base_url()?>img\icon\keluar.png" style="width: 56px; height: 50px;">Kembali</button></a></td>
+          <td style="padding-left: 230px;"><a href="<?php base_url() ?>soshumtabelkoordinator"><button type="button" class="btn btn-danger"><img src="<?php echo base_url()?>img\icon\keluar.png" style="width: 56px; height: 50px;">Kembali</button></a></td>
         </tr>
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Tanggal Coaching</td>
