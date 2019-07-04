@@ -11,10 +11,7 @@
 			<div class="col-md-12">
 				<div class="container" style="background: white;border-width: 1px;border-color: #d6d6c2;padding-bottom: 50px;">
 					<h3  style="color: #2F669F; padding-top:20px; padding-left: 10px;"><b>Tentang</b></h3>
-					<p style="padding-left: 15px;">Sistem Sirkulasi Pengawas Ujian adalah sebuah sistem aplikasi berbasis web ini untuk menetapkan jadwal penugasan pengawas ujian UTBK , jadwal pelatihan , dan koordinatornya.</p>
-					<p style="padding-left: 15px;">
-						Tidak hanya itu , aplikasi ini dilengkapi berbagai fitur yang memudahkan para pengawas dan koordinator dalam melihat jadwal mereka , baik itu jadwal mengawas ujian dan jadwal pelatihan sesuai dengan waktu yang telah ditetapkan.
-					</p>
+					<p style="padding-left: 15px;">Sistem Sirkulasi Pengawas Ujian adalah sebuah sistem aplikasi berbasis web yang berfungsi untuk menetapkan jadwal penugasan pengawas ujian UTBK , jadwal pelatihan , dan koordinatornya.</p>
 				</div>
 			</div>
 		</div>	
