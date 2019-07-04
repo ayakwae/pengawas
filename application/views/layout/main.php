@@ -1083,6 +1083,126 @@
 			$menu['halamanreport'] = '';
 			$this->load->view('layout/menu',$menu);
 		 }
+	else if ($page=='userview/pengawasjadwalsaintek') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = 'active';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/pengawassiagajadwalsaintek') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = 'active';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/koordinatorjadwalsaintek') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = 'active';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/koordinatorutamajadwalsaintek') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = 'active';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/penanggungjawabruanganjadwalsaintek') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = 'active';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/pengawasjadwalsoshum') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = 'active';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/pengawassiagajadwalsoshum') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = 'active';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/koordinatorjadwalsoshum') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = 'active';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/koordinatorutamajadwalsoshum') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = 'active';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/penanggungjawabruanganjadwalsoshum') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = 'active';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/pengawasjadwalcampuran') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = 'active';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/pengawassiagajadwalcampuran') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = 'active';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/koordinatorjadwalcampuran') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = 'active';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/koordinatorutamajadwalcampuran') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = 'active';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/penanggungjawabruanganjadwalcampuran') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = 'active';
+			$this->load->view('layout/menu',$menu);
+		 }
 	else if ($page=='userview/lihatpresensi') {
 			$menu['home'] = 'active';
 			$menu['pengawas'] = '';
