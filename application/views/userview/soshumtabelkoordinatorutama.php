@@ -44,6 +44,8 @@
             </tr>";
             } ?>
         </table>
+      </form></center>
+      <table>
         <tr>
           <td>
             <a href="<?php base_url() ?>tambahdistribusikoordinator">
