@@ -319,6 +319,35 @@ class Adminmodel extends CI_Model {
 		return $query->result();
 	}
 
+	public function ambil50()
+	{
+		$query = $this->db->get('daftar_presensi_koordinator_campuran');
+		return $query->result();
+	}
+
+	public function ambil51()
+	{
+		$query = $this->db->get('daftar_presensi_koordinator_utama_campuran');
+		return $query->result();
+	}
+
+	public function ambil52()
+	{
+		$query = $this->db->get('daftar_presensi_pengawas_campuran');
+		return $query->result();
+	}
+
+	public function ambil53()
+	{
+		$query = $this->db->get('daftar_presensi_pengawas_siaga_campuran');
+		return $query->result();
+	}
+
+	public function ambil54()
+	{
+		$query = $this->db->get('daftar_badge_pengawas_saintek');
+		return $query->result();
+	}
 
 
 

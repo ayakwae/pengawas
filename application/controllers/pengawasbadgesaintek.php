@@ -8,6 +8,8 @@ class PengawasBadgeSaintek extends CI_Controller
 	{
 		$data['border']='transparent';
 		$data['page']='userview/pengawasbadgesaintek';
+		$this->load->model('Adminmodel');
+		$data['result'] = $this->Adminmodel->ambil54();
 		$this->load->view('layout/main', $data);
 	}
 
