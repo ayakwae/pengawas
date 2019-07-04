@@ -9,7 +9,7 @@ class SoshumTabelKoordinator extends CI_Controller
 		$data['border']='transparent';
 		$data['page']='userview/soshumtabelkoordinator';
 		$this->load->model('Adminmodel');
-		$data['result'] = $this->Adminmodel->ambil19();
+		$data['result'] = $this->Adminmodel->ambil45();
 		$this->load->view('layout/main', $data);
 	}
 

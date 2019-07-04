@@ -259,6 +259,71 @@ class Adminmodel extends CI_Model {
 		return $query->result();
 	}
 
+	public function ambil40()
+	{
+		$query = $this->db->get('daftar_penanggungjawabruang');
+		return $query->result();
+	}
+
+	public function ambil41()
+	{
+		$query = $this->db->get('daftar_penanggungjawabruang_soshum');
+		return $query->result();
+	}
+
+	public function ambil42()
+	{
+		$query = $this->db->get('daftar_penanggungjawabruang_campuran');
+		return $query->result();
+	}
+
+	public function ambil43()
+	{
+		$query = $this->db->get('daftar_ruangan');
+		return $query->result();
+	}
+
+	public function ambil44()
+	{
+		$query = $this->db->get('daftar_koordinator');
+		return $query->result();
+	}
+
+	public function ambil45()
+	{
+		$query = $this->db->get('daftar_koordinator_soshum');
+		return $query->result();
+	}
+
+	public function ambil46()
+	{
+		$query = $this->db->get('daftar_koordinator_campuran');
+		return $query->result();
+	}
+
+	public function ambil47()
+	{
+		$query = $this->db->get('daftar_koordinatorutama');
+		return $query->result();
+	}
+
+	public function ambil48()
+	{
+		$query = $this->db->get('daftar_koordinatorutama_soshum');
+		return $query->result();
+	}
+
+	public function ambil49()
+	{
+		$query = $this->db->get('daftar_koordinatorutama_campuran');
+		return $query->result();
+	}
+
+
+
+
+
+
 
 }
 ?>

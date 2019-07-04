@@ -9,7 +9,7 @@ class TabelSoshumDaftarPenanggung extends CI_Controller
 		$data['border']='transparent';
 		$data['page']='userview/tabelsoshumdaftarpenanggung';
 		$this->load->model('Adminmodel');
-		$data['result'] = $this->Adminmodel->ambil1();
+		$data['result'] = $this->Adminmodel->ambil41();
 		$this->load->view('layout/main', $data);
 	}
 

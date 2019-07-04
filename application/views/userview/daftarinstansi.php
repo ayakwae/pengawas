@@ -20,7 +20,7 @@
               <th style="font-size: 20px; font-family: Arial;text-align: center;">Kode Instansi</th>
               <th style="font-size: 20px; font-family: Arial;text-align: center;">Nama Instansi</th>
               <th style="font-size: 20px; font-family: Arial;text-align: center;">Alamat</th>
-              <th style="font-size: 20px; font-family: Arial;text-align: center;">Kode</th>
+              <th style="font-size: 20px; font-family: Arial;text-align: center;">Kode Pos</th>
             </tr>
             <?php 
               $batas = 1;

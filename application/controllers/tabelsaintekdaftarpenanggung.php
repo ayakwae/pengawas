@@ -9,7 +9,7 @@ class TabelSaintekDaftarPenanggung extends CI_Controller
 		$data['border']='transparent';
 		$data['page']='userview/tabelsaintekdaftarpenanggung';
 		$this->load->model('Adminmodel');
-		$data['result'] = $this->Adminmodel->ambil();
+		$data['result'] = $this->Adminmodel->ambil40();
 		$this->load->view('layout/main', $data);
 	}
 

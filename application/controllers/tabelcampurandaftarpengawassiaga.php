@@ -9,7 +9,7 @@ class TabelCampuranDaftarPengawasSiaga extends CI_Controller
 		$data['border']='transparent';
 		$data['page']='userview/tabelcampurandaftarpengawassiaga';
 		$this->load->model('Adminmodel');
-		$data['result'] = $this->Adminmodel->ambil2();
+		$data['result'] = $this->Adminmodel->ambil5();
 		$this->load->view('layout/main', $data);
 	}
 

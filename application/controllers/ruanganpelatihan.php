@@ -8,6 +8,8 @@ class RuanganPelatihan extends CI_Controller
 	{
 		$data['border']='transparent';
 		$data['page']='userview/ruanganpelatihan';
+		$this->load->model('Adminmodel');
+		$data['result'] = $this->Adminmodel->ambil43();
 		$this->load->view('layout/main', $data);
 	}
 

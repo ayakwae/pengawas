@@ -9,7 +9,7 @@ class TabelCampuranDaftarPenanggung extends CI_Controller
 		$data['border']='transparent';
 		$data['page']='userview/tabelcampurandaftarpenanggung';
 		$this->load->model('Adminmodel');
-		$data['result'] = $this->Adminmodel->ambil2();
+		$data['result'] = $this->Adminmodel->ambil42();
 		$this->load->view('layout/main', $data);
 	}
 

@@ -24,11 +24,11 @@
         <table border="2" style="width:1050px; margin-bottom: 20px;">
             <tr>
               <th style="font-size: 20px; font-family: Arial;text-align: justify;">No</th>
-              <th style="font-size: 20px; font-family: Arial;text-align: center;">Nama Lokasi</th>
-              <th style="font-size: 20px; font-family: Arial;text-align: center;">Ruangan</th>
-              <th style="font-size: 20px; font-family: Arial;text-align: center;">Nama</th>
-              <th style="font-size: 20px; font-family: Arial;text-align: center;">Tanggal</th>
-              <th style="font-size: 20px; font-family: Arial;text-align: center;">Waktu</th>
+              <th style="font-size: 20px; font-family: Arial;text-align: center;">NPU</th>
+              <th style="font-size: 20px; font-family: Arial;text-align: center;">Nama Koordinator</th>
+              <th style="font-size: 20px; font-family: Arial;text-align: center;">Nama Instansi</th>
+              <th style="font-size: 20px; font-family: Arial;text-align: center;">Jabatan</th>
+              <th style="font-size: 20px; font-family: Arial;text-align: center;">Kelompok Ujian</th>
             </tr>
             <?php 
               $batas = 1;
@@ -36,11 +36,11 @@
             
             echo "<tr>
               <td style='text-align: center;'>".$batas++ ."</td>
-              <td style='text-align: center;'>".$v->NamaLokasi."</td>
-              <td style='padding-left: 0.5em;padding-right:0.5em'>".$v->Ruangan."</td>
-              <td style='padding-left: 0.5em;padding-right:0.5em'>".$v->nama."</td>
-              <td style='text-align: center;padding-left: 0.5em;padding-right:0.5em'>".$v->Tanggal."</td>
-              <td style='text-align: center;padding-left: 0.5em'>".$v->Waktu."</td>
+              <td style='text-align: center;'>".$v->NPU."</td>
+              <td style='padding-left: 0.5em;padding-right:0.5em'>".$v->NamaPengawas."</td>
+              <td style='padding-left: 0.5em;padding-right:0.5em'>".$v->NamaInstansi."</td>
+              <td style='text-align: center;padding-left: 0.5em;padding-right:0.5em'>".$v->Jabatan."</td>
+              <td style='text-align: center;padding-left: 0.5em'>".$v->KelompokUjian."</td>
             </tr>";
             } ?>
         </table>
