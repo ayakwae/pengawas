@@ -986,19 +986,99 @@
 			$this->load->view('layout/menu',$menu);
 		 }
 	else if ($page=='userview/soshumbadge') {
-			$menu['home'] = 'active';
+			$menu['home'] = '';
 			$menu['pengawas'] = '';
 			$menu['koordinator'] = '';
 			$menu['daftartempatujian'] = '';
-			$menu['halamanreport'] = '';
+			$menu['halamanreport'] = 'active';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/pengawasbadgesoshum') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = 'active';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/pengawassiagabadgesoshum') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = 'active';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/koordinatorbadgesoshum') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = 'active';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/koordinatorutamabadgesoshum') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = 'active';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/penanggungjawabruanganbadgesoshum') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = 'active';
 			$this->load->view('layout/menu',$menu);
 		 }
 	else if ($page=='userview/campuranbadge') {
-			$menu['home'] = 'active';
+			$menu['home'] = '';
 			$menu['pengawas'] = '';
 			$menu['koordinator'] = '';
 			$menu['daftartempatujian'] = '';
-			$menu['halamanreport'] = '';
+			$menu['halamanreport'] = 'active';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/pengawasbadgecampuran') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = 'active';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/pengawassiagabadgecampuran') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = 'active';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/koordinatorbadgecampuran') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = 'active';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/koordinatorutamabadgecampuran') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = 'active';
+			$this->load->view('layout/menu',$menu);
+		 }
+	else if ($page=='userview/penanggungjawabruanganbadgecampuran') {
+			$menu['home'] = '';
+			$menu['pengawas'] = '';
+			$menu['koordinator'] = '';
+			$menu['daftartempatujian'] = '';
+			$menu['halamanreport'] = 'active';
 			$this->load->view('layout/menu',$menu);
 		 }
 	else if ($page=='userview/lihathonor') {
