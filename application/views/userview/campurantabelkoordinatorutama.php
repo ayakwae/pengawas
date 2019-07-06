@@ -30,6 +30,7 @@
               <th style="font-size: 20px; font-family: Arial;text-align: center;">Jabatan</th>
               <th style="font-size: 20px; font-family: Arial;text-align: center;">Kelompok Ujian</th>
               <th style="font-size: 20px; font-family: Arial;text-align: center;">Aksi</th>
+              <th style="font-size: 20px; font-family: Arial;text-align: center;">Aksi</th>
             </tr>
             <?php 
               $batas = 1;
@@ -42,6 +43,7 @@
               <td style='padding-left: 0.5em;padding-right:0.5em'>".$v->NamaInstansi."</td>
               <td style='text-align: center;padding-left: 0.5em;padding-right:0.5em'>".$v->Jabatan."</td>
               <td style='text-align: center;padding-left: 0.5em'>".$v->KelompokUjian."</td>
+              <td><a href='".base_url()."editcampurandistribusikooridnatorutama'><img src='".base_url()."img/icon/edit.png' style='margin-top:0px;margin-left:12px;max-width:30px;max-height:30px;'></a></td>
               <td><a href='".base_url()."?'><img src='".base_url()."img/icon/delete.png' style='margin-top:0px;margin-left:12px;max-width:30px; max-height: 30px;''></a></td>
             </tr>";
             } ?>
@@ -50,7 +52,7 @@
       <table>
         <tr>
           <td>
-            <a href="<?php base_url() ?>tambahdistribusikoordinator">
+            <a href="<?php base_url() ?>tambahcampurandistribusikoordinatorutama">
               <button class="btn btn-secondary my-2 my-sm-0" type="submit"><img src="<?php echo base_url()?>img\icon\tambah.png" style="width: 20px; height: 20px; padding-top: -1px;">&nbsp;&nbsp;Tambah</button>
             </a>
           </td>
