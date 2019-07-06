@@ -42,6 +42,7 @@
               <td style='padding-left: 0.5em;padding-right:0.5em'>".$v->NamaInstansi."</td>
               <td style='text-align: center;padding-left: 0.5em;padding-right:0.5em'>".$v->Jabatan."</td>
               <td style='text-align: center;padding-left: 0.5em'>".$v->KelompokUjian."</td>
+              <td><a href='".base_url()."editsaintekdistribusikoordinatorutama'><img src='".base_url()."img/icon/edit.png' style='margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;'></a></td>
               <td><a href='".base_url()."?'><img src='".base_url()."img/icon/delete.png' style='margin-top:0px;margin-left:12px;max-width:30px; max-height: 30px;''></a></td>
             </tr>";
             } ?>
