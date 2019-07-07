@@ -39,7 +39,7 @@
               <td style='text-align: center;'>".$batas++ ."</td>
               <td style='text-align: center;'>".$v->NamaLokasi."</td>
               <td style='padding-left: 0.5em;padding-right:0.5em'>".$v->Ruangan."</td>
-              <td style='padding-left: 0.5em;padding-right:0.5em'>".$v->Nama."</td>
+              <td style='padding-left: 0.5em;padding-right:0.5em'>".$v->nama."</td>
               <td style='text-align: center;padding-left: 0.5em;padding-right:0.5em'>".$v->Tanggal."</td>
               <td style='text-align: center;padding-left: 0.5em'>".$v->Waktu."</td>
               <td><a href='".base_url()."?'><img src='".base_url()."img/icon/delete.png' style='margin-top:0px;margin-left:12px;max-width:30px; max-height: 30px;''><input type='text' name='namalokasi' hidden value='".$v->NamaLokasi."' ></a></td>
