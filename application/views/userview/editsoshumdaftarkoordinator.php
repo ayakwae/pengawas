@@ -3,8 +3,9 @@
     <div class="container" style="background: white;font-color:blue;border-width: 1px;border-color: #d6d6c2;padding-top: 1em;padding-bottom: 1em;margin-top: 2.5em">
       <div class="row" style="margin-left: 5px;">
         <span style="background-color: #2F669F; height: 20px; width: 5px; margin-top: 8px; margin-left: 5px;"></span>
+
         <span style="background-color: #2F669F; height: 20px; width: 3px; margin-top: 8px; margin-left: 3px;"></span> &nbsp;
-        <b style="color: #2F669F; font-size: 22px;">Edit Daftar Koordinator Pelatihan (SOSHUM)</b>
+        <b style="color: #2F669F; font-size: 22px;">Edit Daftar Koordinator (SOSHUM)</b>
       </div>  
     </div>
   </div>

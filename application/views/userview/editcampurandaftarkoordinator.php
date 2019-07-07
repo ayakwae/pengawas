@@ -4,7 +4,7 @@
       <div class="row" style="margin-left: 5px;">
         <span style="background-color: #2F669F; height: 20px; width: 5px; margin-top: 8px; margin-left: 5px;"></span>
         <span style="background-color: #2F669F; height: 20px; width: 3px; margin-top: 8px; margin-left: 3px;"></span> &nbsp;
-        <b style="color: #2F669F; font-size: 22px;">Edit Daftar Koordinator Pelatihan (CAMPURAN)</b>
+        <b style="color: #2F669F; font-size: 22px;">Edit Daftar Koordinator (CAMPURAN)</b>
       </div>  
     </div>
   </div>
