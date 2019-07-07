@@ -25,7 +25,7 @@
 
 <div class="row">
 <div class="container" style="margin-top: 10px;">
-  <a href="<?php base_url() ?>tambahkoordinator">
+  <a href="<?php base_url() ?>tambahcampurandaftarkoordinator">
     <button class="btn btn-secondary my-2 my-sm-0" type="submit"><img src="<?php echo base_url()?>img\icon\tambah.png" style="width: 20px; height: 20px; padding-top: -1px;">&nbsp;&nbsp;Tambah</button>
   </a>
 </div>
@@ -55,7 +55,7 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
-            <td><a href="<?php base_url() ?>editkoordinator"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
+            <td><a href="<?php base_url() ?>editcampurandaftarkoordinator"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
             <td><a href="<?php base_url() ?>?"><img src="<?php echo base_url()?>img/icon/delete.png" style="margin-top:0px;margin-left:12px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
@@ -66,7 +66,7 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
-            <td><a href="<?php base_url() ?>editkoordinator"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
+            <td><a href="<?php base_url() ?>editcampurandaftarkoordinator"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
             <td><a href="<?php base_url() ?>?"><img src="<?php echo base_url()?>img/icon/delete.png" style="margin-top:0px;margin-left:12px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
@@ -77,7 +77,7 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
-            <td><a href="<?php base_url() ?>editkoordinator"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
+            <td><a href="<?php base_url() ?>editcampurandaftarkoordinator"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
             <td><a href="<?php base_url() ?>?"><img src="<?php echo base_url()?>img/icon/delete.png" style="margin-top:0px;margin-left:12px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
@@ -88,7 +88,7 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
-            <td><a href="<?php base_url() ?>editkoordinator"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
+            <td><a href="<?php base_url() ?>editcampurandaftarkoordinator"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
             <td><a href="<?php base_url() ?>?"><img src="<?php echo base_url()?>img/icon/delete.png" style="margin-top:0px;margin-left:12px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
@@ -99,7 +99,7 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
-            <td><a href="<?php base_url() ?>editkoordinator"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
+            <td><a href="<?php base_url() ?>editcampurandaftarkoordinator"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
             <td><a href="<?php base_url() ?>?"><img src="<?php echo base_url()?>img/icon/delete.png" style="margin-top:0px;margin-left:12px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
@@ -110,7 +110,7 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
-            <td><a href="<?php base_url() ?>editkoordinator"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
+            <td><a href="<?php base_url() ?>editcampurandaftarkoordinator"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
             <td><a href="<?php base_url() ?>?"><img src="<?php echo base_url()?>img/icon/delete.png" style="margin-top:0px;margin-left:12px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
@@ -121,7 +121,7 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
-            <td><a href="<?php base_url() ?>editkoordinator"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
+            <td><a href="<?php base_url() ?>editcampurandaftarkoordinator"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
             <td><a href="<?php base_url() ?>?"><img src="<?php echo base_url()?>img/icon/delete.png" style="margin-top:0px;margin-left:12px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
@@ -132,7 +132,7 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
-            <td><a href="<?php base_url() ?>editkoordinator"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
+            <td><a href="<?php base_url() ?>editcampurandaftarkoordinator"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
             <td><a href="<?php base_url() ?>?"><img src="<?php echo base_url()?>img/icon/delete.png" style="margin-top:0px;margin-left:12px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
@@ -143,7 +143,7 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
-            <td><a href="<?php base_url() ?>editkoordinator"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
+            <td><a href="<?php base_url() ?>editcampurandaftarkoordinator"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
             <td><a href="<?php base_url() ?>?"><img src="<?php echo base_url()?>img/icon/delete.png" style="margin-top:0px;margin-left:12px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
@@ -154,7 +154,7 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
-            <td><a href="<?php base_url() ?>editkoordinator"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
+            <td><a href="<?php base_url() ?>editcampurandaftarkoordinator"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
             <td><a href="<?php base_url() ?>?"><img src="<?php echo base_url()?>img/icon/delete.png" style="margin-top:0px;margin-left:12px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
           <tr>
@@ -165,7 +165,7 @@
             <td>test</td>
             <td>test</td>
             <td>test</td>
-            <td><a href="<?php base_url() ?>editkoordinator"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
+            <td><a href="<?php base_url() ?>editcampurandaftarkoordinator"><img src="<?php echo base_url()?>img/icon/edit.png" style="margin-top:0px;margin-left:0px;max-width:30px; max-height: 30px;"></a></td>
             <td><a href="<?php base_url() ?>?"><img src="<?php echo base_url()?>img/icon/delete.png" style="margin-top:0px;margin-left:12px;max-width:30px; max-height: 30px;"></a></td>
           </tr>
         </table>
