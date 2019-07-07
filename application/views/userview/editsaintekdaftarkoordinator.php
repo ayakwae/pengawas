@@ -4,7 +4,7 @@
       <div class="row" style="margin-left: 5px;">
         <span style="background-color: #2F669F; height: 20px; width: 5px; margin-top: 8px; margin-left: 5px;"></span>
         <span style="background-color: #2F669F; height: 20px; width: 3px; margin-top: 8px; margin-left: 3px;"></span> &nbsp;
-        <b style="color: #2F669F; font-size: 22px;">Edit Koordinator</b>
+        <b style="color: #2F669F; font-size: 22px;">Edit Daftar Koordinator Pelatihan (SAINTEK)</b>
       </div>  
     </div>
   </div>
@@ -24,7 +24,7 @@
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Nama Pengawas</td>
           <td><input class="form-control" placeholder="Ketik Nama Pengawas" type="text" name="nama_pengawas" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
-           <td style="padding-left: 230px;"><button class="btn btn-primary my-2 my-sm-0" type="submit"><img src="<?php echo base_url()?>img\icon\simpan.png" style="width: 50px; height: 50px;">&nbsp;&nbsp;Simpan</button></td>
+           <td style="padding-left: 230px;"><button class="btn btn-primary my-2 my-sm-0" type="submit"><img src="<?php echo base_url()?>img\icon\simpan.png" style="width: 50px; height: 50px;">&nbsp;&nbsp;&nbsp;Simpan</button></td>
         </tr>
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Jabatan</td>
@@ -33,7 +33,7 @@
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Hari/Tanggal Coaching</td>
           <td><input class="form-control" type="date" name="date" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
-          <td style="padding-left: 230px;"><a href="<?php base_url() ?>daftarkoordinator"><button type="button" class="btn btn-danger"><img src="<?php echo base_url()?>img\icon\keluar.png" style="width: 60px; height: 50px;">&nbsp;&nbsp;Keluar</button></a></td>
+          <td style="padding-left: 230px;"><a href="<?php base_url() ?>saintektabeldaftarkoordinator"><button type="button" class="btn btn-danger"><img src="<?php echo base_url()?>img\icon\keluar.png" style="width: 60px; height: 50px;">Kembali</button></a></td>
         </tr>
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Jam Coaching</td>
