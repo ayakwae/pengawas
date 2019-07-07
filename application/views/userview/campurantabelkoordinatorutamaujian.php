@@ -30,6 +30,7 @@
               <th style="font-size: 20px; font-family: Arial;text-align: center;">Waktu</th>
               <th style="font-size: 20px; font-family: Arial;text-align: center;">Jabatan</th>
               <th style="font-size: 20px; font-family: Arial;text-align: center;">Aksi</th>
+              <th style="font-size: 20px; font-family: Arial;text-align: center;">Aksi</th>
             </tr>
             <?php 
               $batas = 1;
@@ -42,18 +43,21 @@
               <td style='text-align: center;padding-left: 0.5em;padding-right:0.5em'>".$v->Tanggal."</td>
               <td style='text-align: center;padding-left: 0.5em'>".$v->Waktu."</td>
               <td style='text-align: center;padding-left: 0.5em'>".$v->Jabatan."</td>
+              <td><a href='".base_url()."editcampurandistribusikoordinatorutamaujian'><img src='".base_url()."img/icon/edit.png' style='margin-top:0px;margin-left:10px;max-width:30px; max-height: 30px;'></a></td>
               <td><a href='".base_url()."?'><img src='".base_url()."img/icon/delete.png' style='margin-top:0px;margin-left:12px;max-width:30px; max-height: 30px;''></a></td>
             </tr>";
             } ?>
         </table>
+      </form></center>
+      <table>
         <tr>
           <td>
-            <a href="<?php base_url() ?>tambahdistribusikoordinator">
+            <a href="<?php base_url() ?>tambahcampurandistribusikoordinatorutamaujian">
               <button class="btn btn-secondary my-2 my-sm-0" type="submit"><img src="<?php echo base_url()?>img\icon\tambah.png" style="width: 20px; height: 20px; padding-top: -1px;">&nbsp;&nbsp;Tambah</button>
             </a>
           </td>
           <td>
-            <a href="<?php base_url() ?>soshumdistribusikoordinatorujian"><img src="<?php echo base_url()?>img\icon\keluar1.png" style="width: 50px; height: 40px;margin-left: 910px;"></button>
+            <a href="<?php base_url() ?>campurandistribusikoordinatorujian"><img src="<?php echo base_url()?>img\icon\keluar1.png" style="width: 50px; height: 40px;margin-left: 910px;"></button>
             </a>
           </td>
         </tr>

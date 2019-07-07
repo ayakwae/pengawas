@@ -4,7 +4,7 @@
       <div class="row" style="margin-left: 5px;">
         <span style="background-color: #2F669F; height: 20px; width: 5px; margin-top: 8px; margin-left: 5px;"></span>
         <span style="background-color: #2F669F; height: 20px; width: 3px; margin-top: 8px; margin-left: 3px;"></span> &nbsp;
-        <b style="color: #2F669F; font-size: 22px;">Edit Distribusi Koordinator Ujian (SOSHUM)</b>
+        <b style="color: #2F669F; font-size: 22px;">Edit Distribusi Koordinator Ujian (CAMPURAN)</b>
       </div>  
     </div>
   </div>
@@ -25,15 +25,15 @@
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Jabatan</td>
           <td><input class="form-control" placeholder="Ketik Jabatan" type="text" name="jabatan" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
-          <td style="padding-left: 230px;"><a href="<?php base_url() ?>soshumtabelkoordinatorujian"><button type="button" class="btn btn-danger"><img src="<?php echo base_url()?>img\icon\keluar.png" style="width: 60px; height: 50px;">Kembali</button></a></td>
+          <td style="padding-left: 230px;"><a href="<?php base_url() ?>campurantabelkoordinatorujian"><button type="button" class="btn btn-danger"><img src="<?php echo base_url()?>img\icon\keluar.png" style="width: 60px; height: 50px;">Kembali</button></a></td>
         </tr>
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Tanggal</td>
-          <td><input class="form-control" placeholder="Ketik Tanggal" type="date" name="tanggal" style="padding-right: 200px; margin-left: 50px; margin-bottom: 5px;"></td>
+          <td><input class="form-control" placeholder="Ketik Tanggal" type="date" name="tanggal" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;"></td>
         </tr>
         <tr>
           <td style="font-family: calibri; font-size: 20px;">Waktu</td>
-          <td><input class="form-control" placeholder="Ketik Waktu" type="text" name="waktu" style="padding-right: 200px; margin-left: 50px; margin-bottom: 5px;margin-bottom: 15px;"></td>
+          <td><input class="form-control" placeholder="Ketik Waktu" type="text" name="waktu" style="padding-right: 200px; margin-left: 30px; margin-bottom: 5px;margin-bottom: 15px;"></td>
         </tr>
       </table>
     </div>
