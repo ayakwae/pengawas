@@ -48,6 +48,8 @@
             </tr>";
             } ?>
         </table>
+      </form></center>
+      <table>
         <tr>
           <td style="padding-left: 10px;">
             <a href="<?php base_url() ?>tambahsaintekdistribusipengawasujian">
