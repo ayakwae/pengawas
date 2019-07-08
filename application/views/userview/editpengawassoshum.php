@@ -44,22 +44,27 @@
           <td>
             <select name="kelas" class="form-control" style="width: 140px; margin-left: 50px;margin-bottom: 15px;">
             <option value="kelas">-Pilih Angka-</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
+            <option value="1a">1A</option>
+            <option value="1b">1B</option>
+            <option value="1c">1C</option>
+            <option value="1d">1D</option>
+            <option value="1e">1E</option>
+            <option value="2a">2A</option>
+            <option value="2b">2B</option>
+            <option value="2c">2C</option>
+            <option value="2d">2D</option>
+            <option value="2e">2E</option>
+            <option value="3a">3A</option>
+            <option value="3b">3B</option>
+            <option value="3c">3C</option>
+            <option value="3d">3D</option>
+            <option value="3e">3E</option>
+            <option value="4a">4A</option>
+            <option value="4b">4B</option>
+            <option value="4c">4C</option>
+            <option value="4d">4D</option>
+            <option value="4e">4E</option>
             </select>
-          </td>
-          <td><b style="margin-left: -260px; font-size: 25px;">/</b></td>
-          <td>
-            <select name="kelas" class="form-control" style="width: 140px; margin-left: -615px;margin-bottom: 15px;">
-            <option value="kelas">-Pilih Huruf-</option>
-            <option value="1">A</option>
-            <option value="2">B</option>
-            <option value="3">C</option>
-            <option value="4">D</option>
-            <option value="5">e</option>
-            </select> 
           </td>
         </tr>
         <tr>
