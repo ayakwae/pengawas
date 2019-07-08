@@ -30,6 +30,7 @@
               <th style="font-size: 20px; font-family: Arial;text-align: center;">Tanggal</th>
               <th style="font-size: 20px; font-family: Arial;text-align: center;">Waktu</th>
               <th style="font-size: 20px; font-family: Arial;text-align: center;">Aksi</th>
+              <th style="font-size: 20px; font-family: Arial;text-align: center;">Aksi</th>
             </tr>
             <?php 
               $batas = 1;
@@ -42,6 +43,7 @@
               <td style='padding-left: 0.5em;padding-right:0.5em'>".$v->nama."</td>
               <td style='text-align: center;padding-left: 0.5em;padding-right:0.5em'>".$v->Tanggal."</td>
               <td style='text-align: center;padding-left: 0.5em'>".$v->Waktu."</td>
+              <td><a href='".base_url()."?'><img src='".base_url()."img/icon/edit.png' style='margin-top:0px;margin-left:12px;max-width:30px; max-height: 30px;''><input type='text' name='namalokasi' hidden value='".$v->NamaLokasi."' ></a></td>
               <td><a href='".base_url()."?'><img src='".base_url()."img/icon/delete.png' style='margin-top:0px;margin-left:12px;max-width:30px; max-height: 30px;''><input type='text' name='namalokasi' hidden value='".$v->NamaLokasi."' ></a></td>
             </tr>";
             } ?>
