@@ -8,6 +8,8 @@ class PengawasJadwalSaintek extends CI_Controller
 	{
 		$data['border']='transparent';
 		$data['page']='userview/pengawasjadwalsaintek';
+		$this->load->model('Adminmodel');
+		$data['result'] = $this->Adminmodel->ambil55();
 		$this->load->view('layout/main', $data);
 	}
 
