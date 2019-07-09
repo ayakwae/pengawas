@@ -373,6 +373,72 @@ class Adminmodel extends CI_Model {
 		return $query->result();
 	}
 
+	public function ambil59()
+	{
+		$query = $this->db->get('daftar_undangan_pj_ruang_saintek');
+		return $query->result();
+	}
+
+	public function ambil60()
+	{
+		$query = $this->db->get('daftar_undangan_pengawas_soshum');
+		return $query->result();
+	}
+
+	public function ambil61()
+	{
+		$query = $this->db->get('daftar_undangan_pengawas_siaga_soshum');
+		return $query->result();
+	}
+
+	public function ambil62()
+	{
+		$query = $this->db->get('daftar_undangan_pj_ruang_soshum');
+		return $query->result();
+	}
+
+	public function ambil63()
+	{
+		$query = $this->db->get('daftar_undangan_koordinator_soshum');
+		return $query->result();
+	}
+
+	public function ambil64()
+	{
+		$query = $this->db->get('daftar_undangan_koordinator_utama_soshum');
+		return $query->result();
+	}
+
+	public function ambil65()
+	{
+		$query = $this->db->get('daftar_undangan_pengawas_campuran');
+		return $query->result();
+	}
+
+	public function ambil66()
+	{
+		$query = $this->db->get('daftar_undangan_pengawas_siaga_campuran');
+		return $query->result();
+	}
+
+	public function ambil67()
+	{
+		$query = $this->db->get('daftar_undangan_pj_ruang_campuran');
+		return $query->result();
+	}
+
+	public function ambil68()
+	{
+		$query = $this->db->get('daftar_undangan_koordinator_campuran');
+		return $query->result();
+	}
+
+	public function ambil69()
+	{
+		$query = $this->db->get('daftar_undangan_koordinator_utama_campuran');
+		return $query->result();
+	}
+
 
 
 

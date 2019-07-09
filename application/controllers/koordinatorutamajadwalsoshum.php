@@ -8,6 +8,8 @@ class KoordinatorUtamaJadwalSoshum extends CI_Controller
 	{
 		$data['border']='transparent';
 		$data['page']='userview/koordinatorutamajadwalsoshum';
+		$this->load->model('Adminmodel');
+		$data['result'] = $this->Adminmodel->ambil64();
 		$this->load->view('layout/main', $data);
 	}
 

@@ -33,7 +33,7 @@
               <td style='padding-left: 0.5em;padding-right:0.5em'>".$v->Nama."</td>
               <td style='padding-left: 0.5em;padding-right:0.5em'>".$v->Instansi."</td>
               <td style='text-align: center;padding-left: 0.5em'>SAINTEK</td>
-              <td><a href='".base_url()."#'>Cetak<input type='text' name='npu' hidden value='".$v->NPU."' ></a></td>
+              <td><a href='".base_url()."cetak2/cetak_id/".$v->NPU."'>Cetak<input type='text' name='npu' hidden value='".$v->NPU."' ></a></td>
             </tr>";
             } ?>
         </table>

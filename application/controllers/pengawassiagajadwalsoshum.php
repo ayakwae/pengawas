@@ -8,6 +8,8 @@ class PengawasSiagaJadwalSoshum extends CI_Controller
 	{
 		$data['border']='transparent';
 		$data['page']='userview/pengawassiagajadwalsoshum';
+		$this->load->model('Adminmodel');
+		$data['result'] = $this->Adminmodel->ambil61();
 		$this->load->view('layout/main', $data);
 	}
 

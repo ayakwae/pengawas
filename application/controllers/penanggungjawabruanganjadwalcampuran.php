@@ -8,6 +8,8 @@ class PenanggungJawabRuanganJadwalCampuran extends CI_Controller
 	{
 		$data['border']='transparent';
 		$data['page']='userview/penanggungjawabruanganjadwalcampuran';
+		$this->load->model('Adminmodel');
+		$data['result'] = $this->Adminmodel->ambil67();
 		$this->load->view('layout/main', $data);
 	}
 

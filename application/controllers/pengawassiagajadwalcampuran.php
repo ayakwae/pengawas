@@ -8,6 +8,8 @@ class PengawasSiagaJadwalCampuran extends CI_Controller
 	{
 		$data['border']='transparent';
 		$data['page']='userview/pengawassiagajadwalcampuran';
+		$this->load->model('Adminmodel');
+		$data['result'] = $this->Adminmodel->ambil66();
 		$this->load->view('layout/main', $data);
 	}
 

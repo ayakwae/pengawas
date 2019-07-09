@@ -8,6 +8,8 @@ class KoordinatorJadwalCampuran extends CI_Controller
 	{
 		$data['border']='transparent';
 		$data['page']='userview/koordinatorjadwalcampuran';
+		$this->load->model('Adminmodel');
+		$data['result'] = $this->Adminmodel->ambil68();
 		$this->load->view('layout/main', $data);
 	}
 
