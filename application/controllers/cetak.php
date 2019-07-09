@@ -8,9 +8,21 @@ class Cetak extends CI_Controller
 	{
 		$data['border']='transparent';
 		$data['page']='userview/cetak';
-		$this->load->model('Adminmodel');
-		$data['result'] = $this->Adminmodel->ambil54();
+		$data = array(
+   		'record' => $this->db->get('daftar_undangan_pengawas_saintek'));
 	}
+	public function cetak_id($NPU) {
+     $data = array(
+      'record'  => $this->db->query("SELECT * FROM daftar_undangan_pengawas_saintek where NPU ='$NPU'"),
+    );
+    $this->load->view('userview/cetak',$data);
+    $html = $this->output->get_output();
+    $this->load->library('dompdf_gen');
+    $this->dompdf->load_html($html);
+    $this->dompdf->render();
+    $sekarang=date("d:F:Y:h:m:s");
+    $this->dompdf->stream("pendaftaran".$sekarang.".pdf",array('Attachment'=>0));
+ 	}
 
 }
 ?>
