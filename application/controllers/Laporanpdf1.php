@@ -13,19 +13,16 @@ Class Laporanpdf extends CI_Controller{
         // setting jenis font yang akan digunakan
         $pdf->SetFont('Arial','B',16);
         // mencetak string 
-        $pdf->Cell(190,7,'DAFTAR HADIR PENGAWAS UJIAN',0,1,'C');
+        $pdf->Cell(190,7,'DAFTAR HADIR PENGAWAS SIAGA UJIAN',0,1,'C');
         $pdf->SetFont('Arial','B',12);
-        $data = $this->db->get('daftar_presensi_pengawas_campuran')->result();
+        $data = $this->db->get('daftar_presensi_pengawas_siaga_campuran')->result();
         foreach ($data as $v) {};
-            $pdf->Cell(20,6,'Kelompok :',$v->KelompokUjian,'C');
-             $pdf->Cell(10,7,'',0,1);
-            $pdf->Cell(20,6,'Lokasi :',$v->NamaLokasi,'C');
-             $pdf->Cell(10,7,'',0,1);
-            $pdf->Cell(20,6,'Tanggal :',$v->Tanggal,'C');
-             $pdf->Cell(10,7,'',0,1);
-            $pdf->Cell(20,6,'Pukul :',$v->Waktu,'C');
+            $pdf->Cell(20,6,'Kelompok :',$v->KelompokUjian,0,1,'C');
+            $pdf->Cell(20,6,'Lokasi :',$v->NamaLokasi,0,1,'C');
+            $pdf->Cell(20,6,'Tanggal :',$v->Tanggal,0,1,'C');
+            $pdf->Cell(20,6,'Pukul :',$v->Waktu,0,1,'C');
         
-                //Memberikan space kebawah agar tidak terlalu rapat
+                // Memberikan space kebawah agar tidak terlalu rapat
         $pdf->Cell(10,7,'',0,1);
         $pdf->SetFont('Arial','B',10);
         $pdf->Cell(10,6,'N0',1,0);
@@ -36,7 +33,7 @@ Class Laporanpdf extends CI_Controller{
         $pdf->SetFont('Arial','',10);
         $batas = 1;
         $tt = 1;
-        $data = $this->db->get('daftar_presensi_pengawas_campuran')->result();
+        $data = $this->db->get('daftar_presensi_pengawas_siaga_campuran')->result();
                 foreach ($data as $row){
             $pdf->Cell(10,6,$batas++,1,0);
             $pdf->Cell(25,6,$row->NPU,1,0);
@@ -48,5 +45,5 @@ Class Laporanpdf extends CI_Controller{
         $pdf->Output();
     }
 }
-
+var_dump('aaaaaa');
 ?>
