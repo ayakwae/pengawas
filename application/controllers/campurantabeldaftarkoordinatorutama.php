@@ -9,7 +9,7 @@ class CampuranTabelDaftarKoordinatorUtama extends CI_Controller
 		$data['border']='transparent';
 		$data['page']='userview/campurantabeldaftarkoordinatorutama';
 		$this->load->model('Adminmodel');
-		$data['result'] = $this->Adminmodel->ambil48();
+		$data['result'] = $this->Adminmodel->ambil49();
 		$this->load->view('layout/main', $data);
 	}
 

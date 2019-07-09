@@ -193,7 +193,7 @@ class Adminmodel extends CI_Model {
 		$query = $this->db->get('daftar_distribusi_pj_ruang_ujian_soshum');
 		return $query->result();
 	}
-	public function ambi29()
+	public function ambil29()
 	{
 		$query = $this->db->get('daftar_distribusi_koordinator_campuran');
 		return $query->result();

@@ -8,6 +8,8 @@ class SaintekTabelDaftarKoordinatorUtama extends CI_Controller
 	{
 		$data['border']='transparent';
 		$data['page']='userview/saintektabeldaftarkoordinatorutama';
+		$this->load->model('Adminmodel');
+		$data['result'] = $this->Adminmodel->ambil47();
 		$this->load->view('layout/main', $data);
 	}
 

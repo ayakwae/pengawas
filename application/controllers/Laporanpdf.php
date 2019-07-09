@@ -16,7 +16,7 @@ Class Laporanpdf extends CI_Controller{
         $pdf->Cell(190,7,'DAFTAR HADIR PENGAWAS UJIAN',0,1,'C');
         $pdf->SetFont('Arial','B',12);
         $data = $this->db->get('daftar_presensi_pengawas_campuran')->result();
-        foreach ($data as $v) 
+        foreach ($data as $v) {};
             $pdf->Cell(20,6,'Kelompok :',$v->KelompokUjian,0,1,'C');
             $pdf->Cell(20,6,'Lokasi :',$v->NamaLokasi,0,1,'C');
             $pdf->Cell(20,6,'Tanggal :',$v->Tanggal,0,1,'C');

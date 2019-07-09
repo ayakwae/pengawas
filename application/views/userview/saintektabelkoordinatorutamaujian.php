@@ -29,8 +29,7 @@
               <th style="font-size: 20px; font-family: Arial;text-align: center;">Tanggal</th>
               <th style="font-size: 20px; font-family: Arial;text-align: center;">Waktu</th>
               <th style="font-size: 20px; font-family: Arial;text-align: center;">Jabatan</th>
-              <th style="font-size: 20px; font-family: Arial;text-align: center;">Aksi</th>
-              <th style="font-size: 20px; font-family: Arial;text-align: center;">Aksi</th>
+              <th style="font-size: 20px; font-family: Arial;text-align: center;" colspan="2">Aksi</th>
             </tr>
             <?php 
               $batas = 1;

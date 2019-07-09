@@ -8,6 +8,8 @@ class SoshumTabelDaftarKoordinatorUtama extends CI_Controller
 	{
 		$data['border']='transparent';
 		$data['page']='userview/soshumtabeldaftarkoordinatorutama';
+		$this->load->model('Adminmodel');
+		$data['result'] = $this->Adminmodel->ambil48();
 		$this->load->view('layout/main', $data);
 	}
 
