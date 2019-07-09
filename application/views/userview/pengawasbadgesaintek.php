@@ -35,7 +35,7 @@
               <td style='padding-left: 0.5em;padding-right:0.5em'>".$v->UnitKerja."</td>
               <td style='text-align: center;padding-left: 0.5em;padding-right:0.5em'>".$v->Tanggal."</td>
               <td style='text-align: center;padding-left: 0.5em'>".$v->Jabatan."</td>
-              <td><a href='<?php base_url() ?>cetak'>CETAK</a></td>
+              <td><a href='".base_url()."cetakbadge/cetak_id/".$v->NPU."'>CETAK</a></td>
             </tr>";
             } ?>
         </table>

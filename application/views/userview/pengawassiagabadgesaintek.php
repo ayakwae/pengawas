@@ -33,9 +33,9 @@
               <td style='text-align: center;'>".$v->NPU."</td>
               <td style='padding-left: 0.5em;padding-right:0.5em'>".$v->NamaPengawas."</td>
               <td style='padding-left: 0.5em;padding-right:0.5em'>".$v->UnitKerja."</td>
-              <td style='text-align: center;padding-left: 0.5em;padding-right:0.5em'>".$v->Tabatan."</td>
+              <td style='text-align: center;padding-left: 0.5em;padding-right:0.5em'>".$v->Tanggal."</td>
               <td style='text-align: center;padding-left: 0.5em'>".$v->Jabatan."</td>
-              <td><a href='<?php base_url() ?>Cetak'>CETAK</a></td>
+              <td><a href='<?php base_url() ?>cetakbadge1/cetak_id/'>CETAK</a></td>
             </tr>";
             } ?>
         </table>

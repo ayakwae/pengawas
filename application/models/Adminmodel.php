@@ -438,6 +438,12 @@ class Adminmodel extends CI_Model {
 		$query = $this->db->get('daftar_undangan_koordinator_utama_campuran');
 		return $query->result();
 	}
+	
+	public function ambil70()
+	{
+		$query = $this->db->get('daftar_badge_pengawassiaga_saintek');
+		return $query->result();
+	}
 
 
 
