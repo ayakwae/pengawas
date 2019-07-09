@@ -35,7 +35,7 @@
           </div>
         </a>
         <div class="row" style="margin-top: -10px; margin-left: 0px;">
-        <a href="<?php base_url() ?>Laporanpdf">
+        <a href="<?php base_url() ?>Laporanpdf3">
           <div style="margin-left: 90px; margin-top: 30px; margin-bottom: 15px;">
             <div style="background-color: #D0D0D0; width: 230px; height: 200px;">
               <center><img src="<?php echo base_url()?>img\icon\koordinator.png" style="width: 200px; height: 200px;"></center>
@@ -45,7 +45,7 @@
             </div>
           </div>
         </a>
-        <a href="<?php base_url() ?>#">
+        <a href="<?php base_url() ?>Presensikoordinatorutama">
           <div style="margin-left: 70px; margin-top: 30px; margin-bottom: 15px;">
             <div style="background-color: #D0D0D0; width: 200px; height: 200px;">
               <center><img src="<?php echo base_url()?>img\icon\koordinatorutama.png" style="width: 200px; height: 200px;"></center>
@@ -56,7 +56,7 @@
           </div>
         </a>
         </div> 
-        <a href="<?php base_url() ?>#">
+        <a href="<?php base_url() ?>Laporanpdf2">
           <div style="margin-left: 70px; margin-top: 30px; margin-bottom: 15px;">
             <div style="background-color: #D0D0D0; width: 230px; height: 200px;">
               <center><img src="<?php echo base_url()?>img\icon\pbr.png" style="width: 200px; height: 200px;"></center>

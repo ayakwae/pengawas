@@ -1,5 +1,5 @@
 <?php
-Class Laporanpdf extends CI_Controller{
+Class Laporanpdf2 extends CI_Controller{
     
     function __construct() {
         parent::__construct();
@@ -15,10 +15,10 @@ Class Laporanpdf extends CI_Controller{
         // mencetak string 
         $pdf->Cell(200 ,7,'DAFTAR HADIR PENGAWAS UJIAN',0,1,'C');
         $pdf->SetFont('Arial','B',12);
-        $data = $this->db->get('daftar_presensi_pengawas_campuran')->result();
+        $data = $this->db->get('daftar_presensi_pj_ruang_campuran')->result();
         foreach ($data as $v) {};
             $pdf->Cell(10,7,'',0,1);
-            $pdf->Cell(20,6,'Kelompok :'.$v->KelompokUjian);
+            $pdf->Cell(20,6,'Kelompok Ujian: CAMPURAN');
              $pdf->Cell(10,7,'',0,1);
             $pdf->Cell(20,6,'Tanggal :'.$v->Tanggal);
              $pdf->Cell(10,7,'',0,1);
@@ -35,7 +35,7 @@ Class Laporanpdf extends CI_Controller{
         $pdf->SetFont('Arial','',10);
         $batas = 1;
         $tt = 1;
-        $data = $this->db->get('daftar_presensi_pengawas_campuran')->result();
+        $data = $this->db->get('daftar_presensi_pj_ruang_campuran')->result();
                 foreach ($data as $row){
             $pdf->Cell(10,6,$batas++,1,0);
             $pdf->Cell(25,6,$row->NPU,1,0);
